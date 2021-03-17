@@ -15,6 +15,7 @@
 @import "partials/navs";
 /*Modules*/
 @import "modules/blurb";
+@import "modules/gallery";
 
 
 
@@ -38,7 +39,7 @@
 		-moz-osx-font-smoothing: grayscale;
 		line-height: 1;
 		text-transform: none;
-		speak: none;
+		speak: none
 	}
 }
 .entry-summary {
@@ -10064,31 +10065,7 @@ h1.et_pb_contact_main_title {
 .et_pb_number_counter.active {
 	opacity: 1;
 }
-.et_pb_gallery_grid {
-	.et_pb_gallery_item {
-		.et_pb_gallery_title {
-			margin-top: 10px;
-		}
-		h3 {
-			margin-top: 10px;
-		}
-		display: none;
-		opacity: 1;
-		-webkit-animation: fadeLeft 1s 1 cubic-bezier(.77,0,.175,1);
-		-moz-animation: fadeLeft 1s 1 cubic-bezier(.77,0,.175,1);
-		-o-animation: fadeLeft 1s 1 cubic-bezier(.77,0,.175,1);
-		animation: fadeLeft 1s 1 cubic-bezier(.77,0,.175,1);
-	}
-	.et_pb_gallery_items {
-		-webkit-transition: height .2s ease-in-out;
-		-moz-transition: height .2s ease-in-out;
-		transition: height .2s ease-in-out;
-	}
-	.et_pb_gallery_image {
-		overflow: hidden;
-		position: relative;
-	}
-}
+
 .et_overlay.et_pb_inline_icon {
 	&:before {
 		content: attr(data-icon);
@@ -12113,62 +12090,6 @@ article.et_pb_has_overlay {
 	position: relative;
 }
 @media all and (min-width:1405px) {
-	.et_vertical_nav.et_left_sidebar.woocommerce {
-		#content {
-			div.product {
-				div.images {
-					width: 315px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 315px !important;
-			}
-		}
-	}
-	.et_vertical_nav.et_left_sidebar.woocommerce-page {
-		#content {
-			div.product {
-				div.images {
-					width: 315px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 315px !important;
-			}
-		}
-	}
-	.et_vertical_nav.et_right_sidebar.woocommerce {
-		#content {
-			div.product {
-				div.images {
-					width: 315px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 315px !important;
-			}
-		}
-	}
-	.et_vertical_nav.et_right_sidebar.woocommerce-page {
-		#content {
-			div.product {
-				div.images {
-					width: 315px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 315px !important;
-			}
-		}
-	}
 	.et_vertical_nav.et_left_sidebar {
 		.et_post_gallery {
 			li.et_gallery_item {
@@ -12211,80 +12132,6 @@ article.et_pb_has_overlay {
 		ul.products {
 			li.product {
 				margin-right: 50px !important;
-			}
-		}
-	}
-}
-@media all and (min-width:1100px) and (max-width:1405px) {
-	.et_vertical_nav.et_left_sidebar.woocommerce {
-		#content {
-			div.product {
-				div.images {
-					width: 250px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 250px !important;
-			}
-		}
-	}
-	.et_vertical_nav.et_left_sidebar.woocommerce-page {
-		#content {
-			div.product {
-				div.images {
-					width: 250px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 250px !important;
-			}
-		}
-	}
-	.et_vertical_nav.et_right_sidebar.woocommerce {
-		#content {
-			div.product {
-				div.images {
-					width: 250px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 250px !important;
-			}
-		}
-	}
-	.et_vertical_nav.et_right_sidebar.woocommerce-page {
-		#content {
-			div.product {
-				div.images {
-					width: 250px !important;
-				}
-			}
-		}
-		div.product {
-			div.images {
-				width: 250px !important;
-			}
-		}
-	}
-	.et_vertical_nav.archive.et_full_width_page.woocommerce {
-		ul.products {
-			li.product {
-				&:nth-child(3n) {
-					margin-right: 0 !important;
-				}
-				&:nth-child(3n+1) {
-					clear: both !important;
-					margin-right: 60px !important;
-				}
-			}
-			li.first {
-				clear: none !important;
 			}
 		}
 	}
@@ -12509,38 +12356,6 @@ article.et_pb_has_overlay {
 			}
 			.et_pb_pricing_table.et-last-child {
 				margin-bottom: 0;
-			}
-		}
-	}
-	.et_vertical_nav.archive.et_left_sidebar.woocommerce {
-		ul.products {
-			li.product {
-				&:nth-child(2n) {
-					margin-right: 0 !important;
-				}
-				&:nth-child(2n+1) {
-					clear: both !important;
-					margin-right: 60px !important;
-				}
-				&:nth-child(3n+1) {
-					clear: none !important;
-				}
-			}
-		}
-	}
-	.et_vertical_nav.archive.et_right_sidebar.woocommerce {
-		ul.products {
-			li.product {
-				&:nth-child(2n) {
-					margin-right: 0 !important;
-				}
-				&:nth-child(2n+1) {
-					clear: both !important;
-					margin-right: 60px !important;
-				}
-				&:nth-child(3n+1) {
-					clear: none !important;
-				}
 			}
 		}
 	}
@@ -13302,74 +13117,7 @@ article.et_pb_has_overlay {
 			}
 		}
 	}
-	.archive.et_left_sidebar.woocommerce-page {
-		ul.products {
-			li.product {
-				&:nth-child(3n) {
-					margin-right: 0;
-				}
-			}
-		}
-	}
-	.archive.et_right_sidebar.woocommerce-page {
-		ul.products {
-			li.product {
-				&:nth-child(3n) {
-					margin-right: 0;
-				}
-			}
-		}
-	}
-	.et_full_width_page.woocommerce-page {
-		ul.products {
-			li.product {
-				&:nth-child(4n) {
-					margin-right: 0;
-				}
-				&:nth-child(4n+1) {
-					clear: both;
-				}
-			}
-		}
-	}
-	.et_pb_row {
-		.et_full_width_page.woocommerce-page {
-			ul.products {
-				li.product {
-					&:nth-child(4n) {
-						margin-right: 0;
-					}
-				}
-			}
-		}
-		.et_left_sidebar.woocommerce-page {
-			ul.products {
-				li.product {
-					&:nth-child(3n) {
-						margin-right: 0;
-					}
-				}
-			}
-		}
-		.et_right_sidebar.woocommerce-page {
-			ul.products {
-				li.product {
-					&:nth-child(3n) {
-						margin-right: 0;
-					}
-				}
-			}
-		}
-	}
-	.single.et_left_sidebar.woocommerce-page {
-		ul.products {
-			li.product {
-				&:nth-child(3n) {
-					margin-right: 0;
-				}
-			}
-		}
-	}
+
 	.et_non_fixed_nav.et_fullwidth_nav.et_header_style_left {
 		#main-header {
 			.container {
@@ -14147,23 +13895,6 @@ article.et_pb_has_overlay {
 				margin-right: 11.64%;
 				margin-bottom: 11.64%;
 			}
-			.et_pb_shop_grid {
-				.woocommerce {
-					ul.products {
-						li.product {
-							width: 44.18%;
-							margin-right: 11.64%;
-							margin-bottom: 11.64%;
-							&:nth-child(2n) {
-								margin-right: 0;
-							}
-							&:nth-child(2n+1) {
-								clear: both;
-							}
-						}
-					}
-				}
-			}
 			.et_pb_widget {
 				width: 44.18%;
 				margin-right: 11.64%;
@@ -14263,23 +13994,6 @@ article.et_pb_has_overlay {
 					}
 					&:nth-child(2n+1) {
 						clear: both;
-					}
-				}
-				.et_pb_shop_grid {
-					.woocommerce {
-						ul.products {
-							li.product {
-								width: 44.18%;
-								margin-right: 11.64%;
-								margin-bottom: 11.64%;
-								&:nth-child(2n) {
-									margin-right: 0;
-								}
-								&:nth-child(2n+1) {
-									clear: both;
-								}
-							}
-						}
 					}
 				}
 				.et_pb_widget {

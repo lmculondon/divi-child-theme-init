@@ -1,0 +1,30 @@
+.et_pb_gallery_grid {
+
+	.et_pb_gallery_items {
+		display: flex;
+		flex-wrap: wrap;
+		transition: height .2s ease-in-out;
+	}
+
+	.et_pb_gallery_item {
+		.et_pb_gallery_title {
+			margin-top: 10px;
+		}
+
+		h3 {
+			margin-top: 10px;
+		}
+
+		display: none;
+		opacity: 1;
+		-webkit-animation: fadeLeft 1s 1 cubic-bezier(.77, 0, .175, 1);
+		-moz-animation: fadeLeft 1s 1 cubic-bezier(.77, 0, .175, 1);
+		-o-animation: fadeLeft 1s 1 cubic-bezier(.77, 0, .175, 1);
+		animation: fadeLeft 1s 1 cubic-bezier(.77, 0, .175, 1);
+	}
+
+	.et_pb_gallery_image {
+		overflow: hidden;
+		position: relative;
+	}
+}

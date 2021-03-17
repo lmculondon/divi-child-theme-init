@@ -69,86 +69,65 @@ h2 {
 
 /* line 38, src/sass/partials/_typography.scss */
 h3 {
-  margin-top: calc(1.3619rem + 1.3428vmin);
-  font-size: calc(1.3619rem + 1.3428vmin);
-  font-weight: 700;
-}
-
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 38, src/sass/partials/_typography.scss */
-  h3 {
-    margin-top: 2.369rem;
-  }
-}
-
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 38, src/sass/partials/_typography.scss */
-  h3 {
-    font-size: 2.369rem;
-  }
-}
-
-/* line 44, src/sass/partials/_typography.scss */
-h4 {
   margin-top: calc(1.3027rem + 0.6324vmin);
   font-size: calc(1.3027rem + 0.6324vmin);
   font-weight: 700;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 44, src/sass/partials/_typography.scss */
-  h4 {
+  /* line 38, src/sass/partials/_typography.scss */
+  h3 {
     margin-top: 1.777rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 44, src/sass/partials/_typography.scss */
-  h4 {
+  /* line 38, src/sass/partials/_typography.scss */
+  h3 {
     font-size: 1.777rem;
   }
 }
 
-/* line 50, src/sass/partials/_typography.scss */
-h5 {
+/* line 44, src/sass/partials/_typography.scss */
+h4 {
   margin-top: calc(1.2583rem + 0.0996vmin);
   font-size: calc(1.2583rem + 0.0996vmin);
   font-weight: 600;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 50, src/sass/partials/_typography.scss */
-  h5 {
+  /* line 44, src/sass/partials/_typography.scss */
+  h4 {
     margin-top: 1.333rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 50, src/sass/partials/_typography.scss */
-  h5 {
+  /* line 44, src/sass/partials/_typography.scss */
+  h4 {
     font-size: 1.333rem;
   }
 }
 
-/* line 56, src/sass/partials/_typography.scss */
-h6 {
+/* line 50, src/sass/partials/_typography.scss */
+h5 {
   margin-top: 1rem;
   font-size: 1.125rem;
   font-weight: 600;
 }
 
-/* line 62, src/sass/partials/_typography.scss */
+/* line 57, src/sass/partials/_typography.scss */
 .et_pb_module_header {
   margin-top: 0;
 }
 
-/* line 68, src/sass/partials/_typography.scss */
+/* line 63, src/sass/partials/_typography.scss */
 a {
   color: #1565ab;
   text-decoration: underline;
 }
 
-/* line 72, src/sass/partials/_typography.scss */
+/* line 67, src/sass/partials/_typography.scss */
 a:focus {
   outline: 3px solid transparent;
   color: #0b0c0c;
@@ -158,7 +137,7 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 85, src/sass/partials/_typography.scss */
+/* line 80, src/sass/partials/_typography.scss */
 .et-search-form, .et_mobile_menu, .footer-widget li:before, .nav li ul, blockquote {
   border-color: #e31837;
 }

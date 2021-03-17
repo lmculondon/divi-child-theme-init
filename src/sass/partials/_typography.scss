@@ -36,28 +36,23 @@ h2 {
 }
 
 h3 {
-	@include rfs(2.369rem, margin-top);
-	@include font-size(2.369rem);
-	font-weight: 700;
-}
-
-h4 {
 	@include rfs(1.777rem, margin-top);
 	@include font-size(1.777rem);
 	font-weight: 700;
 }
 
-h5 {
+h4 {
 	@include rfs(1.333rem, margin-top);
 	@include font-size(1.333rem);
 	font-weight: 600;
 }
 
-h6 {
+h5 {
 	@include rfs(1rem, margin-top);
 	@include font-size(1.125rem);
 	font-weight: 600;
 }
+
 // Divi Specific 
 .et_pb_module_header {
 	margin-top: 0;

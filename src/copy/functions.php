@@ -42,7 +42,7 @@ add_action('wp_enqueue_scripts', 'trustpilot_enqueue_scripts');
 WP CLEANUP
 */
 function dequeue_redundant_styles() {
-    wp_dequeue_script( 'dlm-frontend' );
+    wp_dequeue_style( 'dlm-frontend' );
 }
 add_action( 'wp_enqueue_scripts', 'dequeue_redundant_styles', 999 );	
 

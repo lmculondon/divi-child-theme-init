@@ -1,11 +1,14 @@
 // Variables
 @import "base/variables";
 
+// Responsive Font Sizing
+@import "../../node_modules/rfs/scss.scss";
+	
 // Mixins
 @import "base/mixins";
 
 /* Body */
-body {}
+@import "partials/typography";
 
 /* Header */
 @import "partials/header";
@@ -18,3 +21,6 @@ body {}
 
 /* Footer */
 @import "partials/footer";
+
+
+

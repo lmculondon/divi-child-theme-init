@@ -1,0 +1,82 @@
+//Main
+
+body {
+	font-family: 'Lato';
+	@include font-size(16px);
+	color: $charcoal;
+	font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat';
+	padding-bottom: 0;
+	@include margin-bottom(0.5rem);
+	@include rfs(1rem, margin-top);
+	@include rfs(0.25rem, margin-bottom);
+	line-height: 1.2;
+	color: #000;
+}
+
+h1 {
+	@include font-size(4.209rem);
+		@include rfs(4.209rem, margin-top);
+	font-weight: 800;
+}
+
+h2 {
+	@include rfs(3.157rem, margin-top);
+	@include font-size(3.157rem);
+	font-weight: 700;
+}
+
+h3 {
+	@include rfs(2.369rem, margin-top);
+	@include font-size(2.369rem);
+	font-weight: 700;
+}
+
+h4 {
+	@include rfs(1.777rem, margin-top);
+	@include font-size(1.777rem);
+	font-weight: 700;
+}
+
+h5 {
+	@include rfs(1.333rem, margin-top);
+	@include font-size(1.333rem);
+	font-weight: 600;
+}
+
+h6 {
+	@include rfs(1rem, margin-top);
+	@include font-size(1.125rem);
+	font-weight: 600;
+}
+
+// Links 
+
+a {
+	color: $dark-blue;
+	text-decoration: underline;
+
+	&:focus {
+		outline: 3px solid transparent;
+		color: #0b0c0c;
+		background-color: $yellow;
+		-webkit-box-shadow: 0 -2px $yellow, 0 4px $charcoal;
+		box-shadow: 0 -2px $yellow, 0 4px $charcoal;
+		text-decoration: none;
+	}
+}
+// Paragraphs
+
+
+// Color Accents
+.et-search-form, .et_mobile_menu, .footer-widget li:before, .nav li ul, blockquote {
+	border-color: $red;
+}

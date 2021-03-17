@@ -57,6 +57,10 @@ h6 {
 	@include font-size(1.125rem);
 	font-weight: 600;
 }
+// Divi Specific 
+.et_pb_module_header {
+	margin-top: 0;
+}
 
 // Links 
 

@@ -20,25 +20,25 @@ var settings = {
 
 var paths = {
 	input: 'src/',
-	output: 'dist/',
+	output: 'lmcu-2021/',
 	scripts: {
 		input: 'src/js/*',
 		polyfills: '.polyfill.js',
-		output: 'dist/js/'
+		output: 'lmcu-2021/js/'
 	},
 	styles: {
 		input: 'src/sass/**/*.{scss,sass}',
-		output: 'dist/css/'
+		output: 'lmcu-2021/css/'
 	},
 	svgs: {
 		input: 'src/svg/*.svg',
-		output: 'dist/svg/'
+		output: 'lmcu-2021/svg/'
 	},
 	copy: {
 		input: 'src/copy/**/*',
-		output: 'dist/'
+		output: 'lmcu-2021/'
 	},
-	reload: './dist/'
+	reload: './lmcu-2021/'
 };
 
 

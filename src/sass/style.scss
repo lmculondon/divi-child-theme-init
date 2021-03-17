@@ -1,3 +1,6 @@
+// Responsive Font Sizing
+@import "../../node_modules/rfs/scss.scss";
+
 // Variables
 @import "base/variables";
 
@@ -6,8 +9,7 @@
 @import "vendor/divi";
 
 
-// Responsive Font Sizing
-@import "../../node_modules/rfs/scss.scss";
+
 	
 // Mixins
 @import "base/mixins";

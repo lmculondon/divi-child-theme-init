@@ -6362,18 +6362,7 @@ span.comment_date {
 		content: " ";
 	}
 }
-.et_pb_blurb_content {
-	word-wrap: break-word;
-	position: relative;
-	max-width: 550px;
-	margin: 0 auto;
-	text-align: center;
-	p {
-		&:last-of-type {
-			padding-bottom: 0;
-		}
-	}
-}
+
 .et_pb_circle_counter {
 	word-wrap: break-word;
 	position: relative;
@@ -7328,11 +7317,7 @@ p.et_pb_gallery_caption {
 		border-style: solid;
 		border-color: $border_color_7;
 	}
-	.et_pb_main_blurb_image {
-		border-width: 0;
-		border-style: solid;
-		border-color: $border_color_7;
-	}
+
 	.et_pb_newsletter_form {
 		.input[type=checkbox]+label {
 			i {

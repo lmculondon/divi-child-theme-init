@@ -27125,50 +27125,6 @@ article.et_pb_has_overlay {
 			margin-left: 50px;
 		}
 	}
-	body.woocommerce {
-		#content-area {
-			div.product {
-				.woocommerce-tabs {
-					ul.tabs {
-						li {
-							display: block !important;
-							border-bottom: 1px solid #e0dadf !important;
-							a {
-								display: block !important;
-							}
-						}
-						li.active {
-							display: block !important;
-							border-bottom: 1px solid #e0dadf !important;
-						}
-					}
-				}
-			}
-		}
-		div.product {
-			.woocommerce-tabs {
-				ul.tabs {
-					li {
-						display: block !important;
-						border-bottom: 1px solid #e0dadf !important;
-						a {
-							display: block !important;
-						}
-					}
-					li.active {
-						display: block !important;
-						border-bottom: 1px solid #e0dadf !important;
-					}
-				}
-			}
-		}
-	}
-	.woocommerce {
-		.form-row {
-			float: none !important;
-			width: auto !important;
-		}
-	}
 	body.admin-bar.et_fixed_nav {
 		#main-header {
 			top: 46px;

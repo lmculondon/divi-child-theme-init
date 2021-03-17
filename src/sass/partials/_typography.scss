@@ -23,10 +23,15 @@ h6 {
 	color: #000;
 }
 .display-text {
-	@include font-size(
-4.209rem);
-		@include rfs(4.209rem, margin-top);
+	@include font-size(6.3135rem);
+		@include rfs(6.3135rem, margin-top);
 	font-weight: 800;
+}
+
+h1 {
+	@include rfs(4.209rem, margin-top);
+	@include font-size(4.209rem);
+	font-weight: 700;
 }
 
 h2 {

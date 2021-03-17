@@ -1,6 +1,6 @@
 {
-  "name": "divi-child-theme-init",
-  "version": "0.1.2",
+  "name": "lmcu-divi-theme",
+  "version": "0.0.1",
   "description": "Child theme template for Divi",
   "main": "Gruntfile.coffee",
   "scripts": {

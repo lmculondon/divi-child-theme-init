@@ -41,7 +41,7 @@ add_action('wp_enqueue_scripts', 'trustpilot_enqueue_scripts');
 WP CLEANUP
 */
 function wpdocs_dequeue_script() {
-    wp_dequeue_script( 'dlm-frontend-css' );
+    wp_dequeue_script( 'dlm-frontend' );
 }
 add_action( 'wp_print_scripts', 'wpdocs_dequeue_script', 100 );		
 

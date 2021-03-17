@@ -6,9 +6,9 @@ SCRIPTS AND STYLES
 //Divi Parent Styles
 function theme_enqueue_styles() {
 	wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'lmcu-child', get_stylesheet_directory_uri() . '/css/style.min.css', array(divi));
+	wp_enqueue_style( 'lmcu-child', get_stylesheet_directory_uri() . '/css/style.min.css', array('divi');
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@400;800&display=swap', false );
-    wp_enqueue_script( 'divi', plugin_dir_url( __FILE__ ) . 'js/scripts.js', array( 'jquery', 'divi-custom-script' ), true );
+    wp_enqueue_script( 'lmcu-custom', get_stylesheet_directory_uri() . 'js/scripts.min.js', array( 'jquery', 'divi-custom-script' ), true );
 	
 	}
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
@@ -40,7 +40,26 @@ add_action('wp_enqueue_scripts', 'trustpilot_enqueue_scripts');
 /*
 WP CLEANUP
 */
+function wpdocs_dequeue_script() {
+    wp_dequeue_script( 'dlm-frontend-css' );
+}
+add_action( 'wp_print_scripts', 'wpdocs_dequeue_script', 100 );		
 
+//Remove JQuery migrate
+function remove_jquery_migrate($scripts)
+{
+    if (!is_admin() && isset($scripts->registered['jquery'])) {
+        $script = $scripts->registered['jquery'];
+        
+        if ($script->deps) { // Check whether the script has any dependencies
+            $script->deps = array_diff($script->deps, array(
+                'jquery-migrate'
+            ));
+        }
+    }
+}
+
+add_action('wp_default_scripts', 'remove_jquery_migrate');
 /**
  * Disable the emoji's
  */
@@ -57,12 +76,6 @@ function disable_emojis() {
 }
 add_action( 'init', 'disable_emojis' );
 
-/**
- * Filter function used to remove the tinymce emoji plugin.
- * 
- * @param array $plugins 
- * @return array Difference betwen the two arrays
- */
 function disable_emojis_tinymce( $plugins ) {
  if ( is_array( $plugins ) ) {
  return array_diff( $plugins, array( 'wpemoji' ) );
@@ -71,13 +84,6 @@ function disable_emojis_tinymce( $plugins ) {
  }
 }
 
-/**
- * Remove emoji CDN hostname from DNS prefetching hints.
- *
- * @param array $urls URLs to print for resource hints.
- * @param string $relation_type The relation type the URLs are printed for.
- * @return array Difference betwen the two arrays.
- */
 function disable_emojis_remove_dns_prefetch( $urls, $relation_type ) {
  if ( 'dns-prefetch' == $relation_type ) {
  /** This filter is documented in wp-includes/formatting.php */

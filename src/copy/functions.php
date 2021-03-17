@@ -15,7 +15,6 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
 //Preconnect Gfonts
 function gfont_preload() {
-	echo '<link rel="preload" as="font" href="' . get_site_url() . '/wp-content/plugins/Divi/core/admin/fonts/modules.ttf" type="font/ttf" crossorigin="anonymous">';
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com">';				
 }
 add_action('wp_head', 'gfont_preload');

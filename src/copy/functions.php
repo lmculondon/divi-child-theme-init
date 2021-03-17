@@ -40,10 +40,10 @@ add_action('wp_enqueue_scripts', 'trustpilot_enqueue_scripts');
 /*
 WP CLEANUP
 */
-function wpdocs_dequeue_script() {
+function dequeue_redundant_styles() {
     wp_dequeue_script( 'dlm-frontend' );
 }
-add_action( 'wp_print_scripts', 'wpdocs_dequeue_script', 100 );		
+add_action( 'wp_enqueue_scripts', 'dequeue_redundant_styles', 999 );	
 
 //Remove JQuery migrate
 function remove_jquery_migrate($scripts)

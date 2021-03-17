@@ -5,6 +5,7 @@ body {
 	@include font-size(16px);
 	color: $charcoal;
 	font-size: 100%;
+	font-weight: 400;
 }
 
 h1,
@@ -21,9 +22,9 @@ h6 {
 	line-height: 1.2;
 	color: #000;
 }
-
-h1 {
-	@include font-size(4.209rem);
+.display-text {
+	@include font-size(
+4.209rem);
 		@include rfs(4.209rem, margin-top);
 	font-weight: 800;
 }

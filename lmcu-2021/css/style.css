@@ -6,9 +6,10 @@ body {
   font-size: 1rem;
   color: #272d37;
   font-size: 100%;
+  font-weight: 400;
 }
 
-/* line 10, src/sass/partials/_typography.scss */
+/* line 11, src/sass/partials/_typography.scss */
 h1,
 h2,
 h3,
@@ -25,7 +26,7 @@ h6 {
 }
 
 /* line 25, src/sass/partials/_typography.scss */
-h1 {
+.display-text {
   font-size: calc(1.5459rem + 3.5508vmin);
   margin-top: calc(1.5459rem + 3.5508vmin);
   font-weight: 800;
@@ -33,19 +34,19 @@ h1 {
 
 @media (min-width: 1200px) and (min-height: 1200px) {
   /* line 25, src/sass/partials/_typography.scss */
-  h1 {
+  .display-text {
     font-size: 4.209rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
   /* line 25, src/sass/partials/_typography.scss */
-  h1 {
+  .display-text {
     margin-top: 4.209rem;
   }
 }
 
-/* line 31, src/sass/partials/_typography.scss */
+/* line 32, src/sass/partials/_typography.scss */
 h2 {
   margin-top: calc(1.4407rem + 2.2884vmin);
   font-size: calc(1.4407rem + 2.2884vmin);
@@ -53,20 +54,20 @@ h2 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 31, src/sass/partials/_typography.scss */
+  /* line 32, src/sass/partials/_typography.scss */
   h2 {
     margin-top: 3.157rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 31, src/sass/partials/_typography.scss */
+  /* line 32, src/sass/partials/_typography.scss */
   h2 {
     font-size: 3.157rem;
   }
 }
 
-/* line 37, src/sass/partials/_typography.scss */
+/* line 38, src/sass/partials/_typography.scss */
 h3 {
   margin-top: calc(1.3619rem + 1.3428vmin);
   font-size: calc(1.3619rem + 1.3428vmin);
@@ -74,20 +75,20 @@ h3 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 37, src/sass/partials/_typography.scss */
+  /* line 38, src/sass/partials/_typography.scss */
   h3 {
     margin-top: 2.369rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 37, src/sass/partials/_typography.scss */
+  /* line 38, src/sass/partials/_typography.scss */
   h3 {
     font-size: 2.369rem;
   }
 }
 
-/* line 43, src/sass/partials/_typography.scss */
+/* line 44, src/sass/partials/_typography.scss */
 h4 {
   margin-top: calc(1.3027rem + 0.6324vmin);
   font-size: calc(1.3027rem + 0.6324vmin);
@@ -95,20 +96,20 @@ h4 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 43, src/sass/partials/_typography.scss */
+  /* line 44, src/sass/partials/_typography.scss */
   h4 {
     margin-top: 1.777rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 43, src/sass/partials/_typography.scss */
+  /* line 44, src/sass/partials/_typography.scss */
   h4 {
     font-size: 1.777rem;
   }
 }
 
-/* line 49, src/sass/partials/_typography.scss */
+/* line 50, src/sass/partials/_typography.scss */
 h5 {
   margin-top: calc(1.2583rem + 0.0996vmin);
   font-size: calc(1.2583rem + 0.0996vmin);
@@ -116,38 +117,38 @@ h5 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 49, src/sass/partials/_typography.scss */
+  /* line 50, src/sass/partials/_typography.scss */
   h5 {
     margin-top: 1.333rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 49, src/sass/partials/_typography.scss */
+  /* line 50, src/sass/partials/_typography.scss */
   h5 {
     font-size: 1.333rem;
   }
 }
 
-/* line 55, src/sass/partials/_typography.scss */
+/* line 56, src/sass/partials/_typography.scss */
 h6 {
   margin-top: 1rem;
   font-size: 1.125rem;
   font-weight: 600;
 }
 
-/* line 61, src/sass/partials/_typography.scss */
+/* line 62, src/sass/partials/_typography.scss */
 .et_pb_module_header {
   margin-top: 0;
 }
 
-/* line 67, src/sass/partials/_typography.scss */
+/* line 68, src/sass/partials/_typography.scss */
 a {
   color: #1565ab;
   text-decoration: underline;
 }
 
-/* line 71, src/sass/partials/_typography.scss */
+/* line 72, src/sass/partials/_typography.scss */
 a:focus {
   outline: 3px solid transparent;
   color: #0b0c0c;
@@ -157,7 +158,7 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 84, src/sass/partials/_typography.scss */
+/* line 85, src/sass/partials/_typography.scss */
 .et-search-form, .et_mobile_menu, .footer-widget li:before, .nav li ul, blockquote {
   border-color: #e31837;
 }

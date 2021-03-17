@@ -5,7 +5,7 @@ SCRIPTS AND STYLES
 
 //Divi Parent Styles
 function theme_enqueue_styles() {
-	wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
+	// wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'lmcu-child', get_stylesheet_directory_uri() . '/css/style.min.css', array('divi'));
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:wght@600;700;800&display=swap', false );
     wp_enqueue_script( 'lmcu-custom', get_stylesheet_directory_uri() . '/js/scripts.min.js', array( 'jquery', 'divi-custom-script' ), true );

@@ -5,11 +5,28 @@ SCRIPTS AND STYLES
 
 //Divi Parent Styles
 function theme_enqueue_styles() {
-	  wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
-	  wp_enqueue_style( 'lmcu-child', get_stylesheet_directory_uri() . '/css/style.css', array(divi));
-      wp_enqueue_script( 'divi', plugin_dir_url( __FILE__ ) . 'js/scripts.js', array( 'jquery', 'divi-custom-script' ), true );
+	wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'lmcu-child', get_stylesheet_directory_uri() . '/css/style.min.css', array(divi));
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@400;800&display=swap', false );
+    wp_enqueue_script( 'divi', plugin_dir_url( __FILE__ ) . 'js/scripts.js', array( 'jquery', 'divi-custom-script' ), true );
+	
 	}
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+
+//Preconnect Gfonts
+function gfont_preload() {
+echo '<link rel="preconnect" href="https://fonts.gstatic.com">';						 
+						 }
+add_action('wp_head', 'gfont_preload');
+
+// Prevent default font load
+function prevent_loading_fonts() {
+	remove_action('wp_enqueue_scripts', 'et_divi_load_fonts');
+}
+add_action( 'init', 'prevent_loading_fonts', 20 );
+
+function et_builder_get_google_fonts() { return array(); }
+function et_get_google_fonts() { return array(); }
 
 //TrustPilot
 function trustpilot_enqueue_scripts() {

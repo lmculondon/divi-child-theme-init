@@ -3,7 +3,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: $charcoal;
-	@include font-size(20px);
+	@include font-size(16px);
 	font-weight: 400;
 }
 
@@ -20,32 +20,41 @@ h6 {
 	@include rfs(0.25rem, margin-bottom);
 	line-height: 1.2;
 	color: #000;
+	font-weight: 700;
+
 	&:first-child {
 		margin-top: 0;
 	}
 }
+
 .display-text {
 	@include font-size(6.3135rem);
-		@include rfs(6.3135rem, margin-top);
-	font-weight: 800;
+	@include rfs(6.3135rem, margin-top);
 }
 
 h1 {
 	@include rfs(4.209rem, margin-top);
 	@include font-size(4.209rem);
-	font-weight: 700;
+	@include rfs(0.75rem, margin-bottom);
 }
 
 h2 {
 	@include rfs(3.157rem, margin-top);
-	@include font-size(3.157rem);
-	font-weight: 700;
+	@include font-size(2.357rem);
+	@include rfs(0.5rem, margin-bottom);
+
+
+	&.display-text {
+		@include font-size(3.209rem);
+		margin-top: 0;
+		@include rfs(0.75rem, margin-bottom);
+	}
 }
 
 h3 {
 	@include rfs(1.777rem, margin-top);
 	@include font-size(1.777rem);
-	font-weight: 700;
+	@include rfs(0.25rem, margin-bottom);
 }
 
 h4 {
@@ -67,7 +76,7 @@ h5 {
 
 // Links 
 
-a {
+.et_pb_module a:not(.et_pb_button) {
 	color: $dark-blue;
 	text-decoration: underline;
 
@@ -80,10 +89,18 @@ a {
 		text-decoration: none;
 	}
 }
-// Paragraphs
 
+// Paragraphs
+small {
+	font-size: 80%;
+	font-weight: 300;
+}
 
 // Color Accents
-.et-search-form, .et_mobile_menu, .footer-widget li:before, .nav li ul, blockquote {
+.et-search-form,
+.et_mobile_menu,
+.footer-widget li:before,
+.nav li ul,
+blockquote {
 	border-color: $red;
 }

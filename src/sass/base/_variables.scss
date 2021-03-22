@@ -2,90 +2,101 @@ $dark-blue: #1565ab;
 $yellow: #ffdd00;
 $charcoal:#272d37;
 $red: #e31837;
-
+$white:#ffffff;
 //Structure
 $container-max-width: 1280px;
-$row-width: 90%;
-
-
-$color-1: #666;
-$accent-1: $charcoal;
-$color-3: #333;
-$color-4: inherit;
-$color-5: #4e4e4e;
-$color-6: #3e3e3e;
-$color-7: #555;
-$color-8: #fff;
-$color-9: rgba(0,0,0,.6);
-$color-10: #999;
-$color-11: #82c0c7;
-$color-12: #ccc;
-$color-13: #bcc8c9;
-$color-14: #000;
-$color-15: rgba(255,255,255,.7);
-$color-16: #bbb;
-$color-17: #9f9f9f;
-$color-18: #7cc68d;
-$color-19: #c37cc6;
-$accent-10: #cd5c5c;
-$accent-11: #edb059;
-$accent-12: rgba(255,255,255,.6);
-$accent-13: #974df3;
-$accent-14: red;
-$accent-15: rgba(255,255,255,.8);
-$accent-16: #aaa;
-$accent-17: #b2b2b2;
-$accent-18: rgba(0,0,0,.5);
-$primary-font-family: 'Lato',Arial,sans-serif;
-$font-family-2: Courier New,monospace;
-$font-family-3: inherit;
-$icon-font: ETmodules;
-$font-family-5: "Open Sans",sans-serif;
-$font-family-6: dashicons;
-$background-color-1: #fff;
-$background-color-2: #2ea3f2;
-$background-color-3: #eee;
-$background-color-4: #ececec;
-$background-color-5: rgba(0,0,0,.2);
-$background-color-6: rgba(0,0,0,.03);
-$background-color-7: transparent;
-$background-color-8: #222;
-$background-color-9: #1f1f1f;
-$background-color-10: rgba(0,0,0,.32);
-$background-color-11: rgba(255,255,255,.05);
-$background-color-12: #f3f3f3;
-$background-color-13: #ddd;
-$background-color-14: rgba(255,255,255,.5);
-$background-color-15: #e2e2e2;
-$background-color-16: rgba(0,0,0,.05);
-$background-color-17: #7e3bd0;
-$background-color-18: rgba(255,255,255,.2);
-$background-color-19: #fcfcfc;
-$background-color-20: #bebebe;
-$background-color-21: #1f6581;
-$background-color-22: rgba(0,0,0,.35);
-$background-color-23: rgba(51,51,51,.5);
-$background-color-24: #333;
-$background-color-25: #f4f4f4;
-$background-color-26: #e8e8e8;
-$background-color-27: rgba(0,0,0,.3);
-$background-color-28: #f9f9f9;
-$background-color-29: rgba(255,255,255,.9);
-$border-color-1: #2d3940;
-$border-color-2: #2ea3f2;
-$border-color-3: #7cc68d;
-$border-color-4: #c37cc6;
-$border-color-5: #cd5c5c;
-$border-color-6: #edb059;
-$border-color-7: #333;
-$border-color-8: #ccc;
-$border-color-9: #666 transparent transparent transparent;
-$border-top-color-1: #eee;
-$border-top-color-2: rgba(0,0,0,.1);
-$border-bottom-color-1: #d9d9d9;
-$border-bottom-color-2: #2ea3f2;
-
+$content-width: 90%;
 $rfs-two-dimensional:true;
 
 
 // SASS Variables
+$breakpoints: ('sm': (min-width: 768px),
+	'md': (min-width: 980px),
+	'lg': (min-width: 1100px),
+	'xl': (min-width: 1405px));
+
+
+// Divi Variables
+$container-width: 90%;
+$row-max-width: 1280px;
+
+$color_1: #666;
+$color_2: #2ea3f2;
+$color_3: #333;
+$color_4: inherit;
+$color_5: #4e4e4e;
+$color_6: #3e3e3e;
+$color_7: #555;
+$color_8: #fff;
+$color_9: rgba(0, 0, 0, .6);
+$color_10: #999;
+$color_11: #82c0c7;
+$color_12: #ccc;
+$color_13: #bcc8c9;
+$color_14: #000;
+$color_15: rgba(255, 255, 255, .7);
+$color_16: #bbb;
+$color_17: #9f9f9f;
+$color_18: #7cc68d;
+$color_19: #c37cc6;
+$color_20: #cd5c5c;
+$color_21: #edb059;
+$color_22: rgba(255, 255, 255, .6);
+$color_23: #974df3;
+$color_24: red;
+$color_25: rgba(255, 255, 255, .8);
+$color_26: #aaa;
+$color_27: #b2b2b2;
+$color_28: rgba(0, 0, 0, .5);
+$font_family_1: 'Lato',
+Arial,
+sans-serif;
+$font_family_2: Courier New,
+monospace;
+$font_family_3: inherit;
+$font_family_4: ETmodules;
+$font_family_5: 'Lato',
+sans-serif;
+$font_family_6: dashicons;
+$background_color_1: #fff;
+$background_color_2: #2ea3f2;
+$background_color_3: #eee;
+$background_color_4: #ececec;
+$background_color_5: rgba(0, 0, 0, .2);
+$background_color_6: rgba(0, 0, 0, .03);
+$background_color_7: transparent;
+$background_color_8: #222;
+$background_color_9: #1f1f1f;
+$background_color_10: rgba(0, 0, 0, .32);
+$background_color_11: rgba(255, 255, 255, .05);
+$background_color_12: #f3f3f3;
+$background_color_13: #ddd;
+$background_color_14: rgba(255, 255, 255, .5);
+$background_color_15: #e2e2e2;
+$background_color_16: rgba(0, 0, 0, .05);
+$background_color_17: #7e3bd0;
+$background_color_18: rgba(255, 255, 255, .2);
+$background_color_19: #fcfcfc;
+$background_color_20: #bebebe;
+$background_color_21: #1f6581;
+$background_color_22: rgba(0, 0, 0, .35);
+$background_color_23: rgba(51, 51, 51, .5);
+$background_color_24: #333;
+$background_color_25: #f4f4f4;
+$background_color_26: #e8e8e8;
+$background_color_27: rgba(0, 0, 0, .3);
+$background_color_28: #f9f9f9;
+$background_color_29: rgba(255, 255, 255, .9);
+$border_color_1: #2d3940;
+$border_color_2: #2ea3f2;
+$border_color_3: #7cc68d;
+$border_color_4: #c37cc6;
+$border_color_5: #cd5c5c;
+$border_color_6: #edb059;
+$border_color_7: #333;
+$border_color_8: #ccc;
+$border_color_9: #666 transparent transparent transparent;
+$border_top_color_1: #eee;
+$border_top_color_2: rgba(0, 0, 0, .1);
+$border_bottom_color_1: #d9d9d9;
+$border_bottom_color_2: #2ea3f2;

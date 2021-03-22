@@ -3,8 +3,17 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: $charcoal;
-	@include font-size(16px);
+	@include font-size(18px);
 	font-weight: 400;
+}
+
+p {
+	@include font-size(16px);
+	line-height: 1.7
+}
+
+p.et_pb_lead {
+	@include font-size(18px);
 }
 
 h1,
@@ -45,27 +54,27 @@ h2 {
 
 
 	&.display-text {
-		@include font-size(3.209rem);
+		@include font-size(3.157rem);
 		margin-top: 0;
-		@include rfs(0.75rem, margin-bottom);
+		@include rfs(1rem, margin-bottom);
 	}
 }
 
 h3 {
-	@include rfs(1.777rem, margin-top);
-	@include font-size(1.777rem);
+	@include rfs(1.333rem, margin-top);
+	@include font-size(1.333rem);
 	@include rfs(0.25rem, margin-bottom);
 }
 
 h4 {
-	@include rfs(1.333rem, margin-top);
-	@include font-size(1.333rem);
+	@include rfs(1.125rem, margin-top);
+	@include font-size(1.125rem);
 	font-weight: 600;
 }
 
 h5 {
 	@include rfs(1rem, margin-top);
-	@include font-size(1.125rem);
+	@include font-size(1rem);
 	font-weight: 600;
 }
 

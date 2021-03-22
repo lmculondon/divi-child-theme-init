@@ -1,27 +1,7 @@
 .et_pb_blurb {
-	background-color: pink;
-	@include margin-bottom(35px);
+	//background-color: pink;
+	@include margin-bottom(0.5rem);
 
-	@include breakpoint-up('md') {
-		flex: 1;
-	}
-
-	&_content {
-		max-width: none;
-
-
-
-		.et_pb_main_blurb_image {
-			display: block;
-
-			margin-bottom: auto;
-			margin-left: 0;
-		}
-
-		.et_pb_image_wrap {
-			max-width: 80px;
-		}
-	}
 
 	.et_pb_blurb_container {
 		@include breakpoint-up('lg') {
@@ -43,7 +23,7 @@
 	&_position_top {
 		.et_pb_blurb_content {
 			.et_pb_main_blurb_image {
-				margin-bottom: 1rem
+				@include margin-bottom(1.5rem);
 			}
 		}
 	}

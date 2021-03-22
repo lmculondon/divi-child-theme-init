@@ -1,78 +1,78 @@
 #main-header {
-	box-shadow: 0 0 30px rgba(7, 51, 84, 0.17) !important
-}
+	box-shadow: 0 0.125rem 0.625rem 0 rgba($charcoal, 0.1);
 
-#et-secondary-menu > ul > li a {
-	display: block;
-	padding: 0.75em 0.75em;
-	margin-top: -0.75em;
-	border-bottom: 2px solid #e31837;
-}
 
-#et-secondary-menu > ul > li a:hover {}
+	#et-secondary-menu > ul > li a {
+		display: block;
+		padding: 0.75em 0.75em;
+		margin-top: -0.75em;
+		border-bottom: 2px solid #e31837;
+	}
 
-#top-menu .sub-menu {
-	top: 35px;
-	background-color: #e31837
-}
 
-#top-menu .sub-menu:after {
-	bottom: 100%;
-	left: 30px;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: transparent;
-	border-bottom-color: #e31837;
-	border-width: 17.5px;
-	margin-left: -17.5px;
-}
+	.nav {
+		.sub-menu {
+			top: 35px;
+			background-color: #e31837;
 
-#top-menu .sub-menu li {
-	width: 100%;
+			&:after {
+				bottom: 100%;
+				left: 30px;
+				border: solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+				border-color: transparent;
+				border-bottom-color: #e31837;
+				border-width: 17.5px;
+				margin-left: -17.5px;
+			}
 
-}
+			li {
+				width: 100%;
 
-#main-header #top-menu .sub-menu li a {
-	width: 100%;
-	color: rgba(255, 255, 255, 0.9);
-	white-space: nowrap;
-	font-family: 'Lato';
-	border-bottom: 2px solid #e31837;
-	padding: 0.5rem 0;
+				a {
+					width: 100%;
+					color: rgba($white, 0.9);
+					white-space: nowrap;
+					font-family: 'Lato';
+					border-bottom: 2px solid #e31837;
+					padding: 0.5rem 0;
 
-}
-
-#main-header #top-menu .sub-menu li a:hover {
-	border-bottom-color: #fff;
-	background-color: inherit;
-	color: #fff;
-	opacity: 1
+					&:hover {
+						border-bottom-color: #fff;
+						background-color: inherit;
+						color: #fff;
+						opacity: 1
+					}
+				}
+			}
+		}
+	}
 }
 
 .et_mobile_menu {
-	padding: 1rem
-}
+	padding: 1rem;
 
-.et_mobile_menu .menu-item-has-children > a {
-	font-weight: 700;
-	padding-top: 1rem;
-	background-color: transparent;
-}
+	.menu-item-has-children > a {
+		font-weight: 700;
+		padding-top: 1rem;
+		background-color: transparent;
+	}
 
-.et_mobile_menu .sub-menu li a {
-	font-family: 'Lato';
-	font-weight: normal
+	li a {
+		border-bottom: 0;
+		padding: 0.5rem
+	}
+
+	.sub-menu li a {
+		font-family: 'Lato';
+		font-weight: normal
+	}
 }
 
 #main-header .et_mobile_menu li .sub-menu {
 	padding-left: 0
-}
-
-.et_mobile_menu li a {
-	border-bottom: 0;
-	padding: 0.5rem
 }

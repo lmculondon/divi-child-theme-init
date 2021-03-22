@@ -1,4 +1,10 @@
 .et_pb_section {
-	@include padding-bottom(8rem);
-	@include padding-top(8rem);
+	@include padding-bottom(4rem);
+	@include padding-top(4rem);
+}
+
+.et_pb_column {
+	.et_pb_code:only-child {
+		margin-bottom: 0;
+	}
 }

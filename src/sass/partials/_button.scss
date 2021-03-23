@@ -19,6 +19,25 @@
 		padding-right: 2.5rem;
 	}
 
+	&.et_pb_btn_small {
+		padding: 0.25rem 0.5rem;
+		@include font-size(16px);
+
+		&:hover {
+			padding: 0.25rem 2rem 0.25rem 0.5rem;
+		}
+	}
+
+	&.et_pb_btn_green {
+		background-color: $green;
+		border-color: darken($green, 0.3);
+		color: $white;
+
+		&:hover {
+			background-color: darken($green, 5%);
+		}
+	}
+
 	&.et_pb_bg_layout_dark {
 		background-color: rgba($white, 09);
 		color: $charcoal !important;

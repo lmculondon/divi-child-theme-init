@@ -5,3 +5,22 @@
 	@include padding-left(3rem);
 	@include padding-right(1rem);
 }
+
+/* Equalize Column Heights */
+.et_pb_row.et_pb_equal_columns,
+.et_pb_row_inner.et_pb_equal_columns,
+.et_pb_section.et_pb_equal_columns > .et_pb_row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	direction: ltr;
+}
+
+/* Modify column's order in equalize column row so clearfix is displayed early and its
+     actual width (0px) remains to avoid unwanted window's unwanted horizontal scroll */
+.et_pb_section.et_pb_equal_columns > .et_pb_row > .et_pb_column,
+.et_pb_row.et_pb_equal_columns > .et_pb_column {
+	-webkit-box-ordinal-group: 2;
+	-ms-flex-order: 1;
+	order: 1;
+}

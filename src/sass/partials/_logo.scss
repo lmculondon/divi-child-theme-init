@@ -1,0 +1,48 @@
+			.et_pb_header_logo {
+				* {
+					transition: fill .1s ease-out, opacity .1s ease-out;
+				}
+
+				.lmcu-lettering {
+					fill: #1d1b1c
+				}
+
+				.lmcu-donut {
+					fill: #E31837
+				}
+
+				.lmcu-strapline {
+					opacity: 0.8;
+				}
+
+				@media all and (max-width: 300px) {
+					.lmcu-strapline {
+						display: none;
+					}
+
+					.lmcu-lettering {
+						display: none;
+					}
+				}
+
+				@media all and (max-width: 460px) {
+					.lmcu-strapline {
+						display: none;
+					}
+
+					.lmcu-lettering {
+						transform: translateY(35.025px)
+					}
+				}
+
+				@include breakpoint-up(lg) {
+					.lmcu-donut {
+						transform: translateY(-101.975px)
+					}
+
+					.lmcu-text {
+						transform: translate(-278px, 150px);
+					}
+				}
+
+			}

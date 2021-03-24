@@ -1,11 +1,78 @@
 .et_pb_section_0_tb_footer {
 	background-color: #121519;
 	@include font-size(16px);
-	@include padding-bottom(2rem);
+	padding-bottom: 0 !important;
 
 	.et_pb_row_0_tb_footer {
 		display: flex;
 		flex-wrap: wrap;
+
+		.et_pb_column {
+			margin-right: auto;
+			width: 100%;
+
+			@include breakpoint-up(md) {
+				width: 40%;
+				@include padding-left(3rem);
+				@include padding-right(3rem);
+			}
+
+			@include breakpoint-up(lg) {
+				width: 33.3%;
+				@include padding-left(2rem);
+				@include padding-right(2rem);
+
+			}
+		}
+
+		.et_pb_footer_menus {
+			@include breakpoint-up(md) {
+				width: 60%;
+				padding-right: 0;
+			}
+
+			@include breakpoint-up(lg) {
+				width: 40%;
+			}
+
+
+		}
+
+		.et_pb_logos {
+			@include padding-right(0);
+			padding-left: 0;
+
+			@include breakpoint-up(md) {
+				width: 100%;
+				@include padding-left(3rem);
+				padding-right: 0;
+				@include padding-top(3rem);
+				border-top: 1px solid mix(#121519, $white, 80%);
+			}
+
+			@include breakpoint-up(lg) {
+				width: 30%;
+				@include padding-top(0);
+				border-top: none;
+			}
+		}
+
+		.et_pb_imprint {
+			@include padding-left(0);
+			order: 1;
+			max-width: $max-text-col;
+
+			@include breakpoint-up(md) {
+				order: 0;
+			}
+
+			@include breakpoint-up(lg) {
+				width: 30%;
+				@include margin-bottom(3rem);
+				@include margin-top(0);
+
+			}
+		}
 	}
 
 	.et_pb_module {
@@ -30,30 +97,33 @@
 		}
 
 		.et_pb_button {
-			border-color: mix(#121519, $white, 0.7);
+			border-color: mix(#121519, $white, 40%);
+
+			&:hover {
+				border-color: $white;
+			}
 		}
 
-	}
-
-	.et_pb_imprint {
-		order: 1;
-		max-width: $max-text-col;
-		@include margin-top(4rem);
-
-		@include breakpoint-up(lg) {
-			@include margin-bottom(3rem);
-			@include margin-top(0);
-			order: 0;
-		}
 	}
 
 	.et_pb_column_1_tb_footer {
 		display: flex;
 		flex-wrap: wrap;
 
+
 		.et_pb_text {
 			flex: 1;
 			min-width: 100%;
+			display: flex;
+			@include margin-bottom(3rem);
+
+			.et_pb_text_inner {
+				margin-top: auto;
+
+				ul {
+					padding-bottom: 0;
+				}
+			}
 
 			@include breakpoint-up(sm) {
 				min-width: 50%;
@@ -67,11 +137,12 @@
 
 	.et_pb_vertical_menu li a {
 		display: block;
+
 		@include padding-top(0.5rem);
 		@include padding-bottom(0.5rem);
 		position: relative;
 
-		color: mix(#121519, $white, 0.9);
+		color: mix(#121519, $white, 20%);
 
 		&:after {
 			content: "";
@@ -87,12 +158,51 @@
 			color: $white;
 
 			&:after {
+				border-bottom-color: $white;
 				width: 40%;
 			}
 		}
 	}
 
 	.et_pb_section {}
+
+	.et_pb_gallery_items {
+		.et_pb_gallery_item {
+			max-width: 25%;
+
+			@include breakpoint-up(lg) {
+				max-width: 50%;
+			}
+
+			margin-bottom: 0;
+			display: flex;
+
+			.et_pb_gallery_image {
+				flex: 1;
+
+				a {
+					.et_overlay {
+						display: none;
+					}
+
+					pointer-events: none;
+					display: flex;
+					flex: 1;
+					align-content: center;
+					justify-content: center;
+					padding-bottom: 1rem;
+
+					img {
+						max-width: 100px;
+						height: auto;
+						max-height: 80px;
+						width: auto;
+
+					}
+				}
+			}
+		}
+	}
 }
 
 #page-container .et_pb_section_1_tb_footer {

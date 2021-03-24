@@ -3,8 +3,12 @@ jQuery(document).ready(function ($) {
 	var didScroll;
 	var lastScrollTop = 0;
 	var delta = 5;
-	var navbarHeight = $('header').outerHeight();
+	var navbarHeight = $('#global-header-section').outerHeight();
+	$(window).on("load resize", function (event) {
 
+		$(document.body).css('padding-top', navbarHeight);
+
+	});
 	$(window).scroll(function (event) {
 		didScroll = true;
 	});

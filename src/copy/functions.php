@@ -108,3 +108,9 @@ function bs_dequeue_dashicons() {
         wp_deregister_style( 'dashicons' );
     }
 }
+// Year shortcode for footer
+function year_shortcode () {
+$year = date_i18n ('Y');
+return $year;
+}
+add_shortcode ('year', 'year_shortcode');

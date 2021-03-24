@@ -37426,6 +37426,168 @@ body.show-menu .hamburger {
 
 /* Input */
 /* Footer */
+/* line 1, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer {
+  background-color: #121519;
+  font-size: 1rem;
+  padding-bottom: calc(1.325rem + 0.9vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 1, src/sass/partials/_footer.scss */
+  .et_pb_section_0_tb_footer {
+    padding-bottom: 2rem;
+  }
+}
+
+/* line 6, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_row_0_tb_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* line 12, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_module a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 17, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_module h3 {
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+/* line 22, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_module h3:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 3rem;
+  border-bottom: 3px solid #ffffff;
+}
+
+/* line 32, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_module .et_pb_button {
+  border-color: #fdfdfd;
+}
+
+/* line 38, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_imprint {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  max-width: 480px;
+  margin-top: calc(1.525rem + 3.3vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 38, src/sass/partials/_footer.scss */
+  .et_pb_section_0_tb_footer .et_pb_imprint {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  /* line 38, src/sass/partials/_footer.scss */
+  .et_pb_section_0_tb_footer .et_pb_imprint {
+    margin-bottom: calc(1.425rem + 2.1vmin);
+    margin-top: 0;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+}
+
+@media (min-width: 1100px) and (min-width: 1200px) and (min-height: 1200px) {
+  /* line 38, src/sass/partials/_footer.scss */
+  .et_pb_section_0_tb_footer .et_pb_imprint {
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 50, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_column_1_tb_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* line 54, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_column_1_tb_footer .et_pb_text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 54, src/sass/partials/_footer.scss */
+  .et_pb_section_0_tb_footer .et_pb_column_1_tb_footer .et_pb_text {
+    min-width: 50%;
+  }
+}
+
+/* line 63, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_column_1_tb_footer .et_pb_button_module_wrapper + .et_pb_button_module_wrapper {
+  margin-left: 1rem;
+}
+
+/* line 68, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_vertical_menu li a {
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  color: #fdfdfd;
+}
+
+/* line 76, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_vertical_menu li a:after {
+  content: "";
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+/* line 86, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_vertical_menu li a:hover {
+  color: #ffffff;
+}
+
+/* line 89, src/sass/partials/_footer.scss */
+.et_pb_section_0_tb_footer .et_pb_vertical_menu li a:hover:after {
+  width: 40%;
+}
+
+/* line 98, src/sass/partials/_footer.scss */
+#page-container .et_pb_section_1_tb_footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* line 102, src/sass/partials/_footer.scss */
+#page-container .et_pb_section_1_tb_footer .et_pb_module {
+  margin-bottom: 0;
+}
+
+/* line 106, src/sass/partials/_footer.scss */
+#page-container .et_pb_section_1_tb_footer p {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
 /* Footer */
 /* line 1, src/sass/partials/_utilities.scss */
 .et_pb_notice {

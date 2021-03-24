@@ -1,6 +1,13 @@
-.et_pb_section {
-	@include padding-bottom(6rem);
-	@include padding-top(6rem);
+#page-container {
+	.et_pb_section {
+		@include padding-bottom(8rem);
+		@include padding-top(8rem);
+	}
+
+	.et_pb_row {
+		@include padding-bottom(0);
+		@include padding-top(0);
+	}
 }
 
 .et_pb_column {

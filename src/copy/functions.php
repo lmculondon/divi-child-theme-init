@@ -15,6 +15,12 @@ function theme_enqueue_styles() {
 	}
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
+
+function remove_divi_customizer_styles() {
+    remove_action( 'wp', 'et_divi_add_customizer_css' );
+}
+add_action( 'wp', 'remove_divi_customizer_styles', 999 ); 
+
 //Preconnect Gfonts
 function gfont_preload() {
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com">';				

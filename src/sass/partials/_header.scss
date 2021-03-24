@@ -1,5 +1,10 @@
+#page-container #global-header-section {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 #global-header-section {
-	box-shadow: 0 0.125rem 0.625rem 0 rgba($charcoal, 0.1);
+	box-shadow: 0 0.125rem 0.625rem 0 mix($charcoal, $white, 7.5%);
 	padding-top: 0;
 	padding-bottom: 0;
 
@@ -36,8 +41,6 @@
 
 	.et-menu {
 		display: flex;
-		margin-left: -0.75rem;
-		margin-right: -0.75rem;
 		margin-bottom: 0;
 
 		li {
@@ -47,10 +50,25 @@
 				font-family: 'Montserrat';
 				text-decoration: none;
 				white-space: nowrap;
-				padding: 1.5rem 1.25rem;
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+				@include padding-left(1rem);
+				@include padding-right(1rem);
+
+				@include breakpoint-up(xl) {
+					@include padding-left(2rem);
+					@include padding-right(2rem);
+				}
+
 				font-weight: 700;
 
 				&:hover {}
+
+				&:focus {
+					background-color: mix($blue, $white, 5%);
+					box-shadow: none;
+					outline: 0;
+				}
 			}
 		}
 
@@ -88,24 +106,73 @@
 
 			.et_pb_button_module_wrapper {
 				margin-bottom: 0;
+			}
 
-				& + .et_pb_button_module_wrapper {
-					margin-left: 1rem;
+			.et_pb_btn_obanking {
+				display: none;
+				margin-left: 1rem;
+
+				&:after {
+					content: "\7e";
+					font-size: 1rem;
+					line-height: 1.7;
+					margin-left: 0.25rem;
+					color: lighten($charcoal, 20%)
+				}
+
+				@include breakpoint-up(lg) {
+					display: block;
 				}
 			}
 
+			.et_pb_hamburger_toggle {
+				width: 3rem;
+				height: 2.65rem;
+				margin-left: 1rem;
+
+
+				.hamburger {
+					background-color: transparent;
+					position: relative;
+					top: auto;
+					right: auto;
+					height: 2.65rem;
+					width: 3rem;
+					display: flex;
+
+					&:focus {
+						outline: 0;
+					}
+
+
+					.hamburger-box {
+						align-self: center;
+						left: auto;
+						top: auto;
+						width: 20px;
+						margin: auto;
+						justify-content: center;
+					}
+				}
+
+				@include breakpoint-up(lg) {
+					display: none;
+				}
+			}
 		}
 	}
 
 	.et_pb_header_main_row {
 		display: none;
+		padding: 0;
 
 		@include breakpoint-up(lg) {
 			display: flex;
 		}
 
 		.et_pb_column--with-menu {
-
+			border-top: 1px solid lighten($charcoal, 75);
+			border-left: 1px solid lighten($charcoal, 75);
 			display: flex;
 			justify-content: space-between;
 
@@ -118,48 +185,40 @@
 		.et_pb_menu_ancillary li a {
 			color: lighten($charcoal, 15);
 			font-weight: 400;
+			padding: 1.5rem 1.25rem
 		}
 
 		.et_pb_core_product_menu li a {
-			font-weight: 700
+			position: relative;
+			font-weight: 700;
+
+			&:before {
+				content: "";
+				position: absolute;
+				width: 0;
+				height: 2px;
+				bottom: 0;
+				left: 0;
+				width: 0;
+				background-color: $red;
+				visibility: hidden;
+				transition: all 0.3s ease-in-out;
+			}
+
+			&:hover:before {
+				visibility: visible;
+				width: auto;
+			}
 		}
 
 		.menu-item-has-children > a:first-child:after {
 			font-family: ETmodules;
 			content: "3";
 			position: absolute;
-			right: 0;
+			right: 0.75rem;
 			top: 1.5rem;
 			;
 			font-weight: 800;
-		}
-	}
-
-	.nav {
-		.sub-menu {
-			top: 35px;
-			background-color: #e31837;
-
-			&:after {
-				bottom: 100%;
-				left: 30px;
-				border: solid transparent;
-				content: " ";
-				height: 0;
-				width: 0;
-				position: absolute;
-				pointer-events: none;
-				border-color: transparent;
-				border-bottom-color: #e31837;
-				border-width: 17.5px;
-				margin-left: -17.5px;
-			}
-
-			li {
-				width: 100%;
-
-				a {}
-			}
 		}
 	}
 }

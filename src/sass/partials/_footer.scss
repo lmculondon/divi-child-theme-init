@@ -10,6 +10,7 @@
 		.et_pb_column {
 			margin-right: auto;
 			width: 100%;
+			@include margin-bottom(3rem);
 
 			@include breakpoint-up(md) {
 				width: 40%;
@@ -18,6 +19,7 @@
 			}
 
 			@include breakpoint-up(lg) {
+				@include margin-bottom(3rem);
 				width: 33.3%;
 				@include padding-left(2rem);
 				@include padding-right(2rem);
@@ -41,13 +43,14 @@
 		.et_pb_logos {
 			@include padding-right(0);
 			padding-left: 0;
+			@include padding-top(3rem);
+			border-top: 1px solid mix(#121519, $white, 80%);
 
 			@include breakpoint-up(md) {
 				width: 100%;
 				@include padding-left(3rem);
 				padding-right: 0;
-				@include padding-top(3rem);
-				border-top: 1px solid mix(#121519, $white, 80%);
+
 			}
 
 			@include breakpoint-up(lg) {
@@ -61,6 +64,10 @@
 			@include padding-left(0);
 			order: 1;
 			max-width: $max-text-col;
+
+			.et_pb_image {
+				@include margin-bottom(1rem);
+			}
 
 			@include breakpoint-up(md) {
 				order: 0;

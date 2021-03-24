@@ -16,6 +16,7 @@
 
 		.et_pb_code_inner {
 			display: flex;
+
 		}
 
 		svg {
@@ -78,7 +79,11 @@
 		display: flex;
 		@include padding-bottom(0.5rem);
 		@include padding-top(0.5rem);
+
 		//background-color: lighten($charcoal, 75);
+		.et_pb_column_1_4 {
+			//z-index: 9999;
+		}
 
 		.et_pb_column {
 			display: flex;
@@ -128,7 +133,8 @@
 			.et_pb_hamburger_toggle {
 				width: 3rem;
 				height: 2.65rem;
-				margin-left: 1rem;
+				margin-left: 0.25rem;
+				margin-bottom: 0;
 
 
 				.hamburger {
@@ -179,6 +185,67 @@
 			.et_pb_menu {
 				margin-top: auto;
 				margin-bottom: 0;
+			}
+		}
+
+		.nav {
+			.sub-menu {
+				border-top: none;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				background-color: $red !important;
+				animation: fade-out-bottom .7s cubic-bezier(.25, .460, .45, .940) both;
+				transform: translateZ(0);
+				padding-left: 1rem;
+				padding-right: 1rem;
+				min-width: 300px;
+				max-width: 480px;
+
+				li {
+					padding: 0;
+
+					a {
+						padding: 0.5rem 1.5rem;
+						font-weight: 600;
+						color: $white;
+						white-space: normal;
+						border-bottom: 2px solid $red;
+						transition: all .1s ease-out;
+
+
+						&:hover {
+							opacity: 1;
+							background-color: transparent;
+							border-bottom-color: mix($red, $white, 20%);
+						}
+
+						&:focus {
+							background-color: mix($red, $charcoal, 90%);
+						}
+
+					}
+
+				}
+
+				&:after {
+
+
+					bottom: 100%;
+					left: 1rem;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					pointer-events: none;
+					border-color: transparent;
+					border-bottom-color: #e31837;
+					border-width: 0.75rem;
+					margin-left: 0;
+
+
+
+				}
 			}
 		}
 
@@ -245,4 +312,17 @@
 
 #main-header .et_mobile_menu li .sub-menu {
 	padding-left: 0
+}
+
+//Scroll-up functionality
+#global-header-section {
+	position: fixed;
+	top: 0;
+	transition: top 0.4s ease-in-out;
+	width: 100%;
+
+
+	&.nav-up {
+		top: -50%;
+	}
 }

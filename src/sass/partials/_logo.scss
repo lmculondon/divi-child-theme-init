@@ -1,14 +1,21 @@
 			.et_pb_header_logo {
 				* {
-					transition: fill .1s ease-out, opacity .1s ease-out;
+					transition: all .1s ease-out;
 				}
 
 				.lmcu-lettering {
 					fill: #1d1b1c
 				}
 
+				.lmcu-text {
+					//transition-delay: 250ms;
+					//transition-property: fill;
+				}
+
 				.lmcu-donut {
-					fill: #E31837
+					fill: #E31837;
+					transition-delay: 0.35s;
+					//transition-property: fill;
 				}
 
 				.lmcu-strapline {
@@ -45,4 +52,24 @@
 					}
 				}
 
+			}
+
+			.show-menu {
+				.et_pb_header_top_row {
+					.et_pb_column {
+						z-index: 999;
+
+						.et_pb_header_logo {
+							.lmcu-donut {
+								fill: $white;
+							}
+
+							.lmcu-lettering,
+							.lmcu-strapline {
+								display: none;
+							}
+
+						}
+					}
+				}
 			}

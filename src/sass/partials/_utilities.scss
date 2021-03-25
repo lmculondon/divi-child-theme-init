@@ -25,6 +25,34 @@
 	order: 1;
 }
 
+.et_pb_title_row {
+	@include margin-bottom(3rem);
+
+	h2 {
+		position: relative;
+		padding-bottom: 1.5rem;
+		@include margin-bottom(1.5rem);
+
+		&:after {
+			content: "";
+			border-top: 5px solid $red;
+			width: 80px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transition: width .5s ease-out;
+		}
+
+
+	}
+
+	&:hover {
+		h2:after {
+			width: 120px;
+		}
+	}
+}
+
 .et_pb_centered_buttons_row {
 	display: flex;
 

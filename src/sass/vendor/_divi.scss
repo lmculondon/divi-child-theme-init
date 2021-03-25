@@ -15893,6 +15893,7 @@ p.et_pb_gallery_caption {
 
 .et_pb_main_blurb_image {
 	display: inline-block;
+	width: 80px;
 	max-width: 100%;
 	margin-bottom: 30px;
 	line-height: 0;
@@ -15945,7 +15946,7 @@ p.et_pb_gallery_caption {
 	.et_pb_blurb_container {
 		display: table-cell;
 		vertical-align: top;
-		padding-left: 15px;
+		padding-left: 1rem;
 	}
 
 	.et_pb_blurb_content {
@@ -15985,7 +15986,7 @@ p.et_pb_gallery_caption {
 	.et_pb_blurb_container {
 		display: table-cell;
 		vertical-align: top;
-		padding-right: 15px;
+		padding-right: 1rem;
 	}
 
 	.et_pb_blurb_content {

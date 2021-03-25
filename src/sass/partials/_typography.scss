@@ -2,14 +2,15 @@
 
 body {
 	font-family: 'Lato', sans-serif;
-	color: $charcoal;
-	@include font-size(18px);
+	color: mix($charcoal, $white, 80%);
+	@include font-size(16px);
 	font-weight: 400;
 }
 
 p {
-	@include font-size(16px);
-	line-height: 1.7
+	@include font-size(18px);
+	line-height: 1.7;
+	//color: #666;
 }
 
 p.et_pb_lead {
@@ -28,7 +29,7 @@ h6 {
 	@include rfs(1rem, margin-top);
 	@include rfs(0.25rem, margin-bottom);
 	line-height: 1.2;
-	color: #000;
+	color: $charcoal;
 	font-weight: 700;
 
 	&:first-child {
@@ -36,7 +37,8 @@ h6 {
 	}
 }
 
-.display-text {
+.display-text,
+.page-title {
 	@include font-size(6.3135rem);
 	@include rfs(6.3135rem, margin-top);
 }
@@ -105,11 +107,34 @@ small {
 	font-weight: 300;
 }
 
-// Color Accents
-.et-search-form,
-.et_mobile_menu,
-.footer-widget li:before,
-.nav li ul,
-blockquote {
-	border-color: $red;
+//
+.page-title {
+	position: relative;
+	padding-bottom: 1rem;
+	@include rfs(2rem, margin-bottom);
+
+	&:after {
+		content: "";
+		border-top: $red 5px solid;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 150px;
+	}
+}
+
+// Blog Typography
+.post-template {
+	.et_pb_title_container h1 {
+		@include font-size(4.209rem);
+		text-align: center;
+		@include rfs(3rem, margin-bottom);
+	}
+
+	.et-l--post {
+		p {
+			@include font-size(18px);
+			line-height: 1.9
+		}
+	}
 }

@@ -34,7 +34,6 @@
 #page-container {
 	.et_pb_logo_grid {
 		.et_pb_gallery_items {
-			@include margin-top(3rem);
 			@include margin-bottom(3rem);
 			justify-content: space-between;
 		}

@@ -282,10 +282,14 @@
 			font-family: ETmodules;
 			content: "3";
 			position: absolute;
-			right: 0.75rem;
+			right: 0;
 			top: 1.5rem;
 			;
 			font-weight: 800;
+
+			@include breakpoint-up(xl) {
+				right: 0.75rem;
+			}
 		}
 	}
 }

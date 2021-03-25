@@ -27,4 +27,11 @@
 			}
 		}
 	}
+
+	&.et_pb_text_align_center {
+		.et_pb_blurb_container {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
 }

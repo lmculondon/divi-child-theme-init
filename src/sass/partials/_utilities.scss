@@ -24,3 +24,34 @@
 	-ms-flex-order: 1;
 	order: 1;
 }
+
+.et_pb_centered_buttons_row {
+	display: flex;
+
+	.et_pb_column {
+		flex: 1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.et_pb_button_module_wrapper {
+			width: 100%;
+			margin-bottom: 0.5rem;
+
+			a {
+				display: block;
+				text-align: center;
+			}
+
+			@include breakpoint-up(sm) {
+
+				width: auto;
+				margin-bottom: 0;
+
+				& + .et_pb_button_module_wrapper {
+					margin-left: 0.5rem;
+				}
+			}
+		}
+	}
+}

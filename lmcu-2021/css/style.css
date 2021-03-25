@@ -36648,7 +36648,50 @@ blockquote {
   padding-top: 0;
 }
 
-/* line 14, src/sass/partials/_layout.scss */
+/* line 12, src/sass/partials/_layout.scss */
+#page-container .et_pb_section_hero {
+  padding-bottom: calc(2.325rem + 12.9vmin);
+  padding-top: calc(2.325rem + 12.9vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 12, src/sass/partials/_layout.scss */
+  #page-container .et_pb_section_hero {
+    padding-bottom: 12rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 12, src/sass/partials/_layout.scss */
+  #page-container .et_pb_section_hero {
+    padding-top: 12rem;
+  }
+}
+
+/* line 16, src/sass/partials/_layout.scss */
+#page-container .et_pb_section_hero p {
+  font-size: 1.25rem;
+  max-width: 480px;
+}
+
+/* line 21, src/sass/partials/_layout.scss */
+#page-container .et_pb_section_hero .et_pb_module {
+  margin-bottom: calc(1.425rem + 2.1vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 21, src/sass/partials/_layout.scss */
+  #page-container .et_pb_section_hero .et_pb_module {
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 24, src/sass/partials/_layout.scss */
+#page-container .et_pb_section_hero .et_pb_module:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 33, src/sass/partials/_layout.scss */
 .et_pb_column .et_pb_code:only-child {
   margin-bottom: 0;
 }
@@ -36737,8 +36780,8 @@ blockquote {
 
 /* line 6, src/sass/partials/_header.scss */
 #global-header-section {
-  -webkit-box-shadow: 0 0.125rem 0.625rem 0 #efeff0;
-          box-shadow: 0 0.125rem 0.625rem 0 #efeff0;
+  -webkit-box-shadow: 0 0.125rem 0.625rem 0 rgba(39, 45, 55, 0.25);
+          box-shadow: 0 0.125rem 0.625rem 0 rgba(39, 45, 55, 0.25);
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -37302,6 +37345,50 @@ body.show-menu .hamburger {
   position: relative;
 }
 
+/* line 36, src/sass/partials/_gallery.scss */
+#page-container .et_pb_logo_grid .et_pb_gallery_items {
+  margin-top: calc(1.425rem + 2.1vmin);
+  margin-bottom: calc(1.425rem + 2.1vmin);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 36, src/sass/partials/_gallery.scss */
+  #page-container .et_pb_logo_grid .et_pb_gallery_items {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 36, src/sass/partials/_gallery.scss */
+  #page-container .et_pb_logo_grid .et_pb_gallery_items {
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 42, src/sass/partials/_gallery.scss */
+#page-container .et_pb_logo_grid .et_pb_grid_item {
+  width: 33.333%;
+  max-width: 240px;
+  margin-right: 0;
+  margin-bottom: 0;
+  pointer-events: none;
+}
+
+/* line 50, src/sass/partials/_gallery.scss */
+#page-container .et_pb_logo_grid .et_pb_grid_item a .et_overlay {
+  display: none;
+}
+
+@media (min-width: 980px) {
+  /* line 42, src/sass/partials/_gallery.scss */
+  #page-container .et_pb_logo_grid .et_pb_grid_item {
+    width: 20%;
+  }
+}
+
 /* Blurb*/
 /* line 1, src/sass/partials/_blurb.scss */
 .et_pb_blurb {
@@ -37825,6 +37912,52 @@ body.show-menu .hamburger {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
+}
+
+/* line 28, src/sass/partials/_utilities.scss */
+.et_pb_centered_buttons_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 31, src/sass/partials/_utilities.scss */
+.et_pb_centered_buttons_row .et_pb_column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 37, src/sass/partials/_utilities.scss */
+.et_pb_centered_buttons_row .et_pb_column .et_pb_button_module_wrapper {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* line 41, src/sass/partials/_utilities.scss */
+.et_pb_centered_buttons_row .et_pb_column .et_pb_button_module_wrapper a {
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 37, src/sass/partials/_utilities.scss */
+  .et_pb_centered_buttons_row .et_pb_column .et_pb_button_module_wrapper {
+    width: auto;
+    margin-bottom: 0;
+  }
+  /* line 51, src/sass/partials/_utilities.scss */
+  .et_pb_centered_buttons_row .et_pb_column .et_pb_button_module_wrapper + .et_pb_button_module_wrapper {
+    margin-left: 0.5rem;
+  }
 }
 
 /* line 54, src/sass/style.scss */

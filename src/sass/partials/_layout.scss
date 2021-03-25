@@ -8,6 +8,25 @@
 		@include padding-bottom(0);
 		@include padding-top(0);
 	}
+
+	.et_pb_section_hero {
+		@include padding-bottom(12rem);
+		@include padding-top(12rem);
+
+		p {
+			@include font-size(20px);
+			max-width: $max-text-col;
+		}
+
+		.et_pb_module {
+			@include margin-bottom(3rem);
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+
 }
 
 .et_pb_column {

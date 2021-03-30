@@ -29,6 +29,10 @@
 	@include margin-bottom(3rem);
 
 	h2 {
+		@include breakpoint-up(lg) {
+			@include font-size(4.209rem);
+		}
+
 		position: relative;
 		padding-bottom: 1.5rem;
 		@include margin-bottom(1.5rem);

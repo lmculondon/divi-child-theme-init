@@ -13,6 +13,12 @@
 		@include padding-bottom(12rem);
 		@include padding-top(12rem);
 
+		@include breakpoint-up(lg) {
+			h2 {
+				@include font-size(4.209rem);
+			}
+		}
+
 		p {
 			@include font-size(20px);
 			max-width: $max-text-col;

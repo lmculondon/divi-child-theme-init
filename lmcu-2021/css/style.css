@@ -37410,13 +37410,17 @@ small {
 #global-header-section {
   position: fixed;
   top: 0;
+}
+
+/* line 327, src/sass/partials/_header.scss */
+body:not(.show-menu) #global-header-section {
   -webkit-transition: top 0.4s ease-in-out;
   transition: top 0.4s ease-in-out;
   width: 100%;
 }
 
-/* line 330, src/sass/partials/_header.scss */
-#global-header-section.nav-up {
+/* line 333, src/sass/partials/_header.scss */
+body:not(.show-menu) #global-header-section.nav-up {
   top: -50%;
 }
 
@@ -37446,7 +37450,7 @@ small {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-height: 100vh;
+  max-height: 90vh;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;

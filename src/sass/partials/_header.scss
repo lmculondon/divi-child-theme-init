@@ -323,6 +323,9 @@
 #global-header-section {
 	position: fixed;
 	top: 0;
+	}
+body:not(.show-menu) #global-header-section {
+
 	transition: top 0.4s ease-in-out;
 	width: 100%;
 
@@ -331,3 +334,4 @@
 		top: -50%;
 	}
 }
+

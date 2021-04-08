@@ -4,17 +4,26 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: mix($charcoal, $white, 80%);
 	@include font-size(16px);
+	@include breakpoint-up(md) {
+		@include font-size(18px);
+	}
 	font-weight: 400;
 }
 
 p {
-	@include font-size(18px);
+	@include font-size(16px);
 	line-height: 1.7;
-	//color: #666;
+	@include breakpoint-up(md) {
+		@include font-size(18px);
+	}
 }
 
 p.et_pb_lead {
-	@include font-size(22px);
+
+	@include font-size(18px);
+	@include breakpoint-up(md) {
+		@include font-size(22px);
+	}
 	@include margin-bottom(2rem);
 }
 

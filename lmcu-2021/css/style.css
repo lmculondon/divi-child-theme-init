@@ -36437,33 +36437,54 @@ body {
   font-weight: 400;
 }
 
-/* line 10, src/sass/partials/_typography.scss */
+@media (min-width: 980px) {
+  /* line 3, src/sass/partials/_typography.scss */
+  body {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 13, src/sass/partials/_typography.scss */
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
-/* line 16, src/sass/partials/_typography.scss */
+@media (min-width: 980px) {
+  /* line 13, src/sass/partials/_typography.scss */
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 21, src/sass/partials/_typography.scss */
 p.et_pb_lead {
-  font-size: calc(1.2625rem + 0.15vmin);
+  font-size: 1.125rem;
   margin-bottom: calc(1.325rem + 0.9vmin);
 }
 
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 16, src/sass/partials/_typography.scss */
+@media (min-width: 980px) {
+  /* line 21, src/sass/partials/_typography.scss */
+  p.et_pb_lead {
+    font-size: calc(1.2625rem + 0.15vmin);
+  }
+}
+
+@media (min-width: 980px) and (min-width: 1200px) and (min-height: 1200px) {
+  /* line 21, src/sass/partials/_typography.scss */
   p.et_pb_lead {
     font-size: 1.375rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 16, src/sass/partials/_typography.scss */
+  /* line 21, src/sass/partials/_typography.scss */
   p.et_pb_lead {
     margin-bottom: 2rem;
   }
 }
 
-/* line 21, src/sass/partials/_typography.scss */
+/* line 30, src/sass/partials/_typography.scss */
 h1,
 h2,
 h3,
@@ -36480,7 +36501,7 @@ h6 {
   font-weight: 700;
 }
 
-/* line 36, src/sass/partials/_typography.scss */
+/* line 45, src/sass/partials/_typography.scss */
 h1:first-child,
 h2:first-child,
 h3:first-child,
@@ -36490,7 +36511,7 @@ h6:first-child {
   margin-top: 0;
 }
 
-/* line 41, src/sass/partials/_typography.scss */
+/* line 50, src/sass/partials/_typography.scss */
 .display-text,
 .page-title {
   font-size: calc(1.75635rem + 6.0762vmin);
@@ -36498,7 +36519,7 @@ h6:first-child {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 41, src/sass/partials/_typography.scss */
+  /* line 50, src/sass/partials/_typography.scss */
   .display-text,
   .page-title {
     font-size: 6.3135rem;
@@ -36506,14 +36527,14 @@ h6:first-child {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 41, src/sass/partials/_typography.scss */
+  /* line 50, src/sass/partials/_typography.scss */
   .display-text,
   .page-title {
     margin-top: 6.3135rem;
   }
 }
 
-/* line 47, src/sass/partials/_typography.scss */
+/* line 56, src/sass/partials/_typography.scss */
 h1 {
   margin-top: calc(1.5459rem + 3.5508vmin);
   font-size: calc(1.5459rem + 3.5508vmin);
@@ -36521,20 +36542,20 @@ h1 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 47, src/sass/partials/_typography.scss */
+  /* line 56, src/sass/partials/_typography.scss */
   h1 {
     margin-top: 4.209rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 47, src/sass/partials/_typography.scss */
+  /* line 56, src/sass/partials/_typography.scss */
   h1 {
     font-size: 4.209rem;
   }
 }
 
-/* line 53, src/sass/partials/_typography.scss */
+/* line 62, src/sass/partials/_typography.scss */
 h2 {
   margin-top: calc(1.4407rem + 2.2884vmin);
   font-size: calc(1.3607rem + 1.3284vmin);
@@ -36542,20 +36563,20 @@ h2 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 53, src/sass/partials/_typography.scss */
+  /* line 62, src/sass/partials/_typography.scss */
   h2 {
     margin-top: 3.157rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 53, src/sass/partials/_typography.scss */
+  /* line 62, src/sass/partials/_typography.scss */
   h2 {
     font-size: 2.357rem;
   }
 }
 
-/* line 59, src/sass/partials/_typography.scss */
+/* line 68, src/sass/partials/_typography.scss */
 h2.display-text {
   font-size: calc(1.4407rem + 2.2884vmin);
   margin-top: 0;
@@ -36563,13 +36584,13 @@ h2.display-text {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 59, src/sass/partials/_typography.scss */
+  /* line 68, src/sass/partials/_typography.scss */
   h2.display-text {
     font-size: 3.157rem;
   }
 }
 
-/* line 66, src/sass/partials/_typography.scss */
+/* line 75, src/sass/partials/_typography.scss */
 h3 {
   margin-top: calc(1.2583rem + 0.0996vmin);
   font-size: calc(1.2583rem + 0.0996vmin);
@@ -36577,45 +36598,45 @@ h3 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 66, src/sass/partials/_typography.scss */
+  /* line 75, src/sass/partials/_typography.scss */
   h3 {
     margin-top: 1.333rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 66, src/sass/partials/_typography.scss */
+  /* line 75, src/sass/partials/_typography.scss */
   h3 {
     font-size: 1.333rem;
   }
 }
 
-/* line 72, src/sass/partials/_typography.scss */
+/* line 81, src/sass/partials/_typography.scss */
 h4 {
   margin-top: 1.125rem;
   font-size: 1.125rem;
   font-weight: 600;
 }
 
-/* line 78, src/sass/partials/_typography.scss */
+/* line 87, src/sass/partials/_typography.scss */
 h5 {
   margin-top: 1rem;
   font-size: 1rem;
   font-weight: 600;
 }
 
-/* line 85, src/sass/partials/_typography.scss */
+/* line 94, src/sass/partials/_typography.scss */
 .et_pb_module_header {
   margin-top: 0;
 }
 
-/* line 91, src/sass/partials/_typography.scss */
+/* line 100, src/sass/partials/_typography.scss */
 .et_pb_module a:not(.et_pb_button) {
   color: #1565ab;
   text-decoration: underline;
 }
 
-/* line 95, src/sass/partials/_typography.scss */
+/* line 104, src/sass/partials/_typography.scss */
 .et_pb_module a:not(.et_pb_button):focus {
   outline: 3px solid transparent;
   color: #0b0c0c;
@@ -36625,13 +36646,13 @@ h5 {
   text-decoration: none;
 }
 
-/* line 106, src/sass/partials/_typography.scss */
+/* line 115, src/sass/partials/_typography.scss */
 small {
   font-size: 80%;
   font-weight: 300;
 }
 
-/* line 112, src/sass/partials/_typography.scss */
+/* line 121, src/sass/partials/_typography.scss */
 .page-title {
   position: relative;
   padding-bottom: 1rem;
@@ -36639,13 +36660,13 @@ small {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 112, src/sass/partials/_typography.scss */
+  /* line 121, src/sass/partials/_typography.scss */
   .page-title {
     margin-bottom: 2rem;
   }
 }
 
-/* line 117, src/sass/partials/_typography.scss */
+/* line 126, src/sass/partials/_typography.scss */
 .page-title:after {
   content: "";
   border-top: #e31837 5px solid;
@@ -36655,7 +36676,7 @@ small {
   width: 150px;
 }
 
-/* line 129, src/sass/partials/_typography.scss */
+/* line 138, src/sass/partials/_typography.scss */
 .post-template .et_pb_title_container h1 {
   font-size: calc(1.5459rem + 3.5508vmin);
   text-align: center;
@@ -36663,27 +36684,27 @@ small {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 129, src/sass/partials/_typography.scss */
+  /* line 138, src/sass/partials/_typography.scss */
   .post-template .et_pb_title_container h1 {
     font-size: 4.209rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 129, src/sass/partials/_typography.scss */
+  /* line 138, src/sass/partials/_typography.scss */
   .post-template .et_pb_title_container h1 {
     margin-bottom: 3rem;
   }
 }
 
-/* line 136, src/sass/partials/_typography.scss */
+/* line 145, src/sass/partials/_typography.scss */
 .post-template .et-l--post p {
   font-size: 1.125rem;
   line-height: 1.9;
 }
 
 @media (max-width: 768px) {
-  /* line 143, src/sass/partials/_typography.scss */
+  /* line 152, src/sass/partials/_typography.scss */
   .et_pb_text_align_left-phone {
     text-align: left;
   }

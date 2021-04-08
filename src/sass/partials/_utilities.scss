@@ -1,9 +1,18 @@
 .et_pb_notice {
-	@include font-size(14px);
+	@include font-size(16px);
 	@include padding-bottom(1rem);
 	@include padding-top(1rem);
-	@include padding-left(3rem);
+	@include padding-left(1rem);
 	@include padding-right(1rem);
+	strong {
+		color: $charcoal;
+	}
+	p {
+		@include font-size(16px);
+	}
+	a {
+		white-space: nowrap;
+	}
 }
 
 /* Equalize Column Heights */
@@ -53,14 +62,14 @@
 	}
 }
 
-.et_pb_centered_buttons_row {
+@mixin buttons_row($align) {
 	display: flex;
 
 	.et_pb_column {
 		flex: 1;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: $align;
 
 		.et_pb_button_module_wrapper {
 			width: 100%;
@@ -77,9 +86,17 @@
 				margin-bottom: 0;
 
 				& + .et_pb_button_module_wrapper {
-					margin-left: 0.5rem;
+					margin-left: 1rem;
 				}
 			}
 		}
 	}
+
+}
+
+.et_pb_btn_row_center {
+	@include buttons_row(center);
+}
+.et_pb_btn_row {
+	@include buttons_row(left);
 }

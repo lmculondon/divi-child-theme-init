@@ -1,6 +1,7 @@
 .et_pb_blurb {
 	//background-color: pink;
 	@include margin-bottom(0.5rem);
+	transition: all 0.5s ease-in-out;
 
 
 	.et_pb_blurb_container {
@@ -12,6 +13,7 @@
 			@include font-size(16px);
 			margin-top: auto;
 		}
+		
 	}
 
 	&_position_left {
@@ -32,6 +34,16 @@
 		.et_pb_blurb_container {
 			margin-left: auto;
 			margin-right: auto;
+		}
+	}
+	&.et_pb_bg_layout_light {
+		.et_pb_module_header {
+			@include link-effect($charcoal)
+		}
+	}
+	&.et_pb_bg_layout_dark {
+		.et_pb_module_header {
+			@include link-effect($white)
 		}
 	}
 }

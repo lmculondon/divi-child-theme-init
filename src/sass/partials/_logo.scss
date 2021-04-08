@@ -1,75 +1,73 @@
+.et_pb_header_logo {
+	* {
+		transition: all 0.1s ease-out;
+	}
+
+	.lmcu-lettering {
+		fill: #1d1b1c;
+	}
+
+	.lmcu-text {
+		//transition-delay: 250ms;
+		//transition-property: fill;
+	}
+
+	.lmcu-donut {
+		fill: #e31837;
+		transition-delay: 0.35s;
+		//transition-property: fill;
+	}
+
+	.lmcu-strapline {
+		opacity: 0.8;
+	}
+
+	@media all and (max-width: 300px) {
+		.lmcu-strapline {
+			display: none;
+		}
+
+		.lmcu-lettering {
+			display: none;
+		}
+	}
+
+	@media all and (max-width: 460px) {
+		.lmcu-strapline {
+			display: none;
+		}
+
+		.lmcu-lettering {
+			transform: translateY(35.025px);
+		}
+	}
+
+	@include breakpoint-up(lg) {
+		.lmcu-donut {
+			transform: translateY(-101.975px);
+		}
+
+		.lmcu-text {
+			transform: translate(-278px, 150px);
+		}
+	}
+}
+
+.show-menu {
+	.et_pb_header_top_row {
+		.et_pb_column {
+			z-index: 999;
+
 			.et_pb_header_logo {
-				* {
-					transition: all .1s ease-out;
-				}
-
-				.lmcu-lettering {
-					fill: #1d1b1c
-				}
-
-				.lmcu-text {
-					//transition-delay: 250ms;
-					//transition-property: fill;
-				}
-
 				.lmcu-donut {
-					fill: #E31837;
-					transition-delay: 0.35s;
-					//transition-property: fill;
+					fill: $white;
 				}
 
+				.lmcu-lettering,
 				.lmcu-strapline {
-					opacity: 0.8;
-				}
-
-				@media all and (max-width: 300px) {
-					.lmcu-strapline {
-						display: none;
-					}
-
-					.lmcu-lettering {
-						display: none;
-					}
-				}
-
-				@media all and (max-width: 460px) {
-					.lmcu-strapline {
-						display: none;
-					}
-
-					.lmcu-lettering {
-						transform: translateY(35.025px)
-					}
-				}
-
-				@include breakpoint-up(lg) {
-					.lmcu-donut {
-						transform: translateY(-101.975px)
-					}
-
-					.lmcu-text {
-						transform: translate(-278px, 150px);
-					}
-				}
-
-			}
-
-			.show-menu {
-				.et_pb_header_top_row {
-					.et_pb_column {
-						z-index: 999;
-
-						.et_pb_header_logo {
-							.lmcu-donut {
-								fill: $white;
-							}
-
-							.lmcu-lettering,
-							.lmcu-strapline {
-								display: none;
-							}
-
-						}
-					}
+					display: none;
 				}
 			}
+		}
+	}
+}

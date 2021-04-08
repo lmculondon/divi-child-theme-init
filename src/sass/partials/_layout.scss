@@ -1,83 +1,82 @@
 @media only screen and (min-width: 1350px) {
-
 	.et_pb_section {
-		padding:unset;
-	}	
+		padding: unset;
+	}
 }
-	.et_pb_section {
-		@include padding-bottom(4rem);
-		@include padding-top(4rem);
-		@include breakpoint-up(md) { 
-			@include padding-bottom(6rem);
-			@include padding-top(6rem);
-		}
-		@include breakpoint-up(lg) { 
-			@include padding-bottom(8rem);
-			@include padding-top(8rem);
-		}
-		&_b {
-			padding-top: 0;
-		}
-		&_t {
-			padding-bottom: 0;
-		}
+.et_pb_section {
+	@include padding-bottom(4rem);
+	@include padding-top(4rem);
+	@include breakpoint-up(md) {
+		@include padding-bottom(6rem);
+		@include padding-top(6rem);
 	}
-	.et_pb_section_sm {
-		@include padding-bottom(4rem);
-		@include padding-top(4rem);
-		&_b {
-			padding-top: 0;
-		}
-		&_t {
-			padding-bottom: 0;
-		}
+	@include breakpoint-up(lg) {
+		@include padding-bottom(8rem);
+		@include padding-top(8rem);
 	}
-	
-	.et_pb_section_xs {
-		@include padding-bottom(2rem);
-		@include padding-top(2rem);
-		&_b {
-			padding-top: 0;
-		}
-		&_t {
-			padding-bottom: 0;
-		}
+	&_b {
+		padding-top: 0;
 	}
-	
-	.et_pb_row {
-		@include padding-bottom(0);
-		@include padding-top(0);
+	&_t {
+		padding-bottom: 0;
 	}
-	.et_pb_row_pad {
-		@include padding-bottom(4rem);
-		@include padding-top(4rem);
+}
+.et_pb_section_sm {
+	@include padding-bottom(4rem);
+	@include padding-top(4rem);
+	&_b {
+		padding-top: 0;
 	}
-	.et_pb_row_pad_b {
-		@include padding-bottom(4rem);
-		@include padding-top(0);
+	&_t {
+		padding-bottom: 0;
 	}
-	.et_pb_row_pad_t {
-		@include padding-bottom(0);
-		@include padding-top(4rem);
+}
+
+.et_pb_section_xs {
+	@include padding-bottom(2rem);
+	@include padding-top(2rem);
+	&_b {
+		padding-top: 0;
+	}
+	&_t {
+		padding-bottom: 0;
+	}
+}
+
+.et_pb_row {
+	@include padding-bottom(0);
+	@include padding-top(0);
+}
+.et_pb_row_pad {
+	@include padding-bottom(4rem);
+	@include padding-top(4rem);
+}
+.et_pb_row_pad_b {
+	@include padding-bottom(4rem);
+	@include padding-top(0);
+}
+.et_pb_row_pad_t {
+	@include padding-bottom(0);
+	@include padding-top(4rem);
+}
+
+.et_pb_section_hero {
+	@include padding-bottom(12rem);
+	@include padding-top(12rem);
+
+	p {
+		@include font-size(20px);
+		max-width: $max-text-col;
 	}
 
-	.et_pb_section_hero {
-		@include padding-bottom(12rem);
-		@include padding-top(12rem);
+	.et_pb_module {
+		@include margin-bottom(3rem);
 
-		p {
-			@include font-size(20px);
-			max-width: $max-text-col;
-		}
-
-		.et_pb_module {
-			@include margin-bottom(3rem);
-
-			&:last-of-type {
-				margin-bottom: 0;
-			}
+		&:last-of-type {
+			margin-bottom: 0;
 		}
 	}
+}
 
 .et_pb_column {
 	.et_pb_code:only-child {

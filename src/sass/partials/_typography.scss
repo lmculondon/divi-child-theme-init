@@ -1,7 +1,7 @@
 //Main
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	color: mix($charcoal, $white, 80%);
 	@include font-size(16px);
 	@include breakpoint-up(md) {
@@ -19,7 +19,6 @@ p {
 }
 
 p.et_pb_lead {
-
 	@include font-size(18px);
 	@include breakpoint-up(md) {
 		@include font-size(22px);
@@ -33,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 	padding-bottom: 0;
 	@include margin-bottom(0.5rem);
 	@include rfs(1rem, margin-top);
@@ -64,7 +63,6 @@ h2 {
 	@include font-size(2.357rem);
 	@include rfs(0.5rem, margin-bottom);
 
-
 	&.display-text {
 		@include font-size(3.157rem);
 		margin-top: 0;
@@ -90,12 +88,12 @@ h5 {
 	font-weight: 600;
 }
 
-// Divi Specific 
+// Divi Specific
 .et_pb_module_header {
 	margin-top: 0;
 }
 
-// Links 
+// Links
 
 .et_pb_module a:not(.et_pb_button) {
 	color: $dark-blue;
@@ -144,14 +142,13 @@ small {
 	.et-l--post {
 		p {
 			@include font-size(18px);
-			line-height: 1.9
+			line-height: 1.9;
 		}
 	}
 }
 // Responsive text alignment
 .et_pb_text_align_left-phone {
-	
-	@include breakpoint-down(sm) { 
+	@include breakpoint-down(sm) {
 		text-align: left;
 	}
 }

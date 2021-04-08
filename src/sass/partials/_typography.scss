@@ -16,9 +16,6 @@ p {
 p.et_pb_lead {
 	@include font-size(22px);
 	@include margin-bottom(2rem);
-	p {
-		@include font-size(22px);
-	}
 }
 
 h1,
@@ -140,5 +137,12 @@ small {
 			@include font-size(18px);
 			line-height: 1.9
 		}
+	}
+}
+// Responsive text alignment
+.et_pb_text_align_left-phone {
+	
+	@include breakpoint-down(sm) { 
+		text-align: left;
 	}
 }

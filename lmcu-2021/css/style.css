@@ -36463,19 +36463,7 @@ p.et_pb_lead {
   }
 }
 
-/* line 19, src/sass/partials/_typography.scss */
-p.et_pb_lead p {
-  font-size: calc(1.2625rem + 0.15vmin);
-}
-
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 19, src/sass/partials/_typography.scss */
-  p.et_pb_lead p {
-    font-size: 1.375rem;
-  }
-}
-
-/* line 24, src/sass/partials/_typography.scss */
+/* line 21, src/sass/partials/_typography.scss */
 h1,
 h2,
 h3,
@@ -36492,7 +36480,7 @@ h6 {
   font-weight: 700;
 }
 
-/* line 39, src/sass/partials/_typography.scss */
+/* line 36, src/sass/partials/_typography.scss */
 h1:first-child,
 h2:first-child,
 h3:first-child,
@@ -36502,7 +36490,7 @@ h6:first-child {
   margin-top: 0;
 }
 
-/* line 44, src/sass/partials/_typography.scss */
+/* line 41, src/sass/partials/_typography.scss */
 .display-text,
 .page-title {
   font-size: calc(1.75635rem + 6.0762vmin);
@@ -36510,7 +36498,7 @@ h6:first-child {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 44, src/sass/partials/_typography.scss */
+  /* line 41, src/sass/partials/_typography.scss */
   .display-text,
   .page-title {
     font-size: 6.3135rem;
@@ -36518,14 +36506,14 @@ h6:first-child {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 44, src/sass/partials/_typography.scss */
+  /* line 41, src/sass/partials/_typography.scss */
   .display-text,
   .page-title {
     margin-top: 6.3135rem;
   }
 }
 
-/* line 50, src/sass/partials/_typography.scss */
+/* line 47, src/sass/partials/_typography.scss */
 h1 {
   margin-top: calc(1.5459rem + 3.5508vmin);
   font-size: calc(1.5459rem + 3.5508vmin);
@@ -36533,20 +36521,20 @@ h1 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 50, src/sass/partials/_typography.scss */
+  /* line 47, src/sass/partials/_typography.scss */
   h1 {
     margin-top: 4.209rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 50, src/sass/partials/_typography.scss */
+  /* line 47, src/sass/partials/_typography.scss */
   h1 {
     font-size: 4.209rem;
   }
 }
 
-/* line 56, src/sass/partials/_typography.scss */
+/* line 53, src/sass/partials/_typography.scss */
 h2 {
   margin-top: calc(1.4407rem + 2.2884vmin);
   font-size: calc(1.3607rem + 1.3284vmin);
@@ -36554,20 +36542,20 @@ h2 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 56, src/sass/partials/_typography.scss */
+  /* line 53, src/sass/partials/_typography.scss */
   h2 {
     margin-top: 3.157rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 56, src/sass/partials/_typography.scss */
+  /* line 53, src/sass/partials/_typography.scss */
   h2 {
     font-size: 2.357rem;
   }
 }
 
-/* line 62, src/sass/partials/_typography.scss */
+/* line 59, src/sass/partials/_typography.scss */
 h2.display-text {
   font-size: calc(1.4407rem + 2.2884vmin);
   margin-top: 0;
@@ -36575,13 +36563,13 @@ h2.display-text {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 62, src/sass/partials/_typography.scss */
+  /* line 59, src/sass/partials/_typography.scss */
   h2.display-text {
     font-size: 3.157rem;
   }
 }
 
-/* line 69, src/sass/partials/_typography.scss */
+/* line 66, src/sass/partials/_typography.scss */
 h3 {
   margin-top: calc(1.2583rem + 0.0996vmin);
   font-size: calc(1.2583rem + 0.0996vmin);
@@ -36589,45 +36577,45 @@ h3 {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 69, src/sass/partials/_typography.scss */
+  /* line 66, src/sass/partials/_typography.scss */
   h3 {
     margin-top: 1.333rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 69, src/sass/partials/_typography.scss */
+  /* line 66, src/sass/partials/_typography.scss */
   h3 {
     font-size: 1.333rem;
   }
 }
 
-/* line 75, src/sass/partials/_typography.scss */
+/* line 72, src/sass/partials/_typography.scss */
 h4 {
   margin-top: 1.125rem;
   font-size: 1.125rem;
   font-weight: 600;
 }
 
-/* line 81, src/sass/partials/_typography.scss */
+/* line 78, src/sass/partials/_typography.scss */
 h5 {
   margin-top: 1rem;
   font-size: 1rem;
   font-weight: 600;
 }
 
-/* line 88, src/sass/partials/_typography.scss */
+/* line 85, src/sass/partials/_typography.scss */
 .et_pb_module_header {
   margin-top: 0;
 }
 
-/* line 94, src/sass/partials/_typography.scss */
+/* line 91, src/sass/partials/_typography.scss */
 .et_pb_module a:not(.et_pb_button) {
   color: #1565ab;
   text-decoration: underline;
 }
 
-/* line 98, src/sass/partials/_typography.scss */
+/* line 95, src/sass/partials/_typography.scss */
 .et_pb_module a:not(.et_pb_button):focus {
   outline: 3px solid transparent;
   color: #0b0c0c;
@@ -36637,13 +36625,13 @@ h5 {
   text-decoration: none;
 }
 
-/* line 109, src/sass/partials/_typography.scss */
+/* line 106, src/sass/partials/_typography.scss */
 small {
   font-size: 80%;
   font-weight: 300;
 }
 
-/* line 115, src/sass/partials/_typography.scss */
+/* line 112, src/sass/partials/_typography.scss */
 .page-title {
   position: relative;
   padding-bottom: 1rem;
@@ -36651,13 +36639,13 @@ small {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 115, src/sass/partials/_typography.scss */
+  /* line 112, src/sass/partials/_typography.scss */
   .page-title {
     margin-bottom: 2rem;
   }
 }
 
-/* line 120, src/sass/partials/_typography.scss */
+/* line 117, src/sass/partials/_typography.scss */
 .page-title:after {
   content: "";
   border-top: #e31837 5px solid;
@@ -36667,7 +36655,7 @@ small {
   width: 150px;
 }
 
-/* line 132, src/sass/partials/_typography.scss */
+/* line 129, src/sass/partials/_typography.scss */
 .post-template .et_pb_title_container h1 {
   font-size: calc(1.5459rem + 3.5508vmin);
   text-align: center;
@@ -36675,23 +36663,30 @@ small {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 132, src/sass/partials/_typography.scss */
+  /* line 129, src/sass/partials/_typography.scss */
   .post-template .et_pb_title_container h1 {
     font-size: 4.209rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 132, src/sass/partials/_typography.scss */
+  /* line 129, src/sass/partials/_typography.scss */
   .post-template .et_pb_title_container h1 {
     margin-bottom: 3rem;
   }
 }
 
-/* line 139, src/sass/partials/_typography.scss */
+/* line 136, src/sass/partials/_typography.scss */
 .post-template .et-l--post p {
   font-size: 1.125rem;
   line-height: 1.9;
+}
+
+@media (max-width: 768px) {
+  /* line 143, src/sass/partials/_typography.scss */
+  .et_pb_text_align_left-phone {
+    text-align: left;
+  }
 }
 
 /* Footer */

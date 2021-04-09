@@ -69,6 +69,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+	.et_pb_image_wrap {
+		display: flex;
+		.et-pb-icon {
+			margin: auto;
+		}
+	}
 }
 
 .et_pb_checkmark {

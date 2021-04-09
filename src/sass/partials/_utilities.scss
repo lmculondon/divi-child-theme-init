@@ -72,6 +72,7 @@
 }
 
 .et_pb_checkmark {
+	@include margin-bottom(0.5rem);
 	.et_pb_blurb_content,.et_pb_blurb_container {
 		display: flex;
 	}
@@ -85,6 +86,9 @@
 	.et_pb_module_header {
 		margin-top:auto;
 		margin-bottom:auto;
+	}
+	&:last-of-type {
+		@include margin-bottom(0);
 	}
 }
 @mixin buttons_row($align) {

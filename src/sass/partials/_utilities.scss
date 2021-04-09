@@ -65,7 +65,28 @@
 		}
 	}
 }
+.et_pb_row_nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
 
+.et_pb_checkmark {
+	.et_pb_blurb_content,.et_pb_blurb_container {
+		display: flex;
+	}
+	.et_pb_image_wrap, .et_pb_main_blurb_image {
+		width: 32px;
+		margin-bottom: 0;
+	}
+	.et-pb-icon {
+		width:32px;
+	}
+	.et_pb_module_header {
+		margin-top:auto;
+		margin-bottom:auto;
+	}
+}
 @mixin buttons_row($align) {
 	display: flex;
 

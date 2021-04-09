@@ -1,5 +1,4 @@
 #global-header-section {
-
 	.menu-wrap__inner {
 		background-color: $red;
 		display: flex;
@@ -16,7 +15,7 @@
 	.scroll_section {
 		display: flex;
 		flex-direction: column;
-		max-height: 100vh;
+		max-height: 90vh;
 		flex: 1;
 	}
 
@@ -37,11 +36,11 @@
 
 		li {
 			a {
-				font-family: 'Montserrat', sans-serif;
+				font-family: "Montserrat", sans-serif;
 				text-decoration: none;
 				font-weight: 700;
 				line-height: 1.7 !important;
-				font-size: calc(1.35rem + 1.2vmin) !important;
+				font-size: calc(1.15rem + 1.2vmin) !important;
 				padding-top: 1rem !important;
 				padding-left: 0 !important;
 				padding-right: 0 !important;
@@ -70,7 +69,8 @@
 	}
 }
 
-.et-db #et-boc .et-l {}
+.et-db #et-boc .et-l {
+}
 
 body.show-menu {
 	.hamburger {
@@ -89,7 +89,6 @@ body.show-menu {
 		.et_pb_row {
 			width: 90%;
 			margin-bottom: 1rem;
-
 		}
 
 		.et_pb_column {
@@ -112,6 +111,5 @@ body.show-menu {
 			display: block;
 			margin: 0;
 		}
-
 	}
 }

@@ -4,16 +4,14 @@
 // Variables
 @import "base/variables";
 
+// Mixins
+@import "base/mixins";
 
 // SASy Divi
 @import "vendor/divi";
 
 // SASy Divi
 @import "vendor/dlm";
-
-
-// Mixins
-@import "base/mixins";
 
 /* Body */
 @import "partials/typography";
@@ -46,35 +44,28 @@
 /* Footer */
 @import "partials/utilities";
 
-
-
-
-
-
-
 .card-payment-footer .et_pb_button {
 	font-size: 1rem;
 	border: 2px solid rgba(255, 255, 255, 0.3);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	white-space: nowrap
+	white-space: nowrap;
 }
 
 .card-payment-footer .et_pb_button img {
 	height: 1rem !important;
 	width: auto;
-	padding-right: 7.5px
+	padding-right: 7.5px;
 }
 
 @media (min-width: 980px) and (max-width: 1200px) {
 	.et_pb_svg_logo #logo {
 		max-width: 160px;
 	}
-
 }
 
 .ab-cta-text p {
-	margin-bottom: 32PX;
+	margin-bottom: 32px;
 }
 
 .ab-block-cta {
@@ -118,14 +109,12 @@
 	max-width: 280px;
 }
 
-
-
 .menu-footer-menu-container .menu {
 	padding: 1rem 0 !important;
 }
 
 .card-payment-footer {
-	padding: 0 0 3rem 0
+	padding: 0 0 3rem 0;
 }
 
 @media only screen and (min-width: 981px) {
@@ -135,7 +124,7 @@
 	}
 
 	.card-payment-footer {
-		padding: 0 3.5rem 3rem 3.5rem
+		padding: 0 3.5rem 3rem 3.5rem;
 	}
 
 	.et-fixed-header #top-menu .sub-menu li a {
@@ -170,18 +159,17 @@
 .badge-warning {
 	background-color: #f5d505;
 	border-color: #e4bc66;
-
 }
 
 .badge-danger {
 	color: #e31837;
 	border-color: #e31837;
-	background-color: transparent
+	background-color: transparent;
 }
 
 .badge-light {
 	color: #ffffff;
 	background-color: rgba(255, 255, 255, 0.05);
 	border-color: rgba(255, 255, 255, 0.5);
-	background-color: transparent
+	background-color: transparent;
 }

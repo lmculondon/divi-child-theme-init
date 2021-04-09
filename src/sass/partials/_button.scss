@@ -1,5 +1,8 @@
 //Custom
-
+.et_pb_module .et_pb_button:hover,
+.et_pb_button:hover {
+	padding: 0.75rem 1rem;
+}
 .et_pb_button {
 	text-decoration: none;
 	border-color: rgba($charcoal, 0.9);
@@ -16,7 +19,7 @@
 	}
 
 	&:hover {
-		padding-right: 2.5rem;
+		padding-right: 2.5rem !important;
 	}
 
 	&.et_pb_btn_small {
@@ -48,7 +51,6 @@
 			box-shadow: 0 0 0 0.25rem rgba($white, 0.5);
 		}
 	}
-
 }
 
 .et_pb_button_module_wrapper {
@@ -59,11 +61,7 @@
 	}
 }
 
-
 .et_pb_inline_buttons_row .et_pb_button_module_wrapper {
-
-
-
 	@include breakpoint-up(md) {
 		display: inline-block;
 		@include margin-right(1rem);

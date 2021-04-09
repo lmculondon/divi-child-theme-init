@@ -13,15 +13,17 @@ $border-radius:5px;
 $max-text-col: 480px;
 
 // SASS Variables
-$breakpoints: ('sm': (min-width: 768px),
-	'md': (min-width: 980px),
-	'lg': (min-width: 1100px),
-	'xl': (min-width: 1350px));
+$breakpoints: ('sm': 768px,
+	'md': 980px,
+	'lg': 1100px,
+	'xl': 1350px);
 
 
 // Divi Variables
 $container-width: 90%;
 $row-max-width: 1280px;
+$icon-default-width:80px;
+$blurb-gutter: 1rem;
 
 $color_1: #666;
 $color_2: #2ea3f2;

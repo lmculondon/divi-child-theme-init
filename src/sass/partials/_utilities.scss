@@ -97,6 +97,25 @@
 		@include margin-bottom(0);
 	}
 }
+.et_pb_mobile_vertical_align {
+	display:flex;
+  
+ .et_pb_blurb_content {
+		flex: 1;
+	  display: flex;
+  }
+ .et_pb_main_blurb_image {
+	margin-bottom:0!important;
+  }
+.et_pb_blurb_container {
+	padding-left:1.5rem;
+	   flex: 1;
+	  display: flex;
+	  margin-top: auto;
+	  align-self: center;
+	  margin-bottom: auto;
+  }
+}  
 @mixin buttons_row($align) {
 	display: flex;
 

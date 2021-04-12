@@ -1,11 +1,7 @@
 body {
 	.et_pb_section {
-		@include padding-bottom(4rem);
-		@include padding-top(4rem);
-		@include breakpoint-up(md) {
-			@include padding-bottom(6rem);
-			@include padding-top(6rem);
-		}
+		@include padding-bottom(6rem);
+		@include padding-top(6rem);
 		@include breakpoint-up(lg) {
 			@include padding-bottom(8rem);
 			@include padding-top(8rem);

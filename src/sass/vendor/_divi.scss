@@ -14964,19 +14964,19 @@ span.comment_date {
 	.et_pb_gallery_pagination {
 		ul {
 			li {
-				a.active {
-					color:$white;
-					background-color: lighten($charcoal, 10%);
-					&:focus {
-						box-shadow:none;
-					}
-				}
 				&.page a {
 					display: block;
 					background-color: lighten($charcoal,80%);
 					text-align: center;
 					padding: 10px 14px;
 					border-radius: 50%;
+					&.active {
+						color:$white;
+						background-color: lighten($charcoal, 10%);
+						&:focus {
+							box-shadow:none;
+						}
+					}
 				}
 				display: inline-block;
 				padding: 10px;

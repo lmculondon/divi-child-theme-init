@@ -14668,24 +14668,24 @@ span.comment_date {
 }
 
 /* line 14967, src/sass/vendor/_divi.scss */
-.et_pb_gallery .et_pb_gallery_pagination ul li a.active {
-  color: #ffffff;
-  background-color: #3c4555;
-}
-
-/* line 14970, src/sass/vendor/_divi.scss */
-.et_pb_gallery .et_pb_gallery_pagination ul li a.active:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-/* line 14974, src/sass/vendor/_divi.scss */
 .et_pb_gallery .et_pb_gallery_pagination ul li.page a {
   display: block;
   background-color: #fafbfc;
   text-align: center;
   padding: 10px 14px;
   border-radius: 50%;
+}
+
+/* line 14973, src/sass/vendor/_divi.scss */
+.et_pb_gallery .et_pb_gallery_pagination ul li.page a.active {
+  color: #ffffff;
+  background-color: #3c4555;
+}
+
+/* line 14976, src/sass/vendor/_divi.scss */
+.et_pb_gallery .et_pb_gallery_pagination ul li.page a.active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* line 14984, src/sass/vendor/_divi.scss */

@@ -17428,6 +17428,11 @@ p.et_pb_gallery_caption {
 	@include breakpoint-up(md) {
 	margin-left: -$gutter-3;
 	margin-right: -$gutter-3;
+	&.et_pb_module {
+		a {
+			text-decoration: none;
+		}
+	}
 	}
 	.column {
 		float: left;
@@ -17453,8 +17458,8 @@ p.et_pb_gallery_caption {
 		}
 	}
 
-	.entry-title a {
-		text-decoration: none;
+	.entry-title {
+		@include font-size(3.157rem);
 	}
 
 	.et_audio_content {

@@ -36923,35 +36923,28 @@ small {
 }
 
 /* Footer */
-@media only screen and (min-width: 1350px) {
-  /* line 2, src/sass/partials/_layout.scss */
-  .et_pb_section {
-    padding: unset;
-  }
-}
-
-/* line 6, src/sass/partials/_layout.scss */
+/* line 1, src/sass/partials/_layout.scss */
 .et_pb_section {
   padding-bottom: calc(1.525rem + 3.3vmin);
   padding-top: calc(1.525rem + 3.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-bottom: 4rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-top: 4rem;
   }
 }
 
 @media (min-width: 980px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-bottom: calc(1.725rem + 5.7vmin);
     padding-top: calc(1.725rem + 5.7vmin);
@@ -36959,21 +36952,21 @@ small {
 }
 
 @media (min-width: 980px) and (min-width: 1200px) and (min-height: 1200px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-bottom: 6rem;
   }
 }
 
 @media (min-width: 980px) and (min-width: 1200px) and (min-height: 1200px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-top: 6rem;
   }
 }
 
 @media (min-width: 1100px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-bottom: calc(1.925rem + 8.1vmin);
     padding-top: calc(1.925rem + 8.1vmin);
@@ -36981,90 +36974,112 @@ small {
 }
 
 @media (min-width: 1100px) and (min-width: 1200px) and (min-height: 1200px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-bottom: 8rem;
   }
 }
 
 @media (min-width: 1100px) and (min-width: 1200px) and (min-height: 1200px) {
-  /* line 6, src/sass/partials/_layout.scss */
+  /* line 1, src/sass/partials/_layout.scss */
   .et_pb_section {
     padding-top: 8rem;
   }
 }
 
-/* line 17, src/sass/partials/_layout.scss */
+@media (min-width: 1350px) {
+  /* line 1, src/sass/partials/_layout.scss */
+  .et_pb_section {
+    padding-bottom: calc(2.325rem + 12.9vmin);
+    padding-top: calc(2.325rem + 12.9vmin);
+  }
+}
+
+@media (min-width: 1350px) and (min-width: 1200px) and (min-height: 1200px) {
+  /* line 1, src/sass/partials/_layout.scss */
+  .et_pb_section {
+    padding-bottom: 12rem;
+  }
+}
+
+@media (min-width: 1350px) and (min-width: 1200px) and (min-height: 1200px) {
+  /* line 1, src/sass/partials/_layout.scss */
+  .et_pb_section {
+    padding-top: 12rem;
+  }
+}
+
+/* line 16, src/sass/partials/_layout.scss */
 .et_pb_section_b {
   padding-top: 0 !important;
 }
 
-/* line 20, src/sass/partials/_layout.scss */
+/* line 19, src/sass/partials/_layout.scss */
 .et_pb_section_t {
   padding-bottom: 0 !important;
 }
 
-/* line 24, src/sass/partials/_layout.scss */
+/* line 23, src/sass/partials/_layout.scss */
 .et_pb_section_sm {
   padding-bottom: calc(1.525rem + 3.3vmin);
   padding-top: calc(1.525rem + 3.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 24, src/sass/partials/_layout.scss */
+  /* line 23, src/sass/partials/_layout.scss */
   .et_pb_section_sm {
     padding-bottom: 4rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 24, src/sass/partials/_layout.scss */
+  /* line 23, src/sass/partials/_layout.scss */
   .et_pb_section_sm {
     padding-top: 4rem;
   }
 }
 
-/* line 27, src/sass/partials/_layout.scss */
+/* line 26, src/sass/partials/_layout.scss */
 .et_pb_section_sm_b {
   padding-top: 0 !important;
 }
 
-/* line 30, src/sass/partials/_layout.scss */
+/* line 29, src/sass/partials/_layout.scss */
 .et_pb_section_sm_t {
   padding-bottom: 0 !important;
 }
 
-/* line 35, src/sass/partials/_layout.scss */
+/* line 34, src/sass/partials/_layout.scss */
 .et_pb_section_xs {
   padding-bottom: calc(1.325rem + 0.9vmin);
   padding-top: calc(1.325rem + 0.9vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 35, src/sass/partials/_layout.scss */
+  /* line 34, src/sass/partials/_layout.scss */
   .et_pb_section_xs {
     padding-bottom: 2rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 35, src/sass/partials/_layout.scss */
+  /* line 34, src/sass/partials/_layout.scss */
   .et_pb_section_xs {
     padding-top: 2rem;
   }
 }
 
-/* line 38, src/sass/partials/_layout.scss */
+/* line 37, src/sass/partials/_layout.scss */
 .et_pb_section_xs_b {
   padding-top: 0 !important;
 }
 
-/* line 41, src/sass/partials/_layout.scss */
+/* line 40, src/sass/partials/_layout.scss */
 .et_pb_section_xs_t {
   padding-bottom: 0 !important;
 }
 
-/* line 45, src/sass/partials/_layout.scss */
+/* line 44, src/sass/partials/_layout.scss */
 .et_pb_section_justify {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37073,102 +37088,102 @@ small {
       align-content: space-between;
 }
 
-/* line 51, src/sass/partials/_layout.scss */
+/* line 50, src/sass/partials/_layout.scss */
 .et_pb_row {
   padding-bottom: 0;
   padding-top: 0;
 }
 
-/* line 55, src/sass/partials/_layout.scss */
+/* line 54, src/sass/partials/_layout.scss */
 .et_pb_row_pad {
   padding-bottom: calc(1.525rem + 3.3vmin);
   padding-top: calc(1.525rem + 3.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 55, src/sass/partials/_layout.scss */
+  /* line 54, src/sass/partials/_layout.scss */
   .et_pb_row_pad {
     padding-bottom: 4rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 55, src/sass/partials/_layout.scss */
+  /* line 54, src/sass/partials/_layout.scss */
   .et_pb_row_pad {
     padding-top: 4rem;
   }
 }
 
-/* line 59, src/sass/partials/_layout.scss */
+/* line 58, src/sass/partials/_layout.scss */
 .et_pb_row_pad_b {
   padding-bottom: calc(1.525rem + 3.3vmin);
   padding-top: 0;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 59, src/sass/partials/_layout.scss */
+  /* line 58, src/sass/partials/_layout.scss */
   .et_pb_row_pad_b {
     padding-bottom: 4rem;
   }
 }
 
-/* line 63, src/sass/partials/_layout.scss */
+/* line 62, src/sass/partials/_layout.scss */
 .et_pb_row_pad_t {
   padding-bottom: 0;
   padding-top: calc(1.525rem + 3.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 63, src/sass/partials/_layout.scss */
+  /* line 62, src/sass/partials/_layout.scss */
   .et_pb_row_pad_t {
     padding-top: 4rem;
   }
 }
 
-/* line 68, src/sass/partials/_layout.scss */
+/* line 67, src/sass/partials/_layout.scss */
 .et_pb_section_hero {
   padding-bottom: calc(2.325rem + 12.9vmin);
   padding-top: calc(2.325rem + 12.9vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 68, src/sass/partials/_layout.scss */
+  /* line 67, src/sass/partials/_layout.scss */
   .et_pb_section_hero {
     padding-bottom: 12rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 68, src/sass/partials/_layout.scss */
+  /* line 67, src/sass/partials/_layout.scss */
   .et_pb_section_hero {
     padding-top: 12rem;
   }
 }
 
-/* line 72, src/sass/partials/_layout.scss */
+/* line 71, src/sass/partials/_layout.scss */
 .et_pb_section_hero p {
   font-size: 1.25rem;
   max-width: 480px;
 }
 
-/* line 77, src/sass/partials/_layout.scss */
+/* line 76, src/sass/partials/_layout.scss */
 .et_pb_section_hero .et_pb_module {
   margin-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 77, src/sass/partials/_layout.scss */
+  /* line 76, src/sass/partials/_layout.scss */
   .et_pb_section_hero .et_pb_module {
     margin-bottom: 3rem;
   }
 }
 
-/* line 80, src/sass/partials/_layout.scss */
+/* line 79, src/sass/partials/_layout.scss */
 .et_pb_section_hero .et_pb_module:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 87, src/sass/partials/_layout.scss */
+/* line 86, src/sass/partials/_layout.scss */
 .et_pb_column .et_pb_code:only-child {
   margin-bottom: 0;
 }

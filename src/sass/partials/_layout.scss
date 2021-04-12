@@ -1,8 +1,3 @@
-@media only screen and (min-width: 1350px) {
-	.et_pb_section {
-		padding: unset;
-	}
-}
 .et_pb_section {
 	@include padding-bottom(4rem);
 	@include padding-top(4rem);
@@ -13,6 +8,10 @@
 	@include breakpoint-up(lg) {
 		@include padding-bottom(8rem);
 		@include padding-top(8rem);
+	}
+	@include breakpoint-up(xl) {
+		@include padding-bottom(12rem);
+		@include padding-top(12rem);
 	}
 	&_b {
 		padding-top: 0!important;

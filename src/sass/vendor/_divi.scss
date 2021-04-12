@@ -17414,9 +17414,10 @@ p.et_pb_gallery_caption {
 
 .et_pb_blog_grid {
 	position: relative;
+	@include breakpoint-up(md) {
 	margin-left: -$gutter-3;
 	margin-right: -$gutter-3;
-
+	}
 	.column {
 		float: left;
 		max-width: 100%;

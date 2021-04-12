@@ -17429,7 +17429,7 @@ p.et_pb_gallery_caption {
 	margin-left: -$gutter-3;
 	margin-right: -$gutter-3;
 	&.et_pb_module {
-		a {
+		.entry-title a {
 			text-decoration: none;
 		}
 	}
@@ -17456,10 +17456,6 @@ p.et_pb_gallery_caption {
 			max-width: 100%;
 			height: auto;
 		}
-	}
-
-	.entry-title {
-		@include font-size(3.157rem);
 	}
 
 	.et_audio_content {

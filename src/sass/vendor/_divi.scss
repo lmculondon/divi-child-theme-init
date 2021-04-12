@@ -14966,7 +14966,7 @@ span.comment_date {
 			li {
 				a.active {
 					color:$white;
-					background-color: lighten($charcoal,30%);
+					background-color: lighten($charcoal, 10%);
 					&:focus {
 						box-shadow:none;
 					}

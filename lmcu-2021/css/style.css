@@ -14670,7 +14670,7 @@ span.comment_date {
 /* line 14967, src/sass/vendor/_divi.scss */
 .et_pb_gallery .et_pb_gallery_pagination ul li a.active {
   color: #ffffff;
-  background-color: #bfc6d1;
+  background-color: #667691;
 }
 
 /* line 14970, src/sass/vendor/_divi.scss */
@@ -14682,7 +14682,7 @@ span.comment_date {
 /* line 14974, src/sass/vendor/_divi.scss */
 .et_pb_gallery .et_pb_gallery_pagination ul li.page a {
   display: block;
-  background-color: white;
+  background-color: #fafbfc;
   text-align: center;
   padding: 10px 14px;
   border-radius: 50%;

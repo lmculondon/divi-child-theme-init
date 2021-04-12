@@ -1,9 +1,10 @@
 .et_pb_notice {
+	@include font-size(14px);
+	@include padding(1rem);
+@include breakpoint-up(md) {
+	@include padding(0.5rem);
 	@include font-size(16px);
-	@include padding-bottom(1rem);
-	@include padding-top(1rem);
-	@include padding-left(1rem);
-	@include padding-right(1rem);
+}
 	strong {
 		color: $charcoal;
 	}

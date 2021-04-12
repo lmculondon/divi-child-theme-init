@@ -17414,6 +17414,8 @@ p.et_pb_gallery_caption {
 
 .et_pb_blog_grid {
 	position: relative;
+	margin-left: -$gutter-3;
+	margin-right: -$gutter-3;
 
 	.column {
 		float: left;
@@ -17439,7 +17441,7 @@ p.et_pb_gallery_caption {
 		}
 	}
 
-	.entry-title {
+	.entry-title a {
 		text-decoration: none;
 	}
 

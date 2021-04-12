@@ -38588,13 +38588,13 @@ body.show-menu .hamburger {
 /* line 1, src/sass/partials/_utilities.scss */
 .et_pb_notice {
   font-size: 0.875rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 @media (min-width: 980px) {
   /* line 1, src/sass/partials/_utilities.scss */
   .et_pb_notice {
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 1rem;
   }
 }

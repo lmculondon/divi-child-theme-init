@@ -23501,8 +23501,9 @@ article.et_pb_has_overlay {
 
 			.et_pb_blog_grid {
 				.column.size-1of3 {
-					width: 29.667%;
-					margin-right: 5.5%;
+					width: percentage(1/3);
+					padding-left: $gutter-3;
+					padding-right: $gutter-3;
 
 					.et_pb_post {
 						margin-bottom: 18.539%;

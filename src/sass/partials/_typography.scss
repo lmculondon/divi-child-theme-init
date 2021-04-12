@@ -152,3 +152,11 @@ small {
 		text-align: left;
 	}
 }
+//Preheader
+.et_pb_preheader {
+	@include font-size(1.125rem);
+	font-size: rgba($charcoal,0.7);
+	& + h2 {
+		@include rfs(1rem, margin-top);
+	}
+}

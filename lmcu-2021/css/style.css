@@ -36938,6 +36938,17 @@ small {
   }
 }
 
+/* line 156, src/sass/partials/_typography.scss */
+.et_pb_preheader {
+  font-size: 1.125rem;
+  font-size: rgba(39, 45, 55, 0.7);
+}
+
+/* line 159, src/sass/partials/_typography.scss */
+.et_pb_preheader + h2 {
+  margin-top: 1rem;
+}
+
 /* Footer */
 /* line 2, src/sass/partials/_layout.scss */
 body .et_pb_section {

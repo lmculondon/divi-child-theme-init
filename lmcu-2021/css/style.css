@@ -37846,6 +37846,7 @@ body.show-menu .hamburger {
 /* line 35, src/sass/partials/_gallery.scss */
 #page-container .et_pb_logo_grid .et_pb_gallery_items {
   margin-bottom: calc(1.425rem + 2.1vmin);
+  margin-top: calc(1.425rem + 2.1vmin);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -37858,22 +37859,29 @@ body.show-menu .hamburger {
   }
 }
 
-/* line 40, src/sass/partials/_gallery.scss */
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 35, src/sass/partials/_gallery.scss */
+  #page-container .et_pb_logo_grid .et_pb_gallery_items {
+    margin-top: 3rem;
+  }
+}
+
+/* line 41, src/sass/partials/_gallery.scss */
 #page-container .et_pb_logo_grid .et_pb_grid_item {
-  width: 33.333%;
+  width: 50%;
   max-width: 240px;
   margin-right: 0;
   margin-bottom: 0;
   pointer-events: none;
 }
 
-/* line 48, src/sass/partials/_gallery.scss */
+/* line 49, src/sass/partials/_gallery.scss */
 #page-container .et_pb_logo_grid .et_pb_grid_item a .et_overlay {
   display: none;
 }
 
 @media (min-width: 980px) {
-  /* line 40, src/sass/partials/_gallery.scss */
+  /* line 41, src/sass/partials/_gallery.scss */
   #page-container .et_pb_logo_grid .et_pb_grid_item {
     width: 20%;
   }
@@ -37991,77 +37999,78 @@ body.show-menu .hamburger {
   font-weight: 600;
   font-size: 1.125rem;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* line 16, src/sass/partials/_button.scss */
+/* line 17, src/sass/partials/_button.scss */
 .et_pb_button:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(39, 45, 55, 0.5);
           box-shadow: 0 0 0 0.25rem rgba(39, 45, 55, 0.5);
 }
 
-/* line 21, src/sass/partials/_button.scss */
+/* line 22, src/sass/partials/_button.scss */
 .et_pb_button:hover {
   padding-right: 2.5rem !important;
 }
 
-/* line 25, src/sass/partials/_button.scss */
+/* line 26, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_small {
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
 }
 
-/* line 29, src/sass/partials/_button.scss */
+/* line 30, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_small:hover {
   padding: 0.25rem 2rem 0.25rem 0.5rem;
 }
 
-/* line 34, src/sass/partials/_button.scss */
+/* line 35, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_green {
   background-color: #038750;
   border-color: #03864f;
   color: #ffffff;
 }
 
-/* line 39, src/sass/partials/_button.scss */
+/* line 40, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_green:hover {
   background-color: #026e41;
 }
 
-/* line 44, src/sass/partials/_button.scss */
+/* line 45, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_bg_layout_dark {
   background-color: white;
   color: #272d37 !important;
   border-color: rgba(39, 45, 55, 0.9);
 }
 
-/* line 49, src/sass/partials/_button.scss */
+/* line 50, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_bg_layout_dark:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
           box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
 
-/* line 56, src/sass/partials/_button.scss */
+/* line 57, src/sass/partials/_button.scss */
 .et_pb_button_module_wrapper {
   margin-bottom: 0.5rem;
 }
 
 @media (min-width: 980px) {
-  /* line 56, src/sass/partials/_button.scss */
+  /* line 57, src/sass/partials/_button.scss */
   .et_pb_button_module_wrapper {
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 980px) {
-  /* line 64, src/sass/partials/_button.scss */
+  /* line 65, src/sass/partials/_button.scss */
   .et_pb_inline_buttons_row .et_pb_button_module_wrapper {
     display: inline-block;
     margin-right: 1rem;
   }
-  /* line 69, src/sass/partials/_button.scss */
+  /* line 70, src/sass/partials/_button.scss */
   .et_pb_inline_buttons_row .et_pb_button_module_wrapper:last-of-type {
     margin-right: 0;
   }

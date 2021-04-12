@@ -34,11 +34,12 @@
 	.et_pb_logo_grid {
 		.et_pb_gallery_items {
 			@include margin-bottom(3rem);
+			@include margin-top(3rem);
 			justify-content: space-between;
 		}
 
 		.et_pb_grid_item {
-			width: 33.333%;
+			width:50%;
 			max-width: 240px;
 			margin-right: 0;
 			margin-bottom: 0;

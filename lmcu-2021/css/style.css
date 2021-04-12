@@ -36924,28 +36924,28 @@ small {
 
 /* Footer */
 /* line 1, src/sass/partials/_layout.scss */
-.et_pb_section {
+body .et_pb_section {
   padding-bottom: calc(1.525rem + 3.3vmin);
   padding-top: calc(1.525rem + 3.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: 4rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-top: 4rem;
   }
 }
 
 @media (min-width: 980px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: calc(1.725rem + 5.7vmin);
     padding-top: calc(1.725rem + 5.7vmin);
   }
@@ -36953,21 +36953,21 @@ small {
 
 @media (min-width: 980px) and (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: 6rem;
   }
 }
 
 @media (min-width: 980px) and (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-top: 6rem;
   }
 }
 
 @media (min-width: 1100px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: calc(1.925rem + 8.1vmin);
     padding-top: calc(1.925rem + 8.1vmin);
   }
@@ -36975,21 +36975,21 @@ small {
 
 @media (min-width: 1100px) and (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: 8rem;
   }
 }
 
 @media (min-width: 1100px) and (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-top: 8rem;
   }
 }
 
 @media (min-width: 1350px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: calc(2.325rem + 12.9vmin);
     padding-top: calc(2.325rem + 12.9vmin);
   }
@@ -36997,25 +36997,25 @@ small {
 
 @media (min-width: 1350px) and (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-bottom: 12rem;
   }
 }
 
 @media (min-width: 1350px) and (min-width: 1200px) and (min-height: 1200px) {
   /* line 1, src/sass/partials/_layout.scss */
-  .et_pb_section {
+  body .et_pb_section {
     padding-top: 12rem;
   }
 }
 
 /* line 16, src/sass/partials/_layout.scss */
-.et_pb_section_b {
+body .et_pb_section_b {
   padding-top: 0 !important;
 }
 
 /* line 19, src/sass/partials/_layout.scss */
-.et_pb_section_t {
+body .et_pb_section_t {
   padding-bottom: 0 !important;
 }
 

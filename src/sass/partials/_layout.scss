@@ -1,4 +1,4 @@
-.et_pb_section {
+body {.et_pb_section {
 	@include padding-bottom(4rem);
 	@include padding-top(4rem);
 	@include breakpoint-up(md) {
@@ -19,7 +19,7 @@
 	&_t {
 		padding-bottom: 0!important;
 	}
-}
+}}
 .et_pb_section_sm {
 	@include padding-bottom(4rem);
 	@include padding-top(4rem);

@@ -14965,15 +14965,15 @@ span.comment_date {
 		ul {
 			li {
 				a.active {
-					background-color: $yellow;
-					color:$charcoal;
+					color:$white;
+					background-color: lighten($charcoal,60%);
 					&:focus {
 						box-shadow:none;
 					}
 				}
 				&.page a {
 					display: block;
-					background-color: lighten($charcoal,70%);
+					background-color: lighten($charcoal,85%);
 					text-align: center;
 					padding: 10px 14px;
 					border-radius: 50%;

@@ -155,8 +155,28 @@ small {
 //Preheader
 .et_pb_preheader {
 	@include font-size(1.125rem);
-	font-size: rgba($charcoal,0.7);
+	font-size: rgba($charcoal, 0.7);
 	& + h2 {
 		@include rfs(1rem, margin-top);
+	}
+}
+// APR| Table
+.et_pb_apr_table {
+	border: none;
+	tr {
+		td {
+			border-top: none;
+			border-bottom: 1px solid rgba($charcoal, 0.5);
+			padding: 0.5rem 0;
+			font-size: 1rem;
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+		th {
+			color: $charcoal;
+			padding: 0.5rem 0;
+			border-bottom: 2px solid rgba($charcoal, 0.75);
+		}
 	}
 }

@@ -36949,6 +36949,31 @@ small {
   margin-top: 1rem;
 }
 
+/* line 164, src/sass/partials/_typography.scss */
+.et_pb_apr_table {
+  border: none;
+}
+
+/* line 167, src/sass/partials/_typography.scss */
+.et_pb_apr_table tr td {
+  border-top: none;
+  border-bottom: 1px solid rgba(39, 45, 55, 0.5);
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* line 172, src/sass/partials/_typography.scss */
+.et_pb_apr_table tr td:last-of-type {
+  border-bottom: none;
+}
+
+/* line 176, src/sass/partials/_typography.scss */
+.et_pb_apr_table tr th {
+  color: #272d37;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid rgba(39, 45, 55, 0.75);
+}
+
 /* Footer */
 /* line 2, src/sass/partials/_layout.scss */
 body .et_pb_section {
@@ -37445,7 +37470,7 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
 @media (min-width: 1100px) {
   /* line 115, src/sass/partials/_header.scss */
   #global-header-section .et_pb_header_top_row .et_pb_column .et_pb_btn_obanking {
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -37668,22 +37693,23 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   padding-left: 0;
 }
 
-/* line 310, src/sass/partials/_header.scss */
-#global-header-section {
+/* line 312, src/sass/partials/_header.scss */
+body:not(.show-menu) #global-header-section {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
   position: fixed;
   top: 0;
 }
 
-/* line 314, src/sass/partials/_header.scss */
-body:not(.show-menu) #global-header-section {
-  -webkit-transition: top 0.4s ease-in-out;
-  transition: top 0.4s ease-in-out;
-  width: 100%;
-}
-
-/* line 318, src/sass/partials/_header.scss */
+/* line 317, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section.nav-up {
   top: -50%;
+}
+
+/* line 320, src/sass/partials/_header.scss */
+body:not(.show-menu) #global-header-section.nav-down {
+  top: 0;
 }
 
 /* line 2, src/sass/partials/_mobile_menu.scss */
@@ -38027,61 +38053,77 @@ body.show-menu .hamburger {
 }
 
 /* line 26, src/sass/partials/_button.scss */
+.et_pb_button.et_pb_btn_nohover:hover {
+  padding-right: 1rem !important;
+}
+
+/* line 29, src/sass/partials/_button.scss */
+.et_pb_button.et_pb_btn_nohover::after {
+  content: none;
+}
+
+/* line 34, src/sass/partials/_button.scss */
+.et_pb_button.et_pb_btn_right:hover {
+  padding-right: 1rem;
+  padding-left: 2.5rem !important;
+}
+
+/* line 39, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_small {
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
 }
 
-/* line 30, src/sass/partials/_button.scss */
+/* line 43, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_small:hover {
   padding: 0.25rem 2rem 0.25rem 0.5rem;
 }
 
-/* line 35, src/sass/partials/_button.scss */
+/* line 48, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_green {
   background-color: #038750;
   border-color: #03864f;
   color: #ffffff;
 }
 
-/* line 40, src/sass/partials/_button.scss */
+/* line 53, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_green:hover {
   background-color: #026e41;
 }
 
-/* line 45, src/sass/partials/_button.scss */
+/* line 58, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_bg_layout_dark {
   background-color: white;
   color: #272d37 !important;
   border-color: rgba(39, 45, 55, 0.9);
 }
 
-/* line 50, src/sass/partials/_button.scss */
+/* line 63, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_bg_layout_dark:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
           box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
 
-/* line 57, src/sass/partials/_button.scss */
+/* line 70, src/sass/partials/_button.scss */
 .et_pb_button_module_wrapper {
   margin-bottom: 0.5rem;
 }
 
 @media (min-width: 980px) {
-  /* line 57, src/sass/partials/_button.scss */
+  /* line 70, src/sass/partials/_button.scss */
   .et_pb_button_module_wrapper {
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 980px) {
-  /* line 65, src/sass/partials/_button.scss */
+  /* line 78, src/sass/partials/_button.scss */
   .et_pb_inline_buttons_row .et_pb_button_module_wrapper {
     display: inline-block;
     margin-right: 1rem;
   }
-  /* line 70, src/sass/partials/_button.scss */
+  /* line 83, src/sass/partials/_button.scss */
   .et_pb_inline_buttons_row .et_pb_button_module_wrapper:last-of-type {
     margin-right: 0;
   }

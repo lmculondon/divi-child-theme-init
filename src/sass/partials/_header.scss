@@ -125,7 +125,7 @@
 				}
 
 				@include breakpoint-up(lg) {
-					display: block;
+					display: inline-block;
 				}
 			}
 
@@ -308,14 +308,16 @@
 
 //Scroll-up functionality
 #global-header-section {
-	position: fixed;
-	top: 0;
 }
 body:not(.show-menu) #global-header-section {
-	transition: top 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 	width: 100%;
-
+	position: fixed;
+	top:0;
 	&.nav-up {
 		top: -50%;
+	}
+	&.nav-down {
+		top: 0;
 	}
 }

@@ -11,8 +11,8 @@
 	font-weight: 600;
 	@include font-size(18px);
 	white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+	overflow: hidden;
+	text-overflow: ellipsis;
 
 	&:focus {
 		outline: none;
@@ -22,7 +22,20 @@
 	&:hover {
 		padding-right: 2.5rem !important;
 	}
-
+	&.et_pb_btn_nohover {
+		&:hover {
+			padding-right: 1rem !important;
+		}
+		&::after {
+			content: none;;
+		}
+	}
+	&.et_pb_btn_right {
+		&:hover {
+			padding-right: 1rem;
+			padding-left: 2.5rem !important;
+		}
+	}
 	&.et_pb_btn_small {
 		padding: 0.25rem 0.5rem;
 		@include font-size(16px);

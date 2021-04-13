@@ -189,8 +189,10 @@ table.et_pb_apr_table {
 			border-top: none;
 			border-bottom: 1px solid rgba($charcoal, 0.5);
 			padding: 0.5rem 0;
+			font-size:0.8rem;
+			@include breakpoint-up(md) {
 			font-size: 1rem;
-
+			}
 		}
 		th {
 			color: $charcoal;

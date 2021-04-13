@@ -37024,17 +37024,24 @@ table.et_pb_apr_table tr td {
   border-top: none;
   border-bottom: 1px solid rgba(39, 45, 55, 0.5);
   padding: 0.5rem 0;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-/* line 195, src/sass/partials/_typography.scss */
+@media (min-width: 980px) {
+  /* line 188, src/sass/partials/_typography.scss */
+  table.et_pb_apr_table tr td {
+    font-size: 1rem;
+  }
+}
+
+/* line 197, src/sass/partials/_typography.scss */
 table.et_pb_apr_table tr th {
   color: #272d37;
   padding: 0.5rem 0;
   border-bottom: 2px solid rgba(39, 45, 55, 0.75);
 }
 
-/* line 201, src/sass/partials/_typography.scss */
+/* line 203, src/sass/partials/_typography.scss */
 table.et_pb_apr_table tr:last-of-type td {
   border-bottom: none;
 }

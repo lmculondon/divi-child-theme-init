@@ -45,7 +45,8 @@ jQuery(document).ready((function ($) {
 		lastScrollTop = st;
 	}
 	/* Tabs */
-	$(".et_pb_toggle_trigger").click((function() {
+	$(".et_pb_toggle_trigger").click((function(e){
+		e.preventDefault();
 		var anchor = $(this).attr("href");
 		$(anchor).addClass("et_pb_toggle_tab_active");
 		$(".et_pb_toggle_tabs").not(anchor).removeClass("et_pb_toggle_tab_active");
@@ -55,8 +56,8 @@ jQuery(document).ready((function ($) {
 		$("a").not(matchanchor).removeClass("et_pb_link_active");
 
 	}));
-	$(".et_pb_application_steps_buttons").on("click", ".et_pb_blurb", (function (event) {
-		event.preventDefault();
+	$(".et_pb_application_steps_buttons").on("click", ".et_pb_blurb", (function (e) {
+		e.preventDefault();
 		$(this).addClass("et_pb_step_active");
 		$(".et_pb_application_steps_buttons .et_pb_blurb").not(this).removeClass("et_pb_step_active");
 		var stepid = $(this).attr("id");

@@ -37008,7 +37008,7 @@ small {
 @media (min-width: 980px) {
   /* line 167, src/sass/partials/_typography.scss */
   .et_pb_row_feature_boxes .et_pb_column {
-    width: calc( 50% - 3rem);
+    width: calc( 50% - 1.5rem);
     margin-right: 3rem;
   }
 }
@@ -38031,58 +38031,6 @@ body.show-menu .hamburger {
 .et_pb_blurb.et_pb_text_align_center .et_pb_blurb_container {
   margin-left: auto;
   margin-right: auto;
-}
-
-/* line 40, src/sass/partials/_blurb.scss */
-.et_pb_blurb.et_pb_bg_layout_light .et_pb_module_header {
-  position: relative;
-  display: inline-block;
-}
-
-/* line 56, src/sass/base/_mixins.scss */
-.et_pb_blurb.et_pb_bg_layout_light .et_pb_module_header:after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background-color: #272d37;
-  visibility: hidden;
-  -webkit-transition: width 0.5s ease-in-out;
-  transition: width 0.5s ease-in-out;
-}
-
-/* line 69, src/sass/base/_mixins.scss */
-.et_pb_blurb.et_pb_bg_layout_light .et_pb_module_header:hover:after {
-  visibility: visible;
-  width: 50%;
-}
-
-/* line 45, src/sass/partials/_blurb.scss */
-.et_pb_blurb.et_pb_bg_layout_dark .et_pb_module_header {
-  position: relative;
-  display: inline-block;
-}
-
-/* line 56, src/sass/base/_mixins.scss */
-.et_pb_blurb.et_pb_bg_layout_dark .et_pb_module_header:after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background-color: #ffffff;
-  visibility: hidden;
-  -webkit-transition: width 0.5s ease-in-out;
-  transition: width 0.5s ease-in-out;
-}
-
-/* line 69, src/sass/base/_mixins.scss */
-.et_pb_blurb.et_pb_bg_layout_dark .et_pb_module_header:hover:after {
-  visibility: visible;
-  width: 50%;
 }
 
 /* Button */

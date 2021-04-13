@@ -38,12 +38,12 @@
 	}
 	&.et_pb_bg_layout_light {
 		.et_pb_module_header {
-			@include link-effect($charcoal)
+			//@include link-effect($charcoal)
 		}
 	}
 	&.et_pb_bg_layout_dark {
 		.et_pb_module_header {
-			@include link-effect($white)
+			//@include link-effect($white)
 		}
 	}
 }

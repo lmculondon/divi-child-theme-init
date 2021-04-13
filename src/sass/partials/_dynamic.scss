@@ -1,5 +1,8 @@
 #page-container {
 	.et_pb_toggle_items {
+		background-color: mix($charcoal,$white,5%);
+		@include padding-top(1.5rem);
+		@include padding-bottom(0rem);
 		.et_pb_column {
 			display: flex;
 
@@ -11,10 +14,20 @@
 
 			a {
 				flex: 1;
-				background-color: mix($charcoal,$white,15%);
-
+				border:none;
+				background-color: mix($charcoal,$white,10%);
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+				border-bottom-left-radius: 0;
+				border-bottom-right-radius: 0;
 				&:focus {
 					box-shadow: none;
+				}
+				&:hover {
+					padding-right: 1rem!important;
+					&:after {
+						content:none
+					}
 				}
 
 				&.et_pb_link_active {
@@ -22,15 +35,6 @@
 					border-bottom: 0;
 					position: relative;
 					color:$charcoal;
-					&:after {
-						position: absolute;
-						content: "";
-						width: 200px;
-						border-bottom: 5px solid $red;
-						bottom: 0;
-						left: 50%;
-						margin-left: -100px;
-					}
 				}
 			}
 		}
@@ -65,7 +69,7 @@
 
 	.et_pb_toggle_tabs {
 		opacity: 0;
-		height: 0;
+		display: none;
 		margin-bottom: 0;
 		overflow: hidden;
 		transition: all 50ms ease;
@@ -74,7 +78,7 @@
 
 		&.et_pb_toggle_tab_active {
 			opacity: 1;
-			height: auto;
+			display: block;
 			@include padding-bottom(8rem);
 			@include padding-top(8rem);
 			transition: all 250ms ease-in;

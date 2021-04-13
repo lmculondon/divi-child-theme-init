@@ -38518,7 +38518,7 @@ body.show-menu .hamburger {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: #a9abaf;
+  background-color: #52575f;
 }
 
 /* line 16, src/sass/partials/_dynamic.scss */
@@ -38529,10 +38529,10 @@ body.show-menu .hamburger {
 
 /* line 20, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a.et_pb_link_active {
-  background-color: #272d37;
+  background-color: #ffffff;
   border-bottom: 0;
   position: relative;
-  color: #ffffff;
+  color: #272d37;
 }
 
 /* line 25, src/sass/partials/_dynamic.scss */

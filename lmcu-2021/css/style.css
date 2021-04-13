@@ -38538,10 +38538,13 @@ body.show-menu .hamburger {
   position: absolute;
   content: "";
   width: 200px;
-  border-bottom: 2px solid #e31837;
+  border-bottom: 5px solid #e31837;
+  bottom: 0;
+  left: 50%;
+  margin-left: -100px;
 }
 
-/* line 38, src/sass/partials/_dynamic.scss */
+/* line 41, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38550,13 +38553,13 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 38, src/sass/partials/_dynamic.scss */
+  /* line 41, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_application_steps_buttons {
     margin-bottom: 3rem;
   }
 }
 
-/* line 42, src/sass/partials/_dynamic.scss */
+/* line 45, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -38569,7 +38572,7 @@ body.show-menu .hamburger {
           justify-content: space-between;
 }
 
-/* line 48, src/sass/partials/_dynamic.scss */
+/* line 51, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_module {
   cursor: pointer;
   position: relative;
@@ -38582,12 +38585,12 @@ body.show-menu .hamburger {
           justify-content: center;
 }
 
-/* line 55, src/sass/partials/_dynamic.scss */
+/* line 58, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
   background-color: pink;
 }
 
-/* line 61, src/sass/partials/_dynamic.scss */
+/* line 64, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_tabs {
   opacity: 0;
   height: 0;
@@ -38599,7 +38602,7 @@ body.show-menu .hamburger {
   padding-top: 0;
 }
 
-/* line 70, src/sass/partials/_dynamic.scss */
+/* line 73, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
   opacity: 1;
   height: auto;
@@ -38610,20 +38613,20 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 70, src/sass/partials/_dynamic.scss */
+  /* line 73, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
     padding-bottom: 8rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 70, src/sass/partials/_dynamic.scss */
+  /* line 73, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
     padding-top: 8rem;
   }
 }
 
-/* line 80, src/sass/partials/_dynamic.scss */
+/* line 83, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes {
   position: relative;
   display: -webkit-box;
@@ -38631,7 +38634,7 @@ body.show-menu .hamburger {
   display: flex;
 }
 
-/* line 84, src/sass/partials/_dynamic.scss */
+/* line 87, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -38645,7 +38648,7 @@ body.show-menu .hamburger {
           flex-direction: column;
 }
 
-/* line 90, src/sass/partials/_dynamic.scss */
+/* line 93, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_steps {
   opacity: 0;
   height: 0;
@@ -38656,7 +38659,7 @@ body.show-menu .hamburger {
   background-color: #ffffff;
 }
 
-/* line 98, src/sass/partials/_dynamic.scss */
+/* line 101, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_steps.et_pb_steps_active {
   opacity: 1;
   height: auto;

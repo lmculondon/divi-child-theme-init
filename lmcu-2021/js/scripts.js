@@ -45,7 +45,7 @@ jQuery(document).ready((function ($) {
 		lastScrollTop = st;
 	}
 	/* Tabs */
-	$(".et_pb_toggle_items").on("click", "a", (function (event) {
+	$(".et_pb_toggle_trigger").on("click", (function (event) {
 		event.preventDefault();
 		$(this).addClass("et_pb_link_active");
 		$(".et_pb_toggle_items a").not(this).removeClass("et_pb_link_active");

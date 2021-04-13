@@ -24,7 +24,10 @@
 						position: absolute;
 						content: "";
 						width: 200px;
-						border-bottom: 2px solid $red;
+						border-bottom: 5px solid $red;
+						bottom: 0;
+						left: 50%;
+						margin-left: -100px;
 					}
 				}
 			}

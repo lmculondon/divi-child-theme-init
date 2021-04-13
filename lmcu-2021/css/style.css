@@ -38495,22 +38495,15 @@ body.show-menu .hamburger {
   margin-bottom: 0;
 }
 
-/* line 2, src/sass/partials/_dynamic.scss */
-#page-container .et_pb_toggle_items {
-  padding-top: 0.5rem;
-  padding-bottom: 0;
-}
-
-/* line 6, src/sass/partials/_dynamic.scss */
+/* line 3, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 9, src/sass/partials/_dynamic.scss */
+/* line 6, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column .et_pb_button_module_wrapper {
-  margin-bottom: -3px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -38520,27 +38513,35 @@ body.show-menu .hamburger {
   text-align: center;
 }
 
-/* line 16, src/sass/partials/_dynamic.scss */
+/* line 12, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a {
-  border: 0;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-/* line 20, src/sass/partials/_dynamic.scss */
+/* line 15, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 24, src/sass/partials/_dynamic.scss */
+/* line 19, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a.et_pb_link_active {
   background-color: #ffffff;
   border-bottom: 0;
+  position: relative;
 }
 
-/* line 37, src/sass/partials/_dynamic.scss */
+/* line 23, src/sass/partials/_dynamic.scss */
+#page-container .et_pb_toggle_items .et_pb_column a.et_pb_link_active:after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  border-bottom: 2px solid #e31837;
+}
+
+/* line 38, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38549,13 +38550,13 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 37, src/sass/partials/_dynamic.scss */
+  /* line 38, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_application_steps_buttons {
     margin-bottom: 3rem;
   }
 }
 
-/* line 41, src/sass/partials/_dynamic.scss */
+/* line 42, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -38568,7 +38569,7 @@ body.show-menu .hamburger {
           justify-content: space-between;
 }
 
-/* line 47, src/sass/partials/_dynamic.scss */
+/* line 48, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_module {
   cursor: pointer;
   position: relative;
@@ -38581,7 +38582,7 @@ body.show-menu .hamburger {
           justify-content: center;
 }
 
-/* line 54, src/sass/partials/_dynamic.scss */
+/* line 55, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
   background-color: pink;
 }

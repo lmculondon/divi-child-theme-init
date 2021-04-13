@@ -12584,6 +12584,10 @@ a.et_pb_more_button {
 
 		a {
 			background-color: $background_color_27;
+			&:focus {
+				box-shadow:none;
+				outline:none;
+			}
 		}
 	}
 }
@@ -14711,6 +14715,7 @@ span.comment_date {
 	.et-pb-controllers {
 		a {
 			margin-bottom: 10px;
+			
 		}
 	}
 }

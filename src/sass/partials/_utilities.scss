@@ -154,3 +154,44 @@
 .et_pb_btn_row {
 	@include buttons_row(left);
 }
+// Testimonials
+.et_pb_testimonial_body {
+	quotes: "“" "”" "‘" "’";
+border-left: none;
+position: relative;
+p {
+	@include breakpoint-up(lg) {
+@include font-size(20px);
+	}
+}
+&:before {
+	width: 20px;
+    font-size: 120px;
+    left: -30px;
+    top: 20px;
+	display:block;
+	position: absolute;
+    content: open-quote;
+	color: mix($blue,$white, 30%);
+}
+&:after {
+	width: 20px;
+    font-size: 120px;
+    right: -20px;
+bottom: 20px;
+	display:block;
+	position: absolute;
+    content: close-quote;
+	color: mix($blue,$white, 30%);
+}
+footer {
+	@include margin-top(1.5rem);
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: $charcoal;
+	cite {
+		font-weight: 500;
+		font-style: normal;
+	}
+}
+}

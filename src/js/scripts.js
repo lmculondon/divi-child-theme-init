@@ -52,7 +52,6 @@ jQuery(document).ready(function ($) {
 		var matchanchor = $(".et_pb_toggle_items a[href^='"+ anchor + "'");
 		$(matchanchor).addClass("et_pb_link_active");
 		$("a").not(matchanchor).removeClass("et_pb_link_active");
-		return false;
 
 	});
 	$(".et_pb_application_steps_buttons").on("click", ".et_pb_blurb", function (event) {

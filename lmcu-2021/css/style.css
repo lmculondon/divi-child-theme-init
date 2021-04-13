@@ -36950,28 +36950,29 @@ small {
 }
 
 /* line 164, src/sass/partials/_typography.scss */
-.et_pb_apr_table {
+table.et_pb_apr_table {
   border: none;
+  margin: 0 0 1.5rem 0;
 }
 
-/* line 167, src/sass/partials/_typography.scss */
-.et_pb_apr_table tr td {
+/* line 168, src/sass/partials/_typography.scss */
+table.et_pb_apr_table tr td {
   border-top: none;
   border-bottom: 1px solid rgba(39, 45, 55, 0.5);
   padding: 0.5rem 0;
   font-size: 1rem;
 }
 
-/* line 172, src/sass/partials/_typography.scss */
-.et_pb_apr_table tr td:last-of-type {
-  border-bottom: none;
-}
-
-/* line 176, src/sass/partials/_typography.scss */
-.et_pb_apr_table tr th {
+/* line 175, src/sass/partials/_typography.scss */
+table.et_pb_apr_table tr th {
   color: #272d37;
   padding: 0.5rem 0;
   border-bottom: 2px solid rgba(39, 45, 55, 0.75);
+}
+
+/* line 181, src/sass/partials/_typography.scss */
+table.et_pb_apr_table tr:last-of-type td {
+  border-bottom: none;
 }
 
 /* Footer */

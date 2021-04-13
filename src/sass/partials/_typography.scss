@@ -161,22 +161,26 @@ small {
 	}
 }
 // APR| Table
-.et_pb_apr_table {
+table.et_pb_apr_table {
 	border: none;
+	margin: 0 0 1.5rem 0;
 	tr {
 		td {
 			border-top: none;
 			border-bottom: 1px solid rgba($charcoal, 0.5);
 			padding: 0.5rem 0;
 			font-size: 1rem;
-			&:last-of-type {
-				border-bottom: none;
-			}
+
 		}
 		th {
 			color: $charcoal;
 			padding: 0.5rem 0;
 			border-bottom: 2px solid rgba($charcoal, 0.75);
+		}
+		&:last-of-type {
+			td {
+			border-bottom: none;
+			}
 		}
 	}
 }

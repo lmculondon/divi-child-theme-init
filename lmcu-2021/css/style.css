@@ -38518,22 +38518,24 @@ body.show-menu .hamburger {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  background-color: #a9abaf;
 }
 
-/* line 15, src/sass/partials/_dynamic.scss */
+/* line 16, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 19, src/sass/partials/_dynamic.scss */
+/* line 20, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a.et_pb_link_active {
-  background-color: #ffffff;
+  background-color: #272d37;
   border-bottom: 0;
   position: relative;
+  color: #ffffff;
 }
 
-/* line 23, src/sass/partials/_dynamic.scss */
+/* line 25, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items .et_pb_column a.et_pb_link_active:after {
   position: absolute;
   content: "";
@@ -38544,7 +38546,7 @@ body.show-menu .hamburger {
   margin-left: -100px;
 }
 
-/* line 41, src/sass/partials/_dynamic.scss */
+/* line 43, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38553,13 +38555,13 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 41, src/sass/partials/_dynamic.scss */
+  /* line 43, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_application_steps_buttons {
     margin-bottom: 3rem;
   }
 }
 
-/* line 45, src/sass/partials/_dynamic.scss */
+/* line 47, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -38572,7 +38574,7 @@ body.show-menu .hamburger {
           justify-content: space-between;
 }
 
-/* line 51, src/sass/partials/_dynamic.scss */
+/* line 53, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_module {
   cursor: pointer;
   position: relative;
@@ -38585,12 +38587,12 @@ body.show-menu .hamburger {
           justify-content: center;
 }
 
-/* line 58, src/sass/partials/_dynamic.scss */
+/* line 60, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
   background-color: pink;
 }
 
-/* line 64, src/sass/partials/_dynamic.scss */
+/* line 66, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_tabs {
   opacity: 0;
   height: 0;
@@ -38602,7 +38604,7 @@ body.show-menu .hamburger {
   padding-top: 0;
 }
 
-/* line 73, src/sass/partials/_dynamic.scss */
+/* line 75, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
   opacity: 1;
   height: auto;
@@ -38613,20 +38615,20 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 73, src/sass/partials/_dynamic.scss */
+  /* line 75, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
     padding-bottom: 8rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 73, src/sass/partials/_dynamic.scss */
+  /* line 75, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
     padding-top: 8rem;
   }
 }
 
-/* line 83, src/sass/partials/_dynamic.scss */
+/* line 85, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes {
   position: relative;
   display: -webkit-box;
@@ -38634,7 +38636,7 @@ body.show-menu .hamburger {
   display: flex;
 }
 
-/* line 87, src/sass/partials/_dynamic.scss */
+/* line 89, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -38648,7 +38650,7 @@ body.show-menu .hamburger {
           flex-direction: column;
 }
 
-/* line 93, src/sass/partials/_dynamic.scss */
+/* line 95, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_steps {
   opacity: 0;
   height: 0;
@@ -38659,7 +38661,7 @@ body.show-menu .hamburger {
   background-color: #ffffff;
 }
 
-/* line 101, src/sass/partials/_dynamic.scss */
+/* line 103, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_steps.et_pb_steps_active {
   opacity: 1;
   height: auto;

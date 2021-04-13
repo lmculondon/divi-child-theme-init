@@ -11,15 +11,17 @@
 
 			a {
 				flex: 1;
+				background-color: mix($charcoal,$white,40%);
 
 				&:focus {
 					box-shadow: none;
 				}
 
 				&.et_pb_link_active {
-					background-color: $white;
+					background-color: $charcoal;
 					border-bottom: 0;
 					position: relative;
+					color:$white;
 					&:after {
 						position: absolute;
 						content: "";

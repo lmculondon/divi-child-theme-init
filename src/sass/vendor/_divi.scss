@@ -14970,12 +14970,20 @@ span.comment_date {
 					text-align: center;
 					padding: 10px 14px;
 					border-radius: 50%;
+					&:hover {
+						background-color: lighten($charcoal,75%);
+					}
+					&:focus {
+						box-shadow:none;
+						outline:none;
+					}
 					&.active {
 						color:$white;
 						background-color: lighten($charcoal, 10%);
-						&:focus {
-							box-shadow:none;
+						&:hover {
+							background-color: $charcoal;	
 						}
+
 					}
 				}
 				display: inline-block;

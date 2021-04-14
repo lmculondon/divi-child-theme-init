@@ -1,6 +1,6 @@
 #page-container {
 	.et_pb_toggle_items {
-		background-color: mix($charcoal,$white,5%);
+		background-color: mix($charcoal, $white, 5%);
 		@include padding-top(1.5rem);
 		@include padding-bottom(0rem);
 		.et_pb_column {
@@ -14,8 +14,8 @@
 
 			a {
 				flex: 1;
-				border:none;
-				background-color: mix($charcoal,$white,10%);
+				border: none;
+				background-color: mix($charcoal, $white, 10%);
 				padding-top: 1.5rem;
 				padding-bottom: 1.5rem;
 				border-bottom-left-radius: 0;
@@ -24,9 +24,9 @@
 					box-shadow: none;
 				}
 				&:hover {
-					padding-right: 1rem!important;
+					padding-right: 1rem !important;
 					&:after {
-						content:none
+						content: none;
 					}
 				}
 
@@ -34,7 +34,7 @@
 					background-color: $white;
 					border-bottom: 0;
 					position: relative;
-					color:$charcoal;
+					color: $charcoal;
 				}
 			}
 		}
@@ -109,5 +109,45 @@
 			height: auto;
 			transition: all 250ms ease-in;
 		}
+	}
+}
+
+.et_pb_accordion {
+	.et_pb_toggle {
+		border: none;
+		padding: 0;
+		background-color: transparent;
+		margin-bottom: 0!important;
+		border-bottom: 2px solid mix($charcoal, $white, 10%);
+		.et_pb_toggle_title {
+			display: block;
+			color: mix($charcoal, $white, 60%);
+			@include font-size(20px);
+			@include padding-bottom(2rem);
+			@include padding-top(2rem);
+			transition: all 250ms ease-in;
+			margin-bottom: 0;
+			&::before {
+				font-size: 2rem;
+				content: "\4c";
+				transition: all 250ms ease;
+				color: mix($charcoal, $white, 60%);
+			}
+			&:hover {
+				background-color: mix($charcoal, $white, 5%);
+			}
+		}
+		&_open {
+			@include padding-bottom(3rem);
+			.et_pb_toggle_title { 
+				color: mix($charcoal, $white, 90%);
+				&:hover {
+					background-color: transparent;
+				}
+				&::before {
+					content: "\4b";
+				}
+			}
+			}
 	}
 }

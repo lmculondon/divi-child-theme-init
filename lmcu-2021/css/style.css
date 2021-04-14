@@ -37748,43 +37748,36 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   font-weight: 800;
 }
 
-@media (min-width: 1350px) {
-  /* line 270, src/sass/partials/_header.scss */
-  #global-header-section .et_pb_header_main_row .menu-item-has-children > a:first-child:after {
-    right: 0.75rem;
-  }
-}
-
-/* line 285, src/sass/partials/_header.scss */
+/* line 281, src/sass/partials/_header.scss */
 .et_mobile_menu {
   padding: 1rem;
 }
 
-/* line 288, src/sass/partials/_header.scss */
+/* line 284, src/sass/partials/_header.scss */
 .et_mobile_menu .menu-item-has-children > a {
   font-weight: 700;
   padding-top: 1rem;
   background-color: transparent;
 }
 
-/* line 294, src/sass/partials/_header.scss */
+/* line 290, src/sass/partials/_header.scss */
 .et_mobile_menu li a {
   border-bottom: 0;
   padding: 0.5rem;
 }
 
-/* line 299, src/sass/partials/_header.scss */
+/* line 295, src/sass/partials/_header.scss */
 .et_mobile_menu .sub-menu li a {
   font-family: "Lato";
   font-weight: normal;
 }
 
-/* line 305, src/sass/partials/_header.scss */
+/* line 301, src/sass/partials/_header.scss */
 #main-header .et_mobile_menu li .sub-menu {
   padding-left: 0;
 }
 
-/* line 312, src/sass/partials/_header.scss */
+/* line 308, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -37793,12 +37786,12 @@ body:not(.show-menu) #global-header-section {
   top: 0;
 }
 
-/* line 317, src/sass/partials/_header.scss */
+/* line 313, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section.nav-up {
   top: -50%;
 }
 
-/* line 320, src/sass/partials/_header.scss */
+/* line 316, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section.nav-down {
   top: 0;
 }
@@ -38855,6 +38848,82 @@ body.show-menu .hamburger {
   height: auto;
   -webkit-transition: all 250ms ease-in;
   transition: all 250ms ease-in;
+}
+
+/* line 116, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 0 !important;
+  border-bottom: 2px solid #e9eaeb;
+}
+
+/* line 122, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
+  display: block;
+  color: #7d8187;
+  font-size: 1.25rem;
+  padding-bottom: calc(1.325rem + 0.9vmin);
+  padding-top: calc(1.325rem + 0.9vmin);
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 122, src/sass/partials/_dynamic.scss */
+  .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 122, src/sass/partials/_dynamic.scss */
+  .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
+    padding-top: 2rem;
+  }
+}
+
+/* line 130, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle .et_pb_toggle_title::before {
+  font-size: 2rem;
+  content: "\4c";
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  color: #7d8187;
+}
+
+/* line 136, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle .et_pb_toggle_title:hover {
+  background-color: #f4f5f5;
+}
+
+/* line 140, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle_open {
+  padding-bottom: calc(1.425rem + 2.1vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 140, src/sass/partials/_dynamic.scss */
+  .et_pb_accordion .et_pb_toggle_open {
+    padding-bottom: 3rem;
+  }
+}
+
+/* line 142, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title {
+  color: #3d424b;
+}
+
+/* line 144, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title:hover {
+  background-color: transparent;
+}
+
+/* line 147, src/sass/partials/_dynamic.scss */
+.et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title::before {
+  content: "\4b";
 }
 
 /* Footer */

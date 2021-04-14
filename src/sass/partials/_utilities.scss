@@ -78,9 +78,13 @@
 
 .et_pb_checkmark {
 	@include margin-bottom(0.5rem);
-	.et_pb_blurb_content,
+	.et_pb_blurb_content {
+		display: flex;
+		flex-direction: row;
+	}
 	.et_pb_blurb_container {
 		display: flex;
+		flex-direction: column;
 	}
 	.et_pb_image_wrap,
 	.et_pb_main_blurb_image {

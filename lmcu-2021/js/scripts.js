@@ -62,7 +62,7 @@ jQuery(document).ready((function ($) {
 		$(".et_pb_application_steps_buttons .et_pb_blurb").not(this).removeClass("et_pb_step_active");
 		var stepid = $(this).attr("id");
 		var stepname = stepid.split("_").pop();
-		$(".et_pb_steps").not("#" + stepname).removeClass("et_pb_steps_active");
+		$(".et_pb_step").not("#" + stepname).removeClass("et_pb_steps_active");
 		$("#" + stepname).addClass("et_pb_steps_active");
 
 	}));

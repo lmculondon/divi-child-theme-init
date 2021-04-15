@@ -41,33 +41,6 @@
 	}
 
 	.et_pb_toggle_tabs {
-		//display: none;
-	}
-
-	.et_pb_application_steps_buttons {
-		display: flex;
-		@include margin-bottom(3rem);
-
-		.et_pb_column {
-			flex: 1;
-			display: flex;
-			justify-content: space-between;
-		}
-
-		.et_pb_module {
-			cursor: pointer;
-			position: relative;
-			display: flex;
-			margin-bottom: 0 !important;
-			justify-content: center;
-
-			&.et_pb_step_active {
-				background-color: pink;
-			}
-		}
-	}
-
-	.et_pb_toggle_tabs {
 		opacity: 0;
 		display: none;
 		margin-bottom: 0;
@@ -85,18 +58,118 @@
 		}
 	}
 }
+// Application steps
+body {
+	.et_pb_application_steps_buttons {
+		display: flex;
+		@include margin-bottom(3rem);
+	
+		@include padding-top(1rem);
+		@include padding-bottom(1.5rem);
+		@include breakpoint-up(md) {
+			border-radius: $border-radius-lg;
+			box-shadow: 0px 17px 33px 0px mix($charcoal, $white, 10%);
+		}
+		.et_pb_column {
+			flex: 1;
+			display: flex;
+			justify-content: space-evenly;
+		}
 
+		.et_pb_module {
+			cursor: pointer;
+			position: relative;
+			display: flex;
+			margin-bottom: 0 !important;
+			justify-content: center;
+			flex: 1;
+			border-radius: $border-radius-lg;
+			@include padding(0.5rem);
+			&::after {
+				content: "\24";
+				position: absolute;
+				top: 50%;
+				right: -16px;
+				margin-top: -16px;
+				color: mix($charcoal, $white, 20%);
+				font-family: ETModules;
+				font-size: 16px;
+		
+				font-weight: bold;
+				@include breakpoint-up(md) {
+					font-size: 30px;
+					right: -40px;
+					margin-top: -15px;
+
+				}
+			}
+			.et_pb_blurb_content {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+				.et-pb-icon {
+					@include font-size(40px);
+					color: mix($charcoal, $white, 80%);
+					@include breakpoint-up(md) {
+						font-size: 80px;
+					}
+				}
+				.et_pb_module_header {
+					@include font-size(12px);
+					transition: all 1s ease-in-out;
+					@include breakpoint-up(md) {
+						@include font-size(18px);
+					}
+				}
+			}
+			.et_pb_main_blurb_image {
+				position: relative;
+				display: flex;
+				@include margin-bottom(0.5rem);
+			}
+&:hover {
+	background-color: mix($charcoal, $white, 2.5%);
+	.et-pb-icon {
+		color: mix($charcoal, $white, 100%);
+	}
+	.et_pb_module_header {
+		text-decoration: underline;
+	}
+}
+			&.et_pb_step_active {
+				background-color: mix($dark-blue, $white, 5%);
+				.et-pb-icon {
+					color: $dark-blue;
+				}
+				.et_pb_module_header {
+					color: $dark-blue
+				}
+			}
+		}
+		.et_pb_column:last-child {
+
+			.et_pb_module {
+		
+				&::after {
+					
+					content: none;
+				}
+			}
+		}
+	}
+}
 .et_pb_application_steps_panes {
 	position: relative;
 	display: flex;
-
+	counter-reset: steps-counter 0;
 	.et_pb_column {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
 	}
 
-	.et_pb_steps {
+	.et_pb_step {
 		opacity: 0;
 		height: 0;
 		margin-bottom: 0 !important;
@@ -104,6 +177,63 @@
 		transition: all 50ms ease;
 		background-color: $white;
 
+		@include breakpoint-up(md) {
+			margin-left: -1.25em;
+			margin-right: -1.25rem;
+		}
+		.et_pb_blurb_content {
+			display: flex;
+			flex-direction: column;
+			@include margin-bottom(2rem);
+
+			@include breakpoint-up(sm) {
+				flex-direction: row;
+				@include margin-bottom(0rem);
+			}
+		}
+
+		.et_pb_main_blurb_image {
+			flex: 1;
+			width: 100%;
+			@include breakpoint-up(sm) {
+				max-width: 50%;
+			}
+		}
+		.et_pb_blurb_container {
+			flex: 1;
+			width: 100%;
+			padding-left: 0;
+			@include breakpoint-up(sm) {
+				max-width: 50%;
+				padding-left: $gutter-3 * 2;
+			}
+		}
+		.et_pb_module_header {
+			@include font-size(2.357rem);
+			font-weight: 700;
+			@include rfs(0.75rem, margin-bottom);
+			&::before {
+				display: block;
+				@include padding($number-bubble-size / 8);
+				line-height: $number-bubble-size;
+				height: $number-bubble-size;
+				width: $number-bubble-size;
+				text-align: center;
+				background-color: $yellow;
+				//color: $white;
+				border-radius: 50%;
+				counter-increment: steps-counter;
+				content: counter(steps-counter);
+				@include margin-bottom(1rem);
+			}
+		}
+		.et_pb_image_wrap {
+			max-width: unset;
+			width: 100%;
+			img {
+				border-radius: $border-radius-lg;
+			}
+		}
 		&.et_pb_steps_active {
 			opacity: 1;
 			height: auto;
@@ -112,12 +242,13 @@
 	}
 }
 
+// Accordion
 .et_pb_accordion {
 	.et_pb_toggle {
 		border: none;
 		padding: 0;
 		background-color: transparent;
-		margin-bottom: 0!important;
+		margin-bottom: 0 !important;
 		border-bottom: 2px solid mix($charcoal, $white, 10%);
 		.et_pb_toggle_title {
 			display: block;
@@ -139,7 +270,7 @@
 		}
 		&_open {
 			@include padding-bottom(3rem);
-			.et_pb_toggle_title { 
+			.et_pb_toggle_title {
 				color: mix($charcoal, $white, 90%);
 				&:hover {
 					background-color: transparent;
@@ -148,6 +279,6 @@
 					content: "\4b";
 				}
 			}
-			}
+		}
 	}
 }

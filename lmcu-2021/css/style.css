@@ -239,7 +239,7 @@ a {
   vertical-align: baseline;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  color: #2ea3f2;
+  color: #1565ab;
   text-decoration: none;
 }
 
@@ -1365,12 +1365,12 @@ br.clear {
 
 /* line 1047, src/sass/vendor/_divi.scss */
 #top-menu li.current-menu-ancestor > a {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1053, src/sass/vendor/_divi.scss */
 #top-menu li.current-menu-item > a {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1062, src/sass/vendor/_divi.scss */
@@ -1545,7 +1545,7 @@ br.clear {
 
 /* line 1247, src/sass/vendor/_divi.scss */
 #et_search_icon:hover {
-  color: #2ea3f2;
+  color: #1565ab;
   cursor: pointer;
 }
 
@@ -1575,7 +1575,7 @@ br.clear {
 
 /* line 1273, src/sass/vendor/_divi.scss */
 .bottom-nav li.current-menu-item > a {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1280, src/sass/vendor/_divi.scss */
@@ -1600,7 +1600,7 @@ br.clear {
 
 /* line 1299, src/sass/vendor/_divi.scss */
 .comment-reply-link {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1302, src/sass/vendor/_divi.scss */
@@ -1631,7 +1631,7 @@ br.clear {
 
 /* line 1328, src/sass/vendor/_divi.scss */
 .entry-summary p.price ins {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1332, src/sass/vendor/_divi.scss */
@@ -1664,7 +1664,7 @@ br.clear {
 
 /* line 1349, src/sass/vendor/_divi.scss */
 .et-social-icon a:hover {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1361, src/sass/vendor/_divi.scss */
@@ -1688,7 +1688,7 @@ br.clear {
 
 /* line 1381, src/sass/vendor/_divi.scss */
 .et_password_protected_form .et_submit_button {
-  color: #2ea3f2;
+  color: #1565ab;
   display: block;
   float: right;
   margin: 8px auto 0;
@@ -1742,7 +1742,7 @@ br.clear {
 
 /* line 1431, src/sass/vendor/_divi.scss */
 .footer-widget h4 {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1436, src/sass/vendor/_divi.scss */
@@ -1767,7 +1767,7 @@ br.clear {
 
 /* line 1458, src/sass/vendor/_divi.scss */
 .form-submit .et_pb_button {
-  color: #2ea3f2;
+  color: #1565ab;
   display: inline-block;
   cursor: pointer;
 }
@@ -1809,12 +1809,12 @@ br.clear {
 
 /* line 1490, src/sass/vendor/_divi.scss */
 .mobile_menu_bar:after {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 1494, src/sass/vendor/_divi.scss */
 .mobile_menu_bar:before {
-  color: #2ea3f2;
+  color: #1565ab;
   position: relative;
   top: 0;
   left: 0;
@@ -1841,7 +1841,7 @@ br.clear {
 
 /* line 1529, src/sass/vendor/_divi.scss */
 .nav-single a {
-  color: #2ea3f2;
+  color: #1565ab;
   color: #82c0c7;
   font-size: 14px;
   font-weight: 400;
@@ -1850,7 +1850,7 @@ br.clear {
 
 /* line 1539, src/sass/vendor/_divi.scss */
 .posted_in a {
-  color: #2ea3f2;
+  color: #1565ab;
   color: #82c0c7;
   font-weight: 500;
   text-decoration: none;
@@ -1877,13 +1877,13 @@ br.clear {
 
 /* line 1549, src/sass/vendor/_divi.scss */
 .wp-pagenavi a:hover {
-  color: #2ea3f2;
+  color: #1565ab;
   color: #82c0c7 !important;
 }
 
 /* line 1562, src/sass/vendor/_divi.scss */
 .wp-pagenavi span.current {
-  color: #2ea3f2;
+  color: #1565ab;
   color: #82c0c7 !important;
 }
 
@@ -6132,7 +6132,7 @@ ul.et_pb_side_nav.et-visible {
   line-height: 1;
   text-transform: none;
   speak: none;
-  color: #2ea3f2;
+  color: #1565ab;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -6242,7 +6242,7 @@ ul.et_pb_side_nav.et-visible {
 
 /* line 6116, src/sass/vendor/_divi.scss */
 .et_pb_contact_submit {
-  color: #2ea3f2;
+  color: #1565ab;
   display: inline-block;
   margin: 0 0 0 15px;
   font-family: inherit;
@@ -6319,7 +6319,7 @@ ul.et_pb_side_nav.et-visible {
 
 /* line 6188, src/sass/vendor/_divi.scss */
 .et_pb_pricing_table_button {
-  color: #2ea3f2;
+  color: #1565ab;
   display: inline-block;
   position: relative;
 }
@@ -6724,17 +6724,17 @@ a.et_pb_more_button:after {
 
 /* line 6633, src/sass/vendor/_divi.scss */
 .et_pb_bg_layout_light .et_pb_more_button {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 6637, src/sass/vendor/_divi.scss */
 .et_pb_bg_layout_light .et_pb_newsletter_button {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 6641, src/sass/vendor/_divi.scss */
 .et_pb_bg_layout_light .et_pb_promo_button {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 6645, src/sass/vendor/_divi.scss */
@@ -9195,7 +9195,7 @@ span.comment_date {
 
 /* line 8986, src/sass/vendor/_divi.scss */
 .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active {
-  color: #2ea3f2;
+  color: #1565ab;
   color: #82c0c7;
   background-color: #f9f9f9;
 }
@@ -9257,7 +9257,7 @@ span.comment_date {
 
 /* line 9041, src/sass/vendor/_divi.scss */
 .et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active {
-  color: #2ea3f2;
+  color: #1565ab;
   color: #82c0c7;
 }
 
@@ -9368,7 +9368,7 @@ span.comment_date {
 
 /* line 9141, src/sass/vendor/_divi.scss */
 .et_pb_member_social_links a:hover {
-  color: #2ea3f2;
+  color: #1565ab;
 }
 
 /* line 9154, src/sass/vendor/_divi.scss */
@@ -9398,7 +9398,7 @@ span.comment_date {
 
 /* line 9166, src/sass/vendor/_divi.scss */
 .et_pb_pricing li a {
-  color: #2ea3f2;
+  color: #1565ab;
   font-weight: 500;
   text-decoration: none;
 }
@@ -9442,7 +9442,7 @@ span.comment_date {
 
 /* line 9217, src/sass/vendor/_divi.scss */
 .et_pb_sum {
-  color: #2ea3f2;
+  color: #1565ab;
   font-size: 80px;
   font-weight: 300;
   line-height: 1.03em;
@@ -11756,7 +11756,7 @@ p.et_pb_gallery_caption {
   z-index: 1;
   top: 0;
   left: 0;
-  color: #2ea3f2;
+  color: #1565ab;
   background-color: transparent !important;
 }
 
@@ -13255,7 +13255,7 @@ h1.et_pb_contact_main_title {
           transform: translate(-50%, -50%);
   width: 17px;
   height: 17px;
-  color: #2ea3f2;
+  color: #1565ab;
   font-family: dashicons;
   font-size: 17px;
   line-height: 17px;
@@ -13405,7 +13405,7 @@ h1.et_pb_contact_main_title {
           transform: translate(-50%, -50%);
   width: 17px;
   height: 17px;
-  color: #2ea3f2;
+  color: #1565ab;
   font-family: dashicons;
   font-size: 17px;
   line-height: 17px;
@@ -30076,53 +30076,7 @@ body.show-menu .hamburger {
   color: #272d37;
 }
 
-/* line 47, src/sass/partials/_dynamic.scss */
-#page-container .et_pb_application_steps_buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: calc(1.425rem + 2.1vmin);
-}
-
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 47, src/sass/partials/_dynamic.scss */
-  #page-container .et_pb_application_steps_buttons {
-    margin-bottom: 3rem;
-  }
-}
-
-/* line 51, src/sass/partials/_dynamic.scss */
-#page-container .et_pb_application_steps_buttons .et_pb_column {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-/* line 57, src/sass/partials/_dynamic.scss */
-#page-container .et_pb_application_steps_buttons .et_pb_module {
-  cursor: pointer;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 0 !important;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/* line 64, src/sass/partials/_dynamic.scss */
-#page-container .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
-  background-color: pink;
-}
-
-/* line 70, src/sass/partials/_dynamic.scss */
+/* line 43, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_tabs {
   opacity: 0;
   display: none;
@@ -30134,7 +30088,7 @@ body.show-menu .hamburger {
   padding-top: 0;
 }
 
-/* line 79, src/sass/partials/_dynamic.scss */
+/* line 52, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
   opacity: 1;
   display: block;
@@ -30145,28 +30099,210 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 79, src/sass/partials/_dynamic.scss */
+  /* line 52, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
     padding-bottom: 8rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 79, src/sass/partials/_dynamic.scss */
+  /* line 52, src/sass/partials/_dynamic.scss */
   #page-container .et_pb_toggle_tabs.et_pb_toggle_tab_active {
     padding-top: 8rem;
   }
 }
 
-/* line 89, src/sass/partials/_dynamic.scss */
+/* line 63, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: calc(1.425rem + 2.1vmin);
+  padding-top: 1rem;
+  padding-bottom: calc(1.275rem + 0.3vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 63, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 63, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 980px) {
+  /* line 63, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 17px 33px 0px #e9eaeb;
+            box-shadow: 0px 17px 33px 0px #e9eaeb;
+  }
+}
+
+/* line 73, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* line 79, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module {
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0 !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+/* line 88, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module::after {
+  content: "\24";
+  position: absolute;
+  top: 50%;
+  right: -16px;
+  margin-top: -16px;
+  color: #d4d5d7;
+  font-family: ETModules;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 980px) {
+  /* line 88, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons .et_pb_module::after {
+    font-size: 30px;
+    right: -40px;
+    margin-top: -15px;
+  }
+}
+
+/* line 106, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 111, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et-pb-icon {
+  font-size: calc(1.375rem + 1.5vmin);
+  color: #52575f;
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 111, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et-pb-icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 980px) {
+  /* line 111, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et-pb-icon {
+    font-size: 80px;
+  }
+}
+
+/* line 118, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et_pb_module_header {
+  font-size: 0.75rem;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+@media (min-width: 980px) {
+  /* line 118, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et_pb_module_header {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 126, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module .et_pb_main_blurb_image {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+/* line 131, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module:hover {
+  background-color: #fafafa;
+}
+
+/* line 133, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module:hover .et-pb-icon {
+  color: #272d37;
+}
+
+/* line 136, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module:hover .et_pb_module_header {
+  text-decoration: underline;
+}
+
+/* line 140, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
+  background-color: #f3f7fb;
+}
+
+/* line 142, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active .et-pb-icon {
+  color: #1565ab;
+}
+
+/* line 145, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active .et_pb_module_header {
+  color: #1565ab;
+}
+
+/* line 154, src/sass/partials/_dynamic.scss */
+body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::after {
+  content: none;
+}
+
+/* line 162, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  counter-reset: steps-counter 0;
 }
 
-/* line 93, src/sass/partials/_dynamic.scss */
+/* line 166, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30180,8 +30316,8 @@ body.show-menu .hamburger {
           flex-direction: column;
 }
 
-/* line 99, src/sass/partials/_dynamic.scss */
-.et_pb_application_steps_panes .et_pb_steps {
+/* line 172, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step {
   opacity: 0;
   height: 0;
   margin-bottom: 0 !important;
@@ -30191,15 +30327,125 @@ body.show-menu .hamburger {
   background-color: #ffffff;
 }
 
-/* line 107, src/sass/partials/_dynamic.scss */
-.et_pb_application_steps_panes .et_pb_steps.et_pb_steps_active {
+@media (min-width: 980px) {
+  /* line 172, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step {
+    margin-left: -1.25em;
+    margin-right: -1.25rem;
+  }
+}
+
+/* line 184, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_blurb_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: calc(1.325rem + 0.9vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 184, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_content {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 184, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0;
+  }
+}
+
+/* line 195, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_main_blurb_image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 195, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step .et_pb_main_blurb_image {
+    max-width: 50%;
+  }
+}
+
+/* line 202, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_blurb_container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 202, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_container {
+    max-width: 50%;
+    padding-left: 3rem;
+  }
+}
+
+/* line 211, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_module_header {
+  font-size: calc(1.3607rem + 1.3284vmin);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 211, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step .et_pb_module_header {
+    font-size: 2.357rem;
+  }
+}
+
+/* line 215, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_module_header::before {
+  display: block;
+  padding: 0.3125rem;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  text-align: center;
+  background-color: #ffdd00;
+  border-radius: 50%;
+  counter-increment: steps-counter;
+  content: counter(steps-counter);
+  margin-bottom: 1rem;
+}
+
+/* line 230, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_image_wrap {
+  max-width: unset;
+  width: 100%;
+}
+
+/* line 233, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step .et_pb_image_wrap img {
+  border-radius: 10px;
+}
+
+/* line 237, src/sass/partials/_dynamic.scss */
+.et_pb_application_steps_panes .et_pb_step.et_pb_steps_active {
   opacity: 1;
   height: auto;
   -webkit-transition: all 250ms ease-in;
   transition: all 250ms ease-in;
 }
 
-/* line 116, src/sass/partials/_dynamic.scss */
+/* line 247, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle {
   border: none;
   padding: 0;
@@ -30208,7 +30454,7 @@ body.show-menu .hamburger {
   border-bottom: 2px solid #e9eaeb;
 }
 
-/* line 122, src/sass/partials/_dynamic.scss */
+/* line 253, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
   display: block;
   color: #7d8187;
@@ -30221,20 +30467,20 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 122, src/sass/partials/_dynamic.scss */
+  /* line 253, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
     padding-bottom: 2rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 122, src/sass/partials/_dynamic.scss */
+  /* line 253, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
     padding-top: 2rem;
   }
 }
 
-/* line 130, src/sass/partials/_dynamic.scss */
+/* line 261, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title::before {
   font-size: 2rem;
   content: "\4c";
@@ -30243,34 +30489,34 @@ body.show-menu .hamburger {
   color: #7d8187;
 }
 
-/* line 136, src/sass/partials/_dynamic.scss */
+/* line 267, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title:hover {
   background-color: #f4f5f5;
 }
 
-/* line 140, src/sass/partials/_dynamic.scss */
+/* line 271, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open {
   padding-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 140, src/sass/partials/_dynamic.scss */
+  /* line 271, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle_open {
     padding-bottom: 3rem;
   }
 }
 
-/* line 142, src/sass/partials/_dynamic.scss */
+/* line 273, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title {
   color: #3d424b;
 }
 
-/* line 144, src/sass/partials/_dynamic.scss */
+/* line 275, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title:hover {
   background-color: transparent;
 }
 
-/* line 147, src/sass/partials/_dynamic.scss */
+/* line 278, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title::before {
   content: "\4b";
 }

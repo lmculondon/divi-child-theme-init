@@ -25,7 +25,9 @@ add_action( 'wp', 'remove_divi_customizer_styles', 999 );
 
 //Preconnect Gfonts
 function gfont_preload() {
-	echo '<link rel="preconnect" href="https://fonts.gstatic.com">';				
+	echo '<link rel="preconnect" href="https://fonts.gstatic.com">';
+    echo '<link rel="preload" as="font" href="' . get_template_directory_uri() . '/core/admin/fonts/modules.ttf" type="font/ttf" crossorigin="anonymous">';
+    echo '<link rel="preload" as="font" href="' . plugins_url() . '/divi-uploaded-icons-diui-awb/lmcu-icons/lmcu-icons.ttf" type="font/ttf" crossorigin="anonymous">';								
 }
 add_action('wp_head', 'gfont_preload');
 

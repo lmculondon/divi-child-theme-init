@@ -53,6 +53,10 @@ WP CLEANUP
 */
 function dequeue_redundant_styles() {
     wp_dequeue_style( 'dlm-frontend' );
+    wp_dequeue_style('divi-upload-icons-awb-public-css');
+    wp_dequeue_style('divi-upload-icons-awb-icon-filter-css');
+    
+
 }
 add_action( 'wp_enqueue_scripts', 'dequeue_redundant_styles', 999 );	
 

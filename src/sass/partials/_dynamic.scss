@@ -138,12 +138,12 @@ body {
 	}
 }
 			&.et_pb_step_active {
-				background-color: mix($dark-blue, $white, 5%);
+				background-color: mix($red, $white, 5%);
 				.et-pb-icon {
-					color: $dark-blue;
+					color: $red;
 				}
 				.et_pb_module_header {
-					color: $dark-blue
+					color: $red
 				}
 			}
 		}

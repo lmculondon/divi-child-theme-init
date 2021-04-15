@@ -30275,17 +30275,17 @@ body .et_pb_application_steps_buttons .et_pb_module:hover .et_pb_module_header {
 
 /* line 140, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
-  background-color: #f3f7fb;
+  background-color: #fef3f5;
 }
 
 /* line 142, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active .et-pb-icon {
-  color: #1565ab;
+  color: #e31837;
 }
 
 /* line 145, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active .et_pb_module_header {
-  color: #1565ab;
+  color: #e31837;
 }
 
 /* line 154, src/sass/partials/_dynamic.scss */

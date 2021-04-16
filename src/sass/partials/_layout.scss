@@ -1,6 +1,6 @@
 body {
 	.et_pb_section {
-		@include padding-bottom(76rem);
+		@include padding-bottom(6rem);
 		@include padding-top(6rem);
 		@include breakpoint-up(lg) {
 			@include padding-bottom(7rem);
@@ -59,8 +59,10 @@ body {
 		@include padding-top(4rem);
 	}
 	.et_pb_row_mobile_space {
-		@include padding-bottom(4rem);
 		@include padding-top(0);
+		@include breakpoint-up(md) {
+		@include padding-bottom(4rem);
+		}
 		.et_pb_column {
 			@include padding-bottom(2rem);
 			border-bottom:1px solid mix($charcoal, $white, 5%);

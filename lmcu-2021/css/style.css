@@ -28386,7 +28386,7 @@ small {
   /* line 187, src/sass/partials/_typography.scss */
   .et_pb_row_feature_boxes.et_pb_row_2 .et_pb_column {
     width: calc( 50% - 1.5rem);
-    margin-right: 3rem;
+    margin-right: 1.5rem;
   }
 }
 

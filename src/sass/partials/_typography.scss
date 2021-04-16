@@ -187,7 +187,7 @@ width:100%;
 	.et_pb_column {
 	@include breakpoint-up(md) {
 		width: calc( 50% - #{$gutter-3});
-		margin-right: $gutter-3 * 2;
+		margin-right: $gutter-3;
 	 }}
 }
 }

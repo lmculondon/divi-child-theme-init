@@ -162,34 +162,32 @@ small {
 }
 // Feature Boxes
 .et_pb_row_feature_boxes {
- display: flex;
- flex-wrap: wrap;
- .et_pb_column {
-	 
-	 border-radius: $border-radius-lg;
-	 @include rfs(1.5rem, padding-bottom);
-	 @include rfs(1.5rem, padding-top);
-	 @include rfs(1.5rem, padding-left);
-	 @include rfs(1.5rem, padding-right);
-width:100%;
-	 //background-color: mix($light-blue,$white,25%);
-	 @include rfs(1.5rem, margin-bottom);
+	display: flex;
+	flex-wrap: wrap;
+	.et_pb_column {
+		border-radius: $border-radius-lg;
+		@include rfs(1.5rem, padding-bottom);
+		@include rfs(1.5rem, padding-top);
+		@include rfs(1.5rem, padding-left);
+		@include rfs(1.5rem, padding-right);
+		width: 100%;
+		//background-color: mix($light-blue,$white,25%);
+		@include rfs(1.5rem, margin-bottom);
 
- }
- &.et_pb_row_3 {
-	.et_pb_column {
-	@include breakpoint-up(md) {
-		width: calc( 33.333% - #{$gutter-3});
-		margin-right: $gutter-3;
-	 }}
- }
- &.et_pb_row_2 {
-	.et_pb_column {
-	@include breakpoint-up(md) {
-		width: calc( 50% - #{$gutter-3});
-		margin-right: $gutter-3 * 2;
-	 }}
-}
+		&.et_pb_column_1_3 {
+			@include breakpoint-up(md) {
+				width: calc(33.333% - #{$gutter-3});
+				margin-right: $gutter-3;
+			}
+		}
+
+		&.et_pb_column_1_2 {
+			@include breakpoint-up(md) {
+				width: calc(50% - #{$gutter-3});
+				margin-right: $gutter-3 * 2;
+			}
+		}
+	}
 }
 // APR| Table
 table.et_pb_apr_table {
@@ -200,9 +198,9 @@ table.et_pb_apr_table {
 			border-top: none;
 			border-bottom: 1px solid rgba($charcoal, 0.5);
 			padding: 0.5rem 0;
-			font-size:0.8rem;
+			font-size: 0.8rem;
 			@include breakpoint-up(md) {
-			font-size: 1rem;
+				font-size: 1rem;
 			}
 		}
 		th {
@@ -212,7 +210,7 @@ table.et_pb_apr_table {
 		}
 		&:last-of-type {
 			td {
-			border-bottom: none;
+				border-bottom: none;
 			}
 		}
 	}

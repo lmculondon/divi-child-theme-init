@@ -28375,28 +28375,28 @@ small {
 }
 
 @media (min-width: 980px) {
-  /* line 180, src/sass/partials/_typography.scss */
-  .et_pb_row_feature_boxes.et_pb_row_3 .et_pb_column {
-    width: calc( 33.333% - 1.5rem);
+  /* line 177, src/sass/partials/_typography.scss */
+  .et_pb_row_feature_boxes .et_pb_column.et_pb_column_1_3 {
+    width: calc(33.333% - 1.5rem);
     margin-right: 1.5rem;
   }
 }
 
 @media (min-width: 980px) {
-  /* line 187, src/sass/partials/_typography.scss */
-  .et_pb_row_feature_boxes.et_pb_row_2 .et_pb_column {
-    width: calc( 50% - 1.5rem);
+  /* line 184, src/sass/partials/_typography.scss */
+  .et_pb_row_feature_boxes .et_pb_column.et_pb_column_1_2 {
+    width: calc(50% - 1.5rem);
     margin-right: 3rem;
   }
 }
 
-/* line 195, src/sass/partials/_typography.scss */
+/* line 193, src/sass/partials/_typography.scss */
 table.et_pb_apr_table {
   border: none;
   margin: 0 0 1.5rem 0;
 }
 
-/* line 199, src/sass/partials/_typography.scss */
+/* line 197, src/sass/partials/_typography.scss */
 table.et_pb_apr_table tr td {
   border-top: none;
   border-bottom: 1px solid rgba(39, 45, 55, 0.5);
@@ -28405,20 +28405,20 @@ table.et_pb_apr_table tr td {
 }
 
 @media (min-width: 980px) {
-  /* line 199, src/sass/partials/_typography.scss */
+  /* line 197, src/sass/partials/_typography.scss */
   table.et_pb_apr_table tr td {
     font-size: 1rem;
   }
 }
 
-/* line 208, src/sass/partials/_typography.scss */
+/* line 206, src/sass/partials/_typography.scss */
 table.et_pb_apr_table tr th {
   color: #272d37;
   padding: 0.5rem 0;
   border-bottom: 2px solid rgba(39, 45, 55, 0.75);
 }
 
-/* line 214, src/sass/partials/_typography.scss */
+/* line 212, src/sass/partials/_typography.scss */
 table.et_pb_apr_table tr:last-of-type td {
   border-bottom: none;
 }

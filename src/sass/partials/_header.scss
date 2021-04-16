@@ -191,19 +191,14 @@
 				padding-top: 1rem;
 				padding-bottom: 1rem;
 				background-color: $red !important;
+				transition: all 0.7s ease-in-out;
 				animation: fade-out-bottom 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 				transform: translateZ(0);
 				padding-left: 1rem;
 				padding-right: 1rem;
-				min-width: 400px;
-				max-width: 820px;
-				width: 50vw;
-				display: flex;
-				flex-wrap: wrap;
 
 				li {
 					padding: 0;
-					width: 50%;
 
 					a {
 						@include padding-top(0.5rem);
@@ -219,7 +214,7 @@
 						&:hover {
 							opacity: 1;
 							background-color: transparent;
-							border-bottom-color: mix($red, $white, 20%);
+							background-color: mix($red, $charcoal, 85%);
 						}
 
 						&:focus {
@@ -250,29 +245,41 @@
 			font-weight: 400;
 			padding: 1.5rem 1.25rem;
 		}
+.et_pb_core_product_menu {
+	li a {
+		position: relative;
+		font-weight: 700;
 
-		.et_pb_core_product_menu li a {
-			position: relative;
-			font-weight: 700;
-
-			&:before {
-				content: "";
-				position: absolute;
-				width: 0;
-				height: 2px;
-				bottom: 0;
-				left: 0;
-				width: 0;
-				background-color: $red;
-				visibility: hidden;
-				transition: all 0.3s ease-in-out;
-			}
-
-			&:hover:before {
-				visibility: visible;
-				width: auto;
-			}
+		&:before {
+			content: "";
+			position: absolute;
+			width: 0;
+			height: 2px;
+			bottom: 0;
+			left: 0;
+			width: 0;
+			background-color: $red;
+			visibility: hidden;
+			transition: all 0.3s ease-in-out;
 		}
+
+		&:hover:before {
+			visibility: visible;
+			width: auto;
+		}
+	}
+	.sub-menu {
+		min-width: 400px;
+		max-width: 640px;
+		width: 40vw;
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			width: 50%;
+		}
+	}
+}
+
 
 		.menu-item-has-children > a:first-child:after {
 			font-family: ETmodules;
@@ -316,7 +323,7 @@ body:not(.show-menu) #global-header-section {
 	transition: all 0.4s ease-in-out;
 	width: 100%;
 	position: fixed;
-	top:0;
+	top: 0;
 	&.nav-up {
 		top: -50%;
 	}

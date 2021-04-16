@@ -203,8 +203,7 @@
 
 				li {
 					padding: 0;
-					flex:1;
-					max-width: 50%;
+					width: 50%;
 
 					a {
 						@include padding-top(0.5rem);

@@ -29067,13 +29067,10 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
 /* line 204, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .nav .sub-menu li {
   padding: 0;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  max-width: 50%;
+  width: 50%;
 }
 
-/* line 209, src/sass/partials/_header.scss */
+/* line 208, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .nav .sub-menu li a {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -29088,32 +29085,32 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 209, src/sass/partials/_header.scss */
+  /* line 208, src/sass/partials/_header.scss */
   #global-header-section .et_pb_header_main_row .nav .sub-menu li a {
     padding-left: 1.5rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 209, src/sass/partials/_header.scss */
+  /* line 208, src/sass/partials/_header.scss */
   #global-header-section .et_pb_header_main_row .nav .sub-menu li a {
     padding-right: 1.5rem;
   }
 }
 
-/* line 220, src/sass/partials/_header.scss */
+/* line 219, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .nav .sub-menu li a:hover {
   opacity: 1;
   background-color: transparent;
   border-bottom-color: #f9d1d7;
 }
 
-/* line 226, src/sass/partials/_header.scss */
+/* line 225, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .nav .sub-menu li a:focus {
   background-color: #d01a37;
 }
 
-/* line 232, src/sass/partials/_header.scss */
+/* line 231, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .nav .sub-menu:after {
   bottom: 100%;
   left: 1rem;
@@ -29129,20 +29126,20 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   margin-left: 0;
 }
 
-/* line 249, src/sass/partials/_header.scss */
+/* line 248, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .et_pb_menu_ancillary li a {
   color: #475264;
   font-weight: 400;
   padding: 1.5rem 1.25rem;
 }
 
-/* line 255, src/sass/partials/_header.scss */
+/* line 254, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .et_pb_core_product_menu li a {
   position: relative;
   font-weight: 700;
 }
 
-/* line 259, src/sass/partials/_header.scss */
+/* line 258, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .et_pb_core_product_menu li a:before {
   content: "";
   position: absolute;
@@ -29157,13 +29154,13 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 272, src/sass/partials/_header.scss */
+/* line 271, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .et_pb_core_product_menu li a:hover:before {
   visibility: visible;
   width: auto;
 }
 
-/* line 278, src/sass/partials/_header.scss */
+/* line 277, src/sass/partials/_header.scss */
 #global-header-section .et_pb_header_main_row .menu-item-has-children > a:first-child:after {
   font-family: ETmodules;
   content: "3";
@@ -29173,36 +29170,36 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   font-weight: 800;
 }
 
-/* line 289, src/sass/partials/_header.scss */
+/* line 288, src/sass/partials/_header.scss */
 .et_mobile_menu {
   padding: 1rem;
 }
 
-/* line 292, src/sass/partials/_header.scss */
+/* line 291, src/sass/partials/_header.scss */
 .et_mobile_menu .menu-item-has-children > a {
   font-weight: 700;
   padding-top: 1rem;
   background-color: transparent;
 }
 
-/* line 298, src/sass/partials/_header.scss */
+/* line 297, src/sass/partials/_header.scss */
 .et_mobile_menu li a {
   border-bottom: 0;
   padding: 0.5rem;
 }
 
-/* line 303, src/sass/partials/_header.scss */
+/* line 302, src/sass/partials/_header.scss */
 .et_mobile_menu .sub-menu li a {
   font-family: "Lato";
   font-weight: normal;
 }
 
-/* line 309, src/sass/partials/_header.scss */
+/* line 308, src/sass/partials/_header.scss */
 #main-header .et_mobile_menu li .sub-menu {
   padding-left: 0;
 }
 
-/* line 316, src/sass/partials/_header.scss */
+/* line 315, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -29211,12 +29208,12 @@ body:not(.show-menu) #global-header-section {
   top: 0;
 }
 
-/* line 321, src/sass/partials/_header.scss */
+/* line 320, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section.nav-up {
   top: -50%;
 }
 
-/* line 324, src/sass/partials/_header.scss */
+/* line 323, src/sass/partials/_header.scss */
 body:not(.show-menu) #global-header-section.nav-down {
   top: 0;
 }
@@ -30495,6 +30492,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   height: 2.5rem;
   width: 2.5rem;
   text-align: center;
+  font-size: calc(1.275rem + 0.3vmin);
   background-color: #ffdd00;
   border-radius: 50%;
   counter-increment: steps-counter;
@@ -30502,18 +30500,25 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   margin-bottom: 1rem;
 }
 
-/* line 230, src/sass/partials/_dynamic.scss */
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 215, src/sass/partials/_dynamic.scss */
+  .et_pb_application_steps_panes .et_pb_step .et_pb_module_header::before {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 231, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_image_wrap {
   max-width: unset;
   width: 100%;
 }
 
-/* line 233, src/sass/partials/_dynamic.scss */
+/* line 234, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_image_wrap img {
   border-radius: 10px;
 }
 
-/* line 237, src/sass/partials/_dynamic.scss */
+/* line 238, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step.et_pb_steps_active {
   opacity: 1;
   height: auto;
@@ -30521,7 +30526,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   transition: all 250ms ease-in;
 }
 
-/* line 247, src/sass/partials/_dynamic.scss */
+/* line 248, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle {
   border: none;
   padding: 0;
@@ -30530,7 +30535,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   border-bottom: 2px solid #e9eaeb;
 }
 
-/* line 253, src/sass/partials/_dynamic.scss */
+/* line 254, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
   display: block;
   color: #7d8187;
@@ -30543,20 +30548,20 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 253, src/sass/partials/_dynamic.scss */
+  /* line 254, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
     padding-bottom: 2rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 253, src/sass/partials/_dynamic.scss */
+  /* line 254, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
     padding-top: 2rem;
   }
 }
 
-/* line 261, src/sass/partials/_dynamic.scss */
+/* line 262, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title::before {
   font-size: 2rem;
   content: "\4c";
@@ -30565,34 +30570,34 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   color: #7d8187;
 }
 
-/* line 267, src/sass/partials/_dynamic.scss */
+/* line 268, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title:hover {
   background-color: #f4f5f5;
 }
 
-/* line 271, src/sass/partials/_dynamic.scss */
+/* line 272, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open {
   padding-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 271, src/sass/partials/_dynamic.scss */
+  /* line 272, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle_open {
     padding-bottom: 3rem;
   }
 }
 
-/* line 273, src/sass/partials/_dynamic.scss */
+/* line 274, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title {
   color: #3d424b;
 }
 
-/* line 275, src/sass/partials/_dynamic.scss */
+/* line 276, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title:hover {
   background-color: transparent;
 }
 
-/* line 278, src/sass/partials/_dynamic.scss */
+/* line 279, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title::before {
   content: "\4b";
 }

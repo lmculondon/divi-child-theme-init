@@ -31005,8 +31005,8 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 .entry-content ul.dlm-downloads li, .entry-content ul.et_pb_item_list li {
   padding: 0;
   margin: 0;
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
   padding-bottom: 0;
 }
 
@@ -31014,10 +31014,10 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 .entry-content ul.dlm-downloads li a, .entry-content ul.et_pb_item_list li a {
   display: block;
   border-bottom: 1px solid #f4f5f5;
-  padding: 0.5rem;
+  padding: 0.25rem;
   padding-left: 0;
   padding-right: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   text-decoration: none;
   color: #52575f;
 }
@@ -31025,6 +31025,13 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 /* line 222, src/sass/partials/_utilities.scss */
 .entry-content ul.dlm-downloads li a:hover, .entry-content ul.et_pb_item_list li a:hover {
   color: #272d37;
+}
+
+/* line 225, src/sass/partials/_utilities.scss */
+.entry-content ul.dlm-downloads li a:focus, .entry-content ul.et_pb_item_list li a:focus {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* line 52, src/sass/style.scss */

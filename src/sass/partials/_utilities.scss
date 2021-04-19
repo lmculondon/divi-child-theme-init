@@ -207,20 +207,24 @@ footer {
 	li {
 padding: 0;
 margin:0;
-@include margin-bottom(0.5rem);
-@include margin-top(0.5rem);
+@include margin-bottom(0.25rem);
+@include margin-top(0.25rem);
 padding-bottom: 0;
 a {
 	display: block;
 	border-bottom:1px solid mix($charcoal, $white, 5%);
-	@include padding(0.5rem);
+	@include padding(0.25rem);
 	padding-left: 0;
 	padding-right: 0;
-	@include margin-bottom(0.5rem);
+	@include margin-bottom(0.25rem);
 	text-decoration: none;
 	color: $body-color;
 	&:hover {
 		color: $charcoal;
+	}
+	&:focus {
+		background-color: transparent;
+		box-shadow: none;
 	}
 }
 	}

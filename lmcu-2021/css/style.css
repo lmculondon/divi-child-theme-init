@@ -29225,14 +29225,15 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
-/* line 325, src/sass/partials/_header.scss */
+/* line 326, src/sass/partials/_header.scss */
 .et-boc .et-l--header.nav-up {
   top: -50%;
 }
 
-/* line 328, src/sass/partials/_header.scss */
+/* line 329, src/sass/partials/_header.scss */
 .et-boc .et-l--header.nav-down {
   top: 0;
 }

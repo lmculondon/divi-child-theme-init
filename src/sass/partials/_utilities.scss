@@ -199,3 +199,27 @@ footer {
 	}
 }
 }
+// Item List
+.dlm-downloads, .et_pb_item_list {
+	list-style-type: none;
+	padding-left:0;
+	li {
+padding: 0;
+margin:0;
+@include margin-bottom(1rem);
+a {
+	display: block;
+	border-bottom:1px solid mix($charcoal, $white, 5%);
+	@include padding(0.5rem);
+	padding-left: 0;
+	padding-right: 0;
+	@include margin-bottom(0.5rem);
+	text-decoration: none;
+	color: $body-color;
+	&:hover {
+		color: $charcoal;
+	}
+}
+	}
+
+}

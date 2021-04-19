@@ -30798,21 +30798,29 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   margin-top: auto;
   margin-bottom: auto;
   font-size: 1rem;
+  line-height: 1.7;
 }
 
-/* line 102, src/sass/partials/_utilities.scss */
+@media (min-width: 980px) {
+  /* line 97, src/sass/partials/_utilities.scss */
+  .et_pb_checkmark .et_pb_module_header {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 108, src/sass/partials/_utilities.scss */
 .et_pb_checkmark:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 106, src/sass/partials/_utilities.scss */
+/* line 112, src/sass/partials/_utilities.scss */
 .et_pb_mobile_vertical_align {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 109, src/sass/partials/_utilities.scss */
+/* line 115, src/sass/partials/_utilities.scss */
 .et_pb_mobile_vertical_align .et_pb_blurb_content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30822,12 +30830,12 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   display: flex;
 }
 
-/* line 113, src/sass/partials/_utilities.scss */
+/* line 119, src/sass/partials/_utilities.scss */
 .et_pb_mobile_vertical_align .et_pb_main_blurb_image {
   margin-bottom: 0 !important;
 }
 
-/* line 116, src/sass/partials/_utilities.scss */
+/* line 122, src/sass/partials/_utilities.scss */
 .et_pb_mobile_vertical_align .et_pb_blurb_container {
   padding-left: 1.5rem;
   -webkit-box-flex: 1;
@@ -30846,14 +30854,14 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   margin-bottom: auto;
 }
 
-/* line 156, src/sass/partials/_utilities.scss */
+/* line 162, src/sass/partials/_utilities.scss */
 .et_pb_btn_row_center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 129, src/sass/partials/_utilities.scss */
+/* line 135, src/sass/partials/_utilities.scss */
 .et_pb_btn_row_center .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30868,38 +30876,38 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           justify-content: center;
 }
 
-/* line 135, src/sass/partials/_utilities.scss */
+/* line 141, src/sass/partials/_utilities.scss */
 .et_pb_btn_row_center .et_pb_column .et_pb_button_module_wrapper {
   width: 100%;
   margin-bottom: 0.5rem;
 }
 
-/* line 139, src/sass/partials/_utilities.scss */
+/* line 145, src/sass/partials/_utilities.scss */
 .et_pb_btn_row_center .et_pb_column .et_pb_button_module_wrapper a {
   display: block;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  /* line 135, src/sass/partials/_utilities.scss */
+  /* line 141, src/sass/partials/_utilities.scss */
   .et_pb_btn_row_center .et_pb_column .et_pb_button_module_wrapper {
     width: auto;
     margin-bottom: 0;
   }
-  /* line 148, src/sass/partials/_utilities.scss */
+  /* line 154, src/sass/partials/_utilities.scss */
   .et_pb_btn_row_center .et_pb_column .et_pb_button_module_wrapper + .et_pb_button_module_wrapper {
     margin-left: 1rem;
   }
 }
 
-/* line 159, src/sass/partials/_utilities.scss */
+/* line 165, src/sass/partials/_utilities.scss */
 .et_pb_btn_row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 129, src/sass/partials/_utilities.scss */
+/* line 135, src/sass/partials/_utilities.scss */
 .et_pb_btn_row .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30914,31 +30922,31 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           justify-content: left;
 }
 
-/* line 135, src/sass/partials/_utilities.scss */
+/* line 141, src/sass/partials/_utilities.scss */
 .et_pb_btn_row .et_pb_column .et_pb_button_module_wrapper {
   width: 100%;
   margin-bottom: 0.5rem;
 }
 
-/* line 139, src/sass/partials/_utilities.scss */
+/* line 145, src/sass/partials/_utilities.scss */
 .et_pb_btn_row .et_pb_column .et_pb_button_module_wrapper a {
   display: block;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  /* line 135, src/sass/partials/_utilities.scss */
+  /* line 141, src/sass/partials/_utilities.scss */
   .et_pb_btn_row .et_pb_column .et_pb_button_module_wrapper {
     width: auto;
     margin-bottom: 0;
   }
-  /* line 148, src/sass/partials/_utilities.scss */
+  /* line 154, src/sass/partials/_utilities.scss */
   .et_pb_btn_row .et_pb_column .et_pb_button_module_wrapper + .et_pb_button_module_wrapper {
     margin-left: 1rem;
   }
 }
 
-/* line 163, src/sass/partials/_utilities.scss */
+/* line 169, src/sass/partials/_utilities.scss */
 .et_pb_testimonial_body {
   quotes: "“" "”" "‘" "’";
   border-left: none;
@@ -30946,13 +30954,13 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1100px) {
-  /* line 167, src/sass/partials/_utilities.scss */
+  /* line 173, src/sass/partials/_utilities.scss */
   .et_pb_testimonial_body p {
     font-size: 1.25rem;
   }
 }
 
-/* line 172, src/sass/partials/_utilities.scss */
+/* line 178, src/sass/partials/_utilities.scss */
 .et_pb_testimonial_body:before {
   width: 20px;
   font-size: 120px;
@@ -30964,7 +30972,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   color: #b3d2e0;
 }
 
-/* line 182, src/sass/partials/_utilities.scss */
+/* line 188, src/sass/partials/_utilities.scss */
 .et_pb_testimonial_body:after {
   width: 20px;
   font-size: 120px;
@@ -30976,7 +30984,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   color: #b3d2e0;
 }
 
-/* line 192, src/sass/partials/_utilities.scss */
+/* line 198, src/sass/partials/_utilities.scss */
 .et_pb_testimonial_body footer {
   margin-top: calc(1.275rem + 0.3vmin);
   font-family: 'Montserrat';
@@ -30985,25 +30993,25 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 192, src/sass/partials/_utilities.scss */
+  /* line 198, src/sass/partials/_utilities.scss */
   .et_pb_testimonial_body footer {
     margin-top: 1.5rem;
   }
 }
 
-/* line 197, src/sass/partials/_utilities.scss */
+/* line 203, src/sass/partials/_utilities.scss */
 .et_pb_testimonial_body footer cite {
   font-weight: 500;
   font-style: normal;
 }
 
-/* line 205, src/sass/partials/_utilities.scss */
+/* line 211, src/sass/partials/_utilities.scss */
 .entry-content ul.dlm-downloads, .entry-content ul.et_pb_item_list {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* line 208, src/sass/partials/_utilities.scss */
+/* line 214, src/sass/partials/_utilities.scss */
 .entry-content ul.dlm-downloads li, .entry-content ul.et_pb_item_list li {
   padding: 0;
   margin: 0;
@@ -31012,7 +31020,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   padding-bottom: 0;
 }
 
-/* line 214, src/sass/partials/_utilities.scss */
+/* line 220, src/sass/partials/_utilities.scss */
 .entry-content ul.dlm-downloads li a, .entry-content ul.et_pb_item_list li a {
   display: block;
   border-bottom: 1px solid #f4f5f5;
@@ -31024,19 +31032,19 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   color: #52575f;
 }
 
-/* line 223, src/sass/partials/_utilities.scss */
+/* line 229, src/sass/partials/_utilities.scss */
 .entry-content ul.dlm-downloads li a:hover, .entry-content ul.et_pb_item_list li a:hover {
   color: #272d37;
 }
 
-/* line 226, src/sass/partials/_utilities.scss */
+/* line 232, src/sass/partials/_utilities.scss */
 .entry-content ul.dlm-downloads li a:focus, .entry-content ul.et_pb_item_list li a:focus {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 235, src/sass/partials/_utilities.scss */
+/* line 241, src/sass/partials/_utilities.scss */
 .et_pb_team_member .et_pb_member_position {
   color: #5d6269;
   font-family: 'Montserrat';
@@ -31046,7 +31054,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 235, src/sass/partials/_utilities.scss */
+  /* line 241, src/sass/partials/_utilities.scss */
   .et_pb_team_member .et_pb_member_position {
     margin-bottom: 1.5rem;
   }

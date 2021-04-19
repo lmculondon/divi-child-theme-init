@@ -200,13 +200,15 @@ footer {
 }
 }
 // Item List
-ul.dlm-downloads, ul.et_pb_item_list {
+.entry-content {
+	ul.dlm-downloads, ul.et_pb_item_list {
 	list-style-type: none;
 	padding-left:0;
 	li {
 padding: 0;
 margin:0;
-@include margin-bottom(1rem);
+@include margin-bottom(0.5rem);
+@include margin-top(0.5rem);
 padding-bottom: 0;
 a {
 	display: block;
@@ -223,4 +225,4 @@ a {
 }
 	}
 
-}
+}}

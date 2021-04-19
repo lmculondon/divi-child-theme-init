@@ -30995,22 +30995,23 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   font-style: normal;
 }
 
-/* line 203, src/sass/partials/_utilities.scss */
-ul.dlm-downloads, ul.et_pb_item_list {
+/* line 204, src/sass/partials/_utilities.scss */
+.entry-content ul.dlm-downloads, .entry-content ul.et_pb_item_list {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* line 206, src/sass/partials/_utilities.scss */
-ul.dlm-downloads li, ul.et_pb_item_list li {
+/* line 207, src/sass/partials/_utilities.scss */
+.entry-content ul.dlm-downloads li, .entry-content ul.et_pb_item_list li {
   padding: 0;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   padding-bottom: 0;
 }
 
-/* line 211, src/sass/partials/_utilities.scss */
-ul.dlm-downloads li a, ul.et_pb_item_list li a {
+/* line 213, src/sass/partials/_utilities.scss */
+.entry-content ul.dlm-downloads li a, .entry-content ul.et_pb_item_list li a {
   display: block;
   border-bottom: 1px solid #f4f5f5;
   padding: 0.5rem;
@@ -31021,8 +31022,8 @@ ul.dlm-downloads li a, ul.et_pb_item_list li a {
   color: #52575f;
 }
 
-/* line 220, src/sass/partials/_utilities.scss */
-ul.dlm-downloads li a:hover, ul.et_pb_item_list li a:hover {
+/* line 222, src/sass/partials/_utilities.scss */
+.entry-content ul.dlm-downloads li a:hover, .entry-content ul.et_pb_item_list li a:hover {
   color: #272d37;
 }
 

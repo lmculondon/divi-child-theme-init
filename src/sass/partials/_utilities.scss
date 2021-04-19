@@ -230,3 +230,12 @@ a {
 	}
 
 }}
+.et_pb_team_member {
+	.et_pb_member_position {
+		color: mix($charcoal, $white, 75%);
+		font-family: 'Montserrat';
+		@include margin-bottom(0.5rem);
+		border-left: 2px solid mix($charcoal, $white, 15%);
+		@include padding-left(0.5rem);
+	}
+}

@@ -31034,6 +31034,15 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           box-shadow: none;
 }
 
+/* line 234, src/sass/partials/_utilities.scss */
+.et_pb_team_member .et_pb_member_position {
+  color: #5d6269;
+  font-family: 'Montserrat';
+  margin-bottom: 0.5rem;
+  border-left: 2px solid #dfe0e1;
+  padding-left: 0.5rem;
+}
+
 /* line 52, src/sass/style.scss */
 .card-payment-footer .et_pb_button {
   font-size: 1rem;

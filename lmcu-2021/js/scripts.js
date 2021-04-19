@@ -6,7 +6,8 @@ jQuery(document).ready((function ($) {
 	var didScroll;
 	var lastScrollTop = 0;
 	var delta = 5;
-	var navbarHeight = $("#global-header-section").outerHeight();
+	var headerElement = $('.et-l--header');
+	var navbarHeight = headerElement.outerHeight();
 	$(window).on("load resize", (function (event) {
 
 		$(document.body).css("padding-top", navbarHeight);
@@ -34,11 +35,11 @@ jQuery(document).ready((function ($) {
 		// This is necessary so you never see what is "behind" the navbar.
 		if (st > lastScrollTop && st > navbarHeight) {
 			// Scroll Down
-			$("#global-header-section").removeClass("nav-down").addClass("nav-up");
+			headerElement.removeClass("nav-down").addClass("nav-up");
 		} else {
 			// Scroll Up
 			if (st + $(window).height() < $(document).height()) {
-				$("#global-header-section").removeClass("nav-up").addClass("nav-down");
+				headerElement.removeClass("nav-up").addClass("nav-down");
 			}
 		}
 

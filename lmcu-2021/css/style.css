@@ -31038,9 +31038,16 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 .et_pb_team_member .et_pb_member_position {
   color: #5d6269;
   font-family: 'Montserrat';
-  margin-bottom: 0.5rem;
-  border-left: 2px solid #dfe0e1;
+  margin-bottom: calc(1.275rem + 0.3vmin);
+  border-left: 4px solid #dfe0e1;
   padding-left: 0.5rem;
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 234, src/sass/partials/_utilities.scss */
+  .et_pb_team_member .et_pb_member_position {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* line 52, src/sass/style.scss */

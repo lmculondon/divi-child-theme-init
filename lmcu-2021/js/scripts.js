@@ -68,4 +68,10 @@ jQuery(document).ready((function ($) {
 
 	}));
 
+	/* Backlink */
+	$("js--backlink").click((function(event) {
+		event.preventDefault();
+		history.back(1);
+	}));
+
 }));

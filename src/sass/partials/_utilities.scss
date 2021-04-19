@@ -97,6 +97,7 @@
 	.et_pb_module_header {
 		margin-top: auto;
 		margin-bottom: auto;
+		@include font-size(1rem);
 	}
 	&:last-of-type {
 		@include margin-bottom(0);

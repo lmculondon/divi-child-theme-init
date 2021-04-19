@@ -29218,8 +29218,8 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
   padding-left: 0;
 }
 
-/* line 322, src/sass/partials/_header.scss */
-body:not(.show-menu) #global-header-section {
+/* line 320, src/sass/partials/_header.scss */
+body #global-header-section {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   width: 100%;
@@ -29227,13 +29227,13 @@ body:not(.show-menu) #global-header-section {
   top: 0;
 }
 
-/* line 327, src/sass/partials/_header.scss */
-body:not(.show-menu) #global-header-section.nav-up {
+/* line 325, src/sass/partials/_header.scss */
+body #global-header-section.nav-up {
   top: -50%;
 }
 
-/* line 330, src/sass/partials/_header.scss */
-body:not(.show-menu) #global-header-section.nav-down {
+/* line 328, src/sass/partials/_header.scss */
+body #global-header-section.nav-down {
   top: 0;
 }
 

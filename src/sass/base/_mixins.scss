@@ -13,7 +13,10 @@
 			font-size: $min-font-size;
 
 			@media screen and (min-width: $min-vw) {
-				font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+				font-size: calc(
+					#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+						((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+				);
 			}
 
 			@media screen and (min-width: $max-vw) {
@@ -25,50 +28,79 @@
 
 //Breakpoints
 @mixin breakpoint-up($breakpoint) {
-
 	@if map-has-key($breakpoints, $breakpoint) {
 		@media (min-width: map-get($breakpoints, $breakpoint)) {
-		  @content;
+			@content;
 		}
-	  }
-	  @else {
+	} @else {
 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
 			+ "Available breakpoints are: #{map-keys($breakpoints)}.";
-	  }
+	}
 }
 @mixin breakpoint-down($breakpoint) {
-
 	@if map-has-key($breakpoints, $breakpoint) {
 		@media (max-width: map-get($breakpoints, $breakpoint)) {
-		  @content;
+			@content;
 		}
-	  }
-	  @else {
+	} @else {
 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
 			+ "Available breakpoints are: #{map-keys($breakpoints)}.";
-	  }
+	}
 }
 // Link Effect Mixin
 @mixin link-effect($color: inherit, $bottom: -2px, $height: 2px) {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 
-    &:after {
-        content: "";
-        position: absolute;
-        bottom: $bottom;
-        left: 0;
-        width: 0%;
-        height: $height;
-        background-color: $color;
-        visibility: hidden;
-        transition: width 0.5s ease-in-out;
-    }
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: $bottom;
+		left: 0;
+		width: 0%;
+		height: $height;
+		background-color: $color;
+		visibility: hidden;
+		transition: width 0.5s ease-in-out;
+	}
 
-    &:hover {
-        &:after {
-            visibility: visible;
-            width:50%;
-        }
-    }
+	&:hover {
+		&:after {
+			visibility: visible;
+			width: 50%;
+		}
+	}
+}
+
+// Button Rows
+@mixin buttons_row($align) {
+	display: flex;
+
+	.et_pb_column {
+		flex: 1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: $align;
+
+		.et_pb_button_module_wrapper {
+			display: flex;
+			flex-grow: 1;
+			margin-bottom: 0;
+			@include margin-bottom(1rem);
+
+			a {
+				text-align: center;
+				flex: 1;
+			}
+			& + .et_pb_button_module_wrapper {
+				margin-left: 0;
+			}
+			@include breakpoint-up(xs) {
+				flex-grow: unset;
+				& + .et_pb_button_module_wrapper {
+					margin-left: 1rem;
+				}
+			}
+		}
+	}
 }

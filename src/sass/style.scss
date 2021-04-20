@@ -28,14 +28,16 @@
 
 @import "partials/mobile_menu";
 
-/* Button */
-@import "partials/gallery";
+@import "partials/sections";
 
 /* Blurb*/
 @import "partials/blurb";
 
 /* Button */
 @import "partials/button";
+
+/* Button */
+@import "partials/gallery";
 
 /* Input */
 @import "partials/input";
@@ -48,133 +50,3 @@
 @import "partials/dynamic";
 /* Footer */
 @import "partials/utilities";
-
-.card-payment-footer .et_pb_button {
-	font-size: 1rem;
-	border: 2px solid rgba(255, 255, 255, 0.3);
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	white-space: nowrap;
-}
-
-.card-payment-footer .et_pb_button img {
-	height: 1rem !important;
-	width: auto;
-	padding-right: 7.5px;
-}
-
-@media (min-width: 980px) and (max-width: 1200px) {
-	.et_pb_svg_logo #logo {
-		max-width: 160px;
-	}
-}
-
-.ab-cta-text p {
-	margin-bottom: 32px;
-}
-
-.ab-block-cta {
-	margin: 36px 0 72px 0;
-}
-
-/* buttons fixed to the bottom */
-.align-bottom .et_pb_column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.align-bottom .et_pb_image {
-	width: 100%;
-}
-
-.align-bottom .et_pb_button_module_wrapper {
-	margin-top: auto;
-}
-
-.two-col-mob .et_pb_column {
-	width: 50% !important;
-}
-
-#left-area .entry-content ul {
-	padding: 0 0 2.5rem 2.5rem;
-}
-
-.entry-content ul li {
-	padding-bottom: 0.5rem;
-}
-
-.entry-content ul li:last-child {
-	padding-bottom: 0;
-}
-
-.nav li ul {
-	width: auto;
-	min-width: 280px;
-	max-width: 320px;
-}
-
-.menu-footer-menu-container .menu {
-	padding: 1rem 0 !important;
-}
-
-.card-payment-footer {
-	padding: 0 0 3rem 0;
-}
-
-@media only screen and (min-width: 981px) {
-	.menu-footer-menu-container .menu {
-		column-count: 2;
-		padding: 1rem 3.5rem 3rem 3.5rem !important;
-	}
-
-	.card-payment-footer {
-		padding: 0 3.5rem 3rem 3.5rem;
-	}
-
-	.et-fixed-header #top-menu .sub-menu li a {
-		color: rgba(255, 255, 255, 0.9) !important;
-	}
-
-	.et-fixed-header #top-menu .sub-menu li.current-menu-item > a {
-		color: #fff !important;
-	}
-}
-
-.disable-lightbox .et_pb_gallery_items a {
-	pointer-events: none;
-}
-
-.disable-lightbox .et_pb_gallery_items .et_overlay {
-	display: none !important;
-}
-
-.badge {
-	padding: 4px 6px;
-	font-size: 14px;
-	line-height: 1;
-	margin-bottom: 1rem;
-	display: inline-block;
-	border-left: 5px solid rgba(28, 25, 26, 0.1);
-	white-space: nowrap;
-	color: #272d37;
-	background-color: rgba(28, 25, 26, 0.05);
-}
-
-.badge-warning {
-	background-color: #f5d505;
-	border-color: #e4bc66;
-}
-
-.badge-danger {
-	color: #e31837;
-	border-color: #e31837;
-	background-color: transparent;
-}
-
-.badge-light {
-	color: #ffffff;
-	background-color: rgba(255, 255, 255, 0.05);
-	border-color: rgba(255, 255, 255, 0.5);
-	background-color: transparent;
-}

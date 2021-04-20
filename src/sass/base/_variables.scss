@@ -17,7 +17,9 @@ $border-radius-lg: 10px;
 $number-bubble-size:2.5rem;
 
 // SASS Variables
-$breakpoints: ('sm': 768px,
+$breakpoints: (
+'xs': 480px,	
+'sm': 768px,
 	'md': 980px,
 	'lg': 1100px,
 	'xl': 1350px);

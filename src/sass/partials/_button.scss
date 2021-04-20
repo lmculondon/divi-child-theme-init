@@ -77,21 +77,9 @@
 	}
 }
 
-.et_pb_button_module_wrapper {
-	@include margin-bottom(0.5rem);
-
-	@include breakpoint-up(md) {
-		margin-bottom: 0;
-	}
+.et_pb_btn_row_center {
+	@include buttons_row(center);
 }
-
-.et_pb_inline_buttons_row .et_pb_button_module_wrapper {
-	@include breakpoint-up(md) {
-		display: inline-block;
-		@include margin-right(1rem);
-
-		&:last-of-type {
-			margin-right: 0;
-		}
-	}
+.et_pb_btn_row {
+	@include buttons_row(left);
 }

@@ -1,0 +1,36 @@
+body {
+    .et_pb_section_header_complex {
+        background-color: lavender;
+        @include breakpoint-up(lg) {
+            margin-top: 1.5rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .et_pb_specialty_column {
+            padding-right: 0;
+            padding-left: 0;
+            @include breakpoint-up(xl) {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+        }
+        .et_pb_logo_row {
+            display: flex;
+           // flex-wrap: wrap;
+            & > .et_pb_column {
+               // display: flex;
+               // flex: 1;
+            }
+        }
+        .et_pb_column_inner {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .et_pb_text {
+            @include margin-bottom(1.5rem);
+        }
+        &:last-of-type(.et_pb_module) {
+            margin-bottom: 0;
+        }
+    }
+}

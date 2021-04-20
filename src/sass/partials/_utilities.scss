@@ -128,42 +128,8 @@
 		margin-bottom: auto;
 	}
 }
-@mixin buttons_row($align) {
-	display: flex;
 
-	.et_pb_column {
-		flex: 1;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: $align;
 
-		.et_pb_button_module_wrapper {
-			width: 100%;
-			margin-bottom: 0.5rem;
-
-			a {
-				display: block;
-				text-align: center;
-			}
-
-			@include breakpoint-up(sm) {
-				width: auto;
-				margin-bottom: 0;
-
-				& + .et_pb_button_module_wrapper {
-					margin-left: 1rem;
-				}
-			}
-		}
-	}
-}
-
-.et_pb_btn_row_center {
-	@include buttons_row(center);
-}
-.et_pb_btn_row {
-	@include buttons_row(left);
-}
 // Testimonials
 .et_pb_testimonial_body {
 	quotes: "“" "”" "‘" "’";

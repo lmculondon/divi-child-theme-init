@@ -20,10 +20,9 @@
 .et_pb_row.et_pb_equal_columns,
 .et_pb_row_inner.et_pb_equal_columns,
 .et_pb_section.et_pb_equal_columns > .et_pb_row {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	direction: ltr;
+	flex-wrap: wrap;
 }
 
 /* Modify column's order in equalize column row so clearfix is displayed early and its

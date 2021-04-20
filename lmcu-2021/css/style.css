@@ -29369,61 +29369,56 @@ body.show-menu .hamburger {
   margin: 0;
 }
 
-/* line 2, src/sass/partials/_sections.scss */
-body .et_pb_section_header_complex {
-  background-color: lavender;
-}
-
 @media (min-width: 1100px) {
-  /* line 2, src/sass/partials/_sections.scss */
-  body .et_pb_section_header_complex {
+  /* line 1, src/sass/partials/_sections.scss */
+  .et_pb_section_header_complex {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 }
 
-/* line 9, src/sass/partials/_sections.scss */
-body .et_pb_section_header_complex .et_pb_specialty_column {
+/* line 7, src/sass/partials/_sections.scss */
+.et_pb_section_header_complex .et_pb_specialty_column {
   padding-right: 0;
   padding-left: 0;
 }
 
 @media (min-width: 1350px) {
-  /* line 9, src/sass/partials/_sections.scss */
-  body .et_pb_section_header_complex .et_pb_specialty_column {
+  /* line 7, src/sass/partials/_sections.scss */
+  .et_pb_section_header_complex .et_pb_specialty_column {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-/* line 17, src/sass/partials/_sections.scss */
-body .et_pb_section_header_complex .et_pb_logo_row {
+/* line 15, src/sass/partials/_sections.scss */
+.et_pb_section_header_complex .et_pb_logo_row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 25, src/sass/partials/_sections.scss */
-body .et_pb_section_header_complex .et_pb_column_inner {
+/* line 23, src/sass/partials/_sections.scss */
+.et_pb_section_header_complex .et_pb_column_inner {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 29, src/sass/partials/_sections.scss */
-body .et_pb_section_header_complex .et_pb_text {
+/* line 27, src/sass/partials/_sections.scss */
+.et_pb_section_header_complex .et_pb_text {
   margin-bottom: calc(1.275rem + 0.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 29, src/sass/partials/_sections.scss */
-  body .et_pb_section_header_complex .et_pb_text {
+  /* line 27, src/sass/partials/_sections.scss */
+  .et_pb_section_header_complex .et_pb_text {
     margin-bottom: 1.5rem;
   }
 }
 
-/* line 32, src/sass/partials/_sections.scss */
-body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
+/* line 30, src/sass/partials/_sections.scss */
+.et_pb_section_header_complex:last-of-type(.et_pb_module) {
   margin-bottom: 0;
 }
 

@@ -1,6 +1,4 @@
-body {
     .et_pb_section_header_complex {
-        background-color: lavender;
         @include breakpoint-up(lg) {
             margin-top: 1.5rem;
             margin-left: 1.5rem;
@@ -33,4 +31,3 @@ body {
             margin-bottom: 0;
         }
     }
-}

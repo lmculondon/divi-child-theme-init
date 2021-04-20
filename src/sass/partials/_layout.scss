@@ -62,6 +62,9 @@ body {
 		@include padding-top(0);
 		@include breakpoint-up(md) {
 		@include padding-bottom(4rem);
+		@include breakpoint-up(md) {
+			padding-bottom: inherit;
+		}
 		}
 		.et_pb_column {
 			@include padding-bottom(2rem);
@@ -70,6 +73,7 @@ body {
 			@include breakpoint-up(md) {
 				@include padding-bottom(0);
 				@include margin-bottom(0);
+				padding-bottom: inherit;
 				border-bottom: 0;
 			}
 			&:last-of-type {

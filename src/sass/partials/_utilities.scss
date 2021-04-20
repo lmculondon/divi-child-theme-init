@@ -1,10 +1,10 @@
 .et_pb_notice {
 	@include font-size(14px);
 	@include padding(0.5rem);
-@include breakpoint-up(md) {
-	@include padding(1rem);
-	@include font-size(16px);
-}
+	@include breakpoint-up(md) {
+		@include padding(1rem);
+		@include font-size(16px);
+	}
 	strong {
 		color: $charcoal;
 	}
@@ -97,13 +97,12 @@
 	.et_pb_module_header {
 		margin-top: auto;
 		margin-bottom: auto;
-		
-			@include font-size(16px);
-			line-height: 1.7;
-			@include breakpoint-up(md) {
-				@include font-size(18px);
-			}
-		
+
+		@include font-size(16px);
+		line-height: 1.7;
+		@include breakpoint-up(md) {
+			@include font-size(18px);
+		}
 	}
 	&:last-of-type {
 		@include margin-bottom(0);
@@ -168,79 +167,114 @@
 // Testimonials
 .et_pb_testimonial_body {
 	quotes: "“" "”" "‘" "’";
-border-left: none;
-position: relative;
-p {
-	@include breakpoint-up(lg) {
-@include font-size(20px);
+	border-left: none;
+	position: relative;
+	p {
+		@include breakpoint-up(lg) {
+			@include font-size(20px);
+		}
 	}
-}
-&:before {
-	width: 20px;
-    font-size: 120px;
-    left: -30px;
-    top: 20px;
-	display:block;
-	position: absolute;
-    content: open-quote;
-	color: mix($blue,$white, 30%);
-}
-&:after {
-	width: 20px;
-    font-size: 120px;
-    right: -20px;
-bottom: 20px;
-	display:block;
-	position: absolute;
-    content: close-quote;
-	color: mix($blue,$white, 30%);
-}
-footer {
-	@include margin-top(1.5rem);
-	font-family: 'Montserrat';
-	font-weight: 700;
-	color: $charcoal;
-	cite {
-		font-weight: 500;
-		font-style: normal;
+	&:before {
+		width: 20px;
+		font-size: 120px;
+		left: -30px;
+		top: 20px;
+		display: block;
+		position: absolute;
+		content: open-quote;
+		color: mix($blue, $white, 30%);
 	}
-}
+	&:after {
+		width: 20px;
+		font-size: 120px;
+		right: -20px;
+		bottom: 20px;
+		display: block;
+		position: absolute;
+		content: close-quote;
+		color: mix($blue, $white, 30%);
+	}
+	footer {
+		@include margin-top(1.5rem);
+		font-family: "Montserrat";
+		font-weight: 700;
+		color: $charcoal;
+		cite {
+			font-weight: 500;
+			font-style: normal;
+		}
+	}
 }
 // Item List
 .entry-content {
-	ul.dlm-downloads, ul.et_pb_item_list {
-	list-style-type: none;
-	padding-left:0;
-	li {
-padding: 0;
-margin:0;
-@include margin-bottom(0.25rem);
-@include margin-top(0.25rem);
-padding-bottom: 0;
-a {
-	display: block;
-	border-bottom:1px solid mix($charcoal, $white, 5%);
-	@include padding(0.25rem);
-	padding-left: 0;
-	padding-right: 0;
-	@include margin-bottom(0.25rem);
-	text-decoration: none;
-	color: $body-color;
-	&:hover {
-		color: $charcoal;
+	ul.dlm-downloads,
+	ul.et_pb_item_list {
+		list-style-type: none;
+		padding-left: 0;
+		li {
+			padding: 0;
+			margin: 0;
+			@include margin-bottom(0.25rem);
+			@include margin-top(0.25rem);
+			padding-bottom: 0;
+			a {
+				display: block;
+				border-bottom: 1px solid mix($charcoal, $white, 5%);
+				@include padding(0.25rem);
+				padding-left: 0;
+				padding-right: 0;
+				@include margin-bottom(0.25rem);
+				text-decoration: none;
+				color: $body-color;
+				&:hover {
+					color: $charcoal;
+				}
+				&:focus {
+					background-color: transparent;
+					box-shadow: none;
+				}
+			}
+		}
 	}
-	&:focus {
-		background-color: transparent;
-		box-shadow: none;
+	.et_pb_links_list {
+		h4 {
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+		}
+		ul {
+			padding: 0;
+			margin: 0;
+			li {
+				@include margin-bottom(0.25rem);
+				@include margin-top(0.25rem);
+				padding-bottom: 0;
+				a {
+					display: block;
+					border-bottom: 1px solid mix($charcoal, $white, 5%);
+					@include padding(0.25rem);
+					padding-left: 0;
+					padding-right: 0;
+					@include margin-bottom(0.25rem);
+					text-decoration: none;
+					color: $body-color;
+					&:hover {
+						color: $charcoal;
+					}
+					&:focus {
+						background-color: transparent;
+						box-shadow: none;
+					}
+				}
+			}
+		}
 	}
 }
-	}
-
-}}
 .et_pb_team_member {
 	.et_pb_member_position {
 		color: mix($charcoal, $white, 75%);
-		font-family: 'Montserrat';
+		font-family: "Montserrat";
 		@include margin-bottom(1.5rem);
 		border-left: 4px solid mix($charcoal, $white, 15%);
 		@include padding-left(0.5rem);

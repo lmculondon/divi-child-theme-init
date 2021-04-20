@@ -31059,16 +31059,17 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 .entry-content .et_pb_links_list ul {
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
-/* line 249, src/sass/partials/_utilities.scss */
+/* line 250, src/sass/partials/_utilities.scss */
 .entry-content .et_pb_links_list ul li {
   margin-bottom: 0.25rem;
   margin-top: 0.25rem;
   padding-bottom: 0;
 }
 
-/* line 253, src/sass/partials/_utilities.scss */
+/* line 254, src/sass/partials/_utilities.scss */
 .entry-content .et_pb_links_list ul li a {
   display: block;
   border-bottom: 1px solid #f4f5f5;
@@ -31080,19 +31081,19 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   color: #52575f;
 }
 
-/* line 262, src/sass/partials/_utilities.scss */
+/* line 263, src/sass/partials/_utilities.scss */
 .entry-content .et_pb_links_list ul li a:hover {
   color: #272d37;
 }
 
-/* line 265, src/sass/partials/_utilities.scss */
+/* line 266, src/sass/partials/_utilities.scss */
 .entry-content .et_pb_links_list ul li a:focus {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 275, src/sass/partials/_utilities.scss */
+/* line 276, src/sass/partials/_utilities.scss */
 .et_pb_team_member .et_pb_member_position {
   color: #5d6269;
   font-family: "Montserrat";
@@ -31102,7 +31103,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 275, src/sass/partials/_utilities.scss */
+  /* line 276, src/sass/partials/_utilities.scss */
   .et_pb_team_member .et_pb_member_position {
     margin-bottom: 1.5rem;
   }

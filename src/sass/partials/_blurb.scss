@@ -47,3 +47,33 @@
 		}
 	}
 }
+.et_pb_button_logo_block {
+flex-wrap: wrap;
+	.et_pb_column {
+		display: flex;
+		flex-direction: column;
+		.et_pb_blurb {
+			.et_pb_module_header {
+				@include margin-bottom(0.5rem);
+			}
+			.et_pb_main_blurb_image {
+				width:50%;
+	
+				min-width: 180px;
+				display: block;
+				@include breakpoint-up('md') {
+					height: 100px;
+				}
+			}
+			.et_pb_blurb_description { 
+				@include margin-bottom(0.5rem);
+				p {
+				@include font-size(16px);
+			}
+		}}
+		.et_pb_button_module_wrapper {
+			margin-bottom: 0;
+			margin-top: auto;
+		}
+	}
+}

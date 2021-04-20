@@ -65,12 +65,15 @@ body {
 		}
 		.et_pb_column {
 			@include padding-bottom(2rem);
-			border-bottom:1px solid mix($charcoal, $white, 5%);
+			border-bottom:1px solid rgba($charcoal, 0.15);
 			@include margin-bottom(2rem);
 			@include breakpoint-up(md) {
 				@include padding-bottom(0);
 				@include margin-bottom(0);
 				border-bottom: 0;
+			}
+			&:last-of-type {
+				// border-bottom: none;
 			}
 		}
 	}

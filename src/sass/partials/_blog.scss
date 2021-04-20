@@ -3,6 +3,10 @@
     display: flex;
     flex-wrap: wrap;
 flex:1;
+@include breakpoint-up(lg) {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
 }
     .entry-title {
         margin-top: 0;
@@ -19,24 +23,40 @@ flex:1;
     .column {
         @include margin-bottom(3rem);
         border-bottom:1px solid mix($charcoal, $white, 5%);
-        @include breakpoint-up(lg) {
-            margin-bottom: 0;
-            transition: all 1s ease;
-            border-bottom:none;
-            border-radius: 10px;
-            padding-top:1.5rem;
-            padding-bottom: 1.5rem;
-            flex:1;
-            &:hover {
-                background-color: mix($blue, $white, 5%);
-            }
-        }
+
     }
 .et_pb_post {
+    @include breakpoint-up(lg) {
+        margin-bottom: 0;
+        transition: all 1s ease;
+        border-bottom:none;
+        border-radius: 10px;
+        padding-top:1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left:1.5rem;
+        padding-right: 1.5rem;
+        flex:1;
+        &:hover {
+            background-color: mix($blue, $white, 5%);
+        }
+    }
     position: relative;
     @include margin-bottom(3rem);
     @include breakpoint-up(lg) {
     margin-bottom: 0;
+    }
+    .entry-title {
+        a {
+            color: inherit;
+            text-decoration: none;
+            &:hover {
+                color: $charcoal;
+            }
+            &:focus {
+                box-shadow: none;
+                background-color: inherit;
+            }
+        }
     }
     .published {
         background: #fff;
@@ -45,7 +65,10 @@ flex:1;
         border-radius: 5px;
         box-shadow: 0px 5px 20px #0000001a;
         top: 210px;
+        right: 1.5rem;
+        @include breakpoint-up(md) {
         right: -0.75rem;
+        }
         font-weight: 700;
         @include font-size (14px);
         font-family: 'Montserrat';

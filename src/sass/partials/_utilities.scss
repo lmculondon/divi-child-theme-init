@@ -237,11 +237,12 @@
 		}
 	}
 	.et_pb_links_list {
-		h4 {
+		h3 {
 			a {
 				text-decoration: none;
 				color: inherit;
 			}
+			@include margin-bottom(1rem);
 		}
 		ul {
 			padding: 0;
@@ -253,7 +254,7 @@
 				padding-bottom: 0;
 				a {
 					display: block;
-					border-bottom: 1px solid mix($charcoal, $white, 5%);
+@include link-effect($charcoal);
 					@include padding(0.25rem);
 					padding-left: 0;
 					padding-right: 0;

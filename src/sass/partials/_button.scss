@@ -55,6 +55,16 @@
 		}
 	}
 
+	&.et_pb_btn_muted {
+		border-color: mix($charcoal, $white, 30%);
+		color: mix($charcoal, $white, 60%);
+
+		&:hover {
+			border-color: mix($charcoal, $white, 50%);
+			color: mix($charcoal, $white, 80%);
+		}
+	}
+
 	&.et_pb_bg_layout_dark {
 		background-color: rgba($white, 09);
 		color: $charcoal !important;

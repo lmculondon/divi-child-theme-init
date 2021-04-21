@@ -30308,7 +30308,7 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     border-bottom: none;
-    border-radius: 10px;
+    border-radius: 3px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 1.5rem;
@@ -30399,7 +30399,7 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
 /* line 87, src/sass/partials/_blog.scss */
 .et_pb_module .pagination a {
   text-decoration: none;
-  border-color: rgba(39, 45, 55, 0.9);
+  border: 1px solid rgba(39, 45, 55, 0.9);
   padding: 0.75rem 1rem;
   color: #272d37;
   font-weight: 600;

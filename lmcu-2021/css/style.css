@@ -30587,16 +30587,10 @@ body .et_pb_application_steps_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: calc(1.425rem + 2.1vmin);
   padding-top: 1rem;
   padding-bottom: calc(1.275rem + 0.3vmin);
-}
-
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 63, src/sass/partials/_dynamic.scss */
-  body .et_pb_application_steps_buttons {
-    margin-bottom: 3rem;
-  }
+  overflow: hidden;
+  width: 96%;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
@@ -30609,13 +30603,21 @@ body .et_pb_application_steps_buttons {
 @media (min-width: 980px) {
   /* line 63, src/sass/partials/_dynamic.scss */
   body .et_pb_application_steps_buttons {
+    margin-bottom: calc(1.425rem + 2.1vmin);
     border-radius: 10px;
     -webkit-box-shadow: 0px 17px 33px 0px #e9eaeb;
             box-shadow: 0px 17px 33px 0px #e9eaeb;
   }
 }
 
-/* line 73, src/sass/partials/_dynamic.scss */
+@media (min-width: 980px) and (min-width: 1200px) and (min-height: 1200px) {
+  /* line 63, src/sass/partials/_dynamic.scss */
+  body .et_pb_application_steps_buttons {
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 74, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30628,7 +30630,7 @@ body .et_pb_application_steps_buttons .et_pb_column {
           justify-content: space-evenly;
 }
 
-/* line 79, src/sass/partials/_dynamic.scss */
+/* line 80, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module {
   cursor: pointer;
   position: relative;
@@ -30643,10 +30645,12 @@ body .et_pb_application_steps_buttons .et_pb_module {
       -ms-flex: 1;
           flex: 1;
   border-radius: 10px;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
   padding: 0.5rem;
 }
 
-/* line 88, src/sass/partials/_dynamic.scss */
+/* line 91, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module::after {
   content: "\24";
   position: absolute;
@@ -30660,7 +30664,7 @@ body .et_pb_application_steps_buttons .et_pb_module::after {
 }
 
 @media (min-width: 980px) {
-  /* line 88, src/sass/partials/_dynamic.scss */
+  /* line 91, src/sass/partials/_dynamic.scss */
   body .et_pb_application_steps_buttons .et_pb_module::after {
     font-size: 30px;
     right: -40px;
@@ -30668,7 +30672,7 @@ body .et_pb_application_steps_buttons .et_pb_module::after {
   }
 }
 
-/* line 106, src/sass/partials/_dynamic.scss */
+/* line 109, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30685,27 +30689,27 @@ body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content {
           align-items: center;
 }
 
-/* line 111, src/sass/partials/_dynamic.scss */
+/* line 114, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et-pb-icon {
   font-size: calc(1.375rem + 1.5vmin);
   color: #52575f;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 111, src/sass/partials/_dynamic.scss */
+  /* line 114, src/sass/partials/_dynamic.scss */
   body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et-pb-icon {
     font-size: 2.5rem;
   }
 }
 
 @media (min-width: 980px) {
-  /* line 111, src/sass/partials/_dynamic.scss */
+  /* line 114, src/sass/partials/_dynamic.scss */
   body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et-pb-icon {
     font-size: 80px;
   }
 }
 
-/* line 118, src/sass/partials/_dynamic.scss */
+/* line 121, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et_pb_module_header {
   font-size: 0.75rem;
   -webkit-transition: all 1s ease-in-out;
@@ -30713,13 +30717,13 @@ body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et_pb_
 }
 
 @media (min-width: 980px) {
-  /* line 118, src/sass/partials/_dynamic.scss */
+  /* line 121, src/sass/partials/_dynamic.scss */
   body .et_pb_application_steps_buttons .et_pb_module .et_pb_blurb_content .et_pb_module_header {
     font-size: 1.125rem;
   }
 }
 
-/* line 126, src/sass/partials/_dynamic.scss */
+/* line 129, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module .et_pb_main_blurb_image {
   position: relative;
   display: -webkit-box;
@@ -30728,42 +30732,42 @@ body .et_pb_application_steps_buttons .et_pb_module .et_pb_main_blurb_image {
   margin-bottom: 0.5rem;
 }
 
-/* line 131, src/sass/partials/_dynamic.scss */
+/* line 134, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module:hover {
   background-color: #fafafa;
 }
 
-/* line 133, src/sass/partials/_dynamic.scss */
+/* line 136, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module:hover .et-pb-icon {
   color: #272d37;
 }
 
-/* line 136, src/sass/partials/_dynamic.scss */
+/* line 139, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module:hover .et_pb_module_header {
   text-decoration: underline;
 }
 
-/* line 140, src/sass/partials/_dynamic.scss */
+/* line 143, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active {
   background-color: #fef3f5;
 }
 
-/* line 142, src/sass/partials/_dynamic.scss */
+/* line 145, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active .et-pb-icon {
   color: #e31837;
 }
 
-/* line 145, src/sass/partials/_dynamic.scss */
+/* line 148, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_module.et_pb_step_active .et_pb_module_header {
   color: #e31837;
 }
 
-/* line 154, src/sass/partials/_dynamic.scss */
+/* line 157, src/sass/partials/_dynamic.scss */
 body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::after {
   content: none;
 }
 
-/* line 162, src/sass/partials/_dynamic.scss */
+/* line 165, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes {
   position: relative;
   display: -webkit-box;
@@ -30772,7 +30776,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   counter-reset: steps-counter 0;
 }
 
-/* line 166, src/sass/partials/_dynamic.scss */
+/* line 169, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30786,7 +30790,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           flex-direction: column;
 }
 
-/* line 172, src/sass/partials/_dynamic.scss */
+/* line 175, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step {
   opacity: 0;
   height: 0;
@@ -30798,14 +30802,14 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 980px) {
-  /* line 172, src/sass/partials/_dynamic.scss */
+  /* line 175, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step {
     margin-left: -1.25em;
     margin-right: -1.25rem;
   }
 }
 
-/* line 184, src/sass/partials/_dynamic.scss */
+/* line 187, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30818,14 +30822,14 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 184, src/sass/partials/_dynamic.scss */
+  /* line 187, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_content {
     margin-bottom: 2rem;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 184, src/sass/partials/_dynamic.scss */
+  /* line 187, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -30835,7 +30839,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   }
 }
 
-/* line 195, src/sass/partials/_dynamic.scss */
+/* line 198, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_main_blurb_image {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30844,13 +30848,13 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 768px) {
-  /* line 195, src/sass/partials/_dynamic.scss */
+  /* line 198, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step .et_pb_main_blurb_image {
     max-width: 50%;
   }
 }
 
-/* line 202, src/sass/partials/_dynamic.scss */
+/* line 205, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_container {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -30860,14 +30864,14 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 768px) {
-  /* line 202, src/sass/partials/_dynamic.scss */
+  /* line 205, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step .et_pb_blurb_container {
     max-width: 50%;
     padding-left: 3rem;
   }
 }
 
-/* line 211, src/sass/partials/_dynamic.scss */
+/* line 214, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_module_header {
   font-size: calc(1.3607rem + 1.3284vmin);
   font-weight: 700;
@@ -30875,13 +30879,13 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 211, src/sass/partials/_dynamic.scss */
+  /* line 214, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step .et_pb_module_header {
     font-size: 2.357rem;
   }
 }
 
-/* line 215, src/sass/partials/_dynamic.scss */
+/* line 218, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_module_header::before {
   display: block;
   padding: 0.3125rem;
@@ -30898,24 +30902,24 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 215, src/sass/partials/_dynamic.scss */
+  /* line 218, src/sass/partials/_dynamic.scss */
   .et_pb_application_steps_panes .et_pb_step .et_pb_module_header::before {
     font-size: 1.5rem;
   }
 }
 
-/* line 231, src/sass/partials/_dynamic.scss */
+/* line 234, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_image_wrap {
   max-width: unset;
   width: 100%;
 }
 
-/* line 234, src/sass/partials/_dynamic.scss */
+/* line 237, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step .et_pb_image_wrap img {
   border-radius: 10px;
 }
 
-/* line 238, src/sass/partials/_dynamic.scss */
+/* line 241, src/sass/partials/_dynamic.scss */
 .et_pb_application_steps_panes .et_pb_step.et_pb_steps_active {
   opacity: 1;
   height: auto;
@@ -30923,7 +30927,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   transition: all 250ms ease-in;
 }
 
-/* line 248, src/sass/partials/_dynamic.scss */
+/* line 251, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle {
   border: none;
   padding: 0;
@@ -30932,7 +30936,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   border-bottom: 2px solid #e9eaeb;
 }
 
-/* line 254, src/sass/partials/_dynamic.scss */
+/* line 257, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
   display: block;
   color: #5d6269;
@@ -30945,20 +30949,20 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 254, src/sass/partials/_dynamic.scss */
+  /* line 257, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
     padding-bottom: 2rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 254, src/sass/partials/_dynamic.scss */
+  /* line 257, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
     padding-top: 2rem;
   }
 }
 
-/* line 262, src/sass/partials/_dynamic.scss */
+/* line 265, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title::before {
   font-size: 2rem;
   content: "\4c";
@@ -30967,34 +30971,34 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   color: #7d8187;
 }
 
-/* line 268, src/sass/partials/_dynamic.scss */
+/* line 271, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title:hover {
   background-color: #f4f5f5;
 }
 
-/* line 272, src/sass/partials/_dynamic.scss */
+/* line 275, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open {
   padding-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 272, src/sass/partials/_dynamic.scss */
+  /* line 275, src/sass/partials/_dynamic.scss */
   .et_pb_accordion .et_pb_toggle_open {
     padding-bottom: 3rem;
   }
 }
 
-/* line 274, src/sass/partials/_dynamic.scss */
+/* line 277, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title {
   color: #3d424b;
 }
 
-/* line 276, src/sass/partials/_dynamic.scss */
+/* line 279, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title:hover {
   background-color: transparent;
 }
 
-/* line 279, src/sass/partials/_dynamic.scss */
+/* line 282, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title::before {
   content: "\4b";
 }

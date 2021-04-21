@@ -62,11 +62,12 @@
 body {
 	.et_pb_application_steps_buttons {
 		display: flex;
-		@include margin-bottom(3rem);
-	
 		@include padding-top(1rem);
 		@include padding-bottom(1.5rem);
+		overflow: hidden;
+		width:96%;
 		@include breakpoint-up(md) {
+			@include margin-bottom(3rem);
 			border-radius: $border-radius-lg;
 			box-shadow: 0px 17px 33px 0px mix($charcoal, $white, 10%);
 		}
@@ -84,6 +85,8 @@ body {
 			justify-content: center;
 			flex: 1;
 			border-radius: $border-radius-lg;
+			padding-left: 0.125rem;
+			padding-right: 0.125rem;
 			@include padding(0.5rem);
 			&::after {
 				content: "\24";

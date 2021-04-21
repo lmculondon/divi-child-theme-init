@@ -30170,7 +30170,7 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
 
 /* line 124, src/sass/partials/_footer.scss */
 .et_pb_section_0_tb_footer .et_pb_column_1_tb_footer .et_pb_text .et_pb_text_inner {
-  margin-top: auto;
+  margin-top: 0;
 }
 
 /* line 127, src/sass/partials/_footer.scss */

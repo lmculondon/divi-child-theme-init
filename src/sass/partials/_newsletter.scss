@@ -1,6 +1,6 @@
 
 .et_pb_newsletter_custom  {
-    flex-direction: column;
+    flex-direction: column!important;
     .et_pb_newsletter_description {
         width: 100%;
     }
@@ -8,6 +8,7 @@
         width: 100%;
     }
     @include breakpoint-up(md) {
+        flex-direction: row;
         .et_pb_newsletter_description {
             width: 50%;
         }

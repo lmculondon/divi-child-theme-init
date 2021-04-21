@@ -1,5 +1,5 @@
 #was-this-helpful {
-  background-color: mix($charcoal,$white,20%);
+  background-color: mix($charcoal,$white,60%);
   margin-top: 0;
  @include padding(1rem);
   border-radius: 0;
@@ -26,7 +26,8 @@
   border-radius: $border-radius;
   background-color:$white;
   cursor: pointer;
-  padding: 0.25rem 0.5rem;
+  transition: all 0.2s;
+  padding: 0.5rem 1.25rem;
 		@include font-size(16px);
   box-shadow: 0;
   border-color: mix($charcoal, $white, 30%);

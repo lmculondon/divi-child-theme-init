@@ -30183,31 +30183,31 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
 }
 
 /* Footer */
-/* line 1, src/sass/partials/_newsletter.scss */
-.et_pb_newsletter {
+/* line 2, src/sass/partials/_newsletter.scss */
+.et_pb_newsletter_custom {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-/* line 3, src/sass/partials/_newsletter.scss */
-.et_pb_newsletter .et_pb_newsletter_description {
+/* line 4, src/sass/partials/_newsletter.scss */
+.et_pb_newsletter_custom .et_pb_newsletter_description {
   width: 100%;
 }
 
-/* line 6, src/sass/partials/_newsletter.scss */
-.et_pb_newsletter .et_pb_newsletter_form {
+/* line 7, src/sass/partials/_newsletter.scss */
+.et_pb_newsletter_custom .et_pb_newsletter_form {
   width: 100%;
 }
 
 @media (min-width: 980px) {
-  /* line 10, src/sass/partials/_newsletter.scss */
-  .et_pb_newsletter .et_pb_newsletter_description {
+  /* line 11, src/sass/partials/_newsletter.scss */
+  .et_pb_newsletter_custom .et_pb_newsletter_description {
     width: 50%;
   }
-  /* line 13, src/sass/partials/_newsletter.scss */
-  .et_pb_newsletter .et_pb_newsletter_form {
+  /* line 14, src/sass/partials/_newsletter.scss */
+  .et_pb_newsletter_custom .et_pb_newsletter_form {
     width: 50%;
   }
 }

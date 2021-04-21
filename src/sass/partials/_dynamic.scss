@@ -253,8 +253,8 @@ body {
 		border-bottom: 2px solid mix($charcoal, $white, 10%);
 		.et_pb_toggle_title {
 			display: block;
-			color: mix($charcoal, $white, 60%);
-			@include font-size(20px);
+			color: mix($charcoal, $white, 75%);
+			@include font-size(18px);
 			@include padding-bottom(2rem);
 			@include padding-top(2rem);
 			transition: all 250ms ease-in;

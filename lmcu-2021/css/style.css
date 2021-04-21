@@ -30888,8 +30888,8 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 /* line 254, src/sass/partials/_dynamic.scss */
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
   display: block;
-  color: #7d8187;
-  font-size: 1.25rem;
+  color: #5d6269;
+  font-size: 1.125rem;
   padding-bottom: calc(1.325rem + 0.9vmin);
   padding-top: calc(1.325rem + 0.9vmin);
   -webkit-transition: all 250ms ease-in;

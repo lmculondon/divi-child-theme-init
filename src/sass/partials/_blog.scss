@@ -82,6 +82,7 @@
         @include margin-bottom(3rem);
     }
 }
+.et_pb_module {
 .pagination {
     a {
         text-decoration: none;
@@ -107,4 +108,5 @@
             color: mix($charcoal, $white, 80%);
         }
     }
+}
 }

@@ -30396,8 +30396,8 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   }
 }
 
-/* line 86, src/sass/partials/_blog.scss */
-.pagination a {
+/* line 87, src/sass/partials/_blog.scss */
+.et_pb_module .pagination a {
   text-decoration: none;
   border-color: rgba(39, 45, 55, 0.9);
   padding: 0.75rem 1rem;
@@ -30411,15 +30411,15 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   color: #7d8187;
 }
 
-/* line 97, src/sass/partials/_blog.scss */
-.pagination a:focus {
+/* line 98, src/sass/partials/_blog.scss */
+.et_pb_module .pagination a:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(39, 45, 55, 0.5);
           box-shadow: 0 0 0 0.25rem rgba(39, 45, 55, 0.5);
 }
 
-/* line 105, src/sass/partials/_blog.scss */
-.pagination a:hover {
+/* line 106, src/sass/partials/_blog.scss */
+.et_pb_module .pagination a:hover {
   border-color: #93969b;
   color: #52575f;
 }

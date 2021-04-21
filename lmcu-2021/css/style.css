@@ -31532,14 +31532,14 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   font-size: 1rem;
   -webkit-box-shadow: 0;
           box-shadow: 0;
-  border-color: #bec0c3;
-  color: #7d8187;
+  border-color: #7d8187;
+  color: #686c73;
 }
 
 /* line 35, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:hover {
-  border-color: #93969b;
-  color: #52575f;
+  border-color: #52575f;
+  color: #3d424b;
 }
 
 /* line 39, src/sass/partials/_helpful.scss */

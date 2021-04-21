@@ -31529,49 +31529,51 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   font-weight: 600;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: #d4d5d7;
   color: #686c73;
+  border-width: 2px;
+  border-style: solid;
 }
 
-/* line 36, src/sass/partials/_helpful.scss */
+/* line 38, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:hover {
   border-color: #52575f;
   color: #3d424b;
 }
 
-/* line 40, src/sass/partials/_helpful.scss */
+/* line 42, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:active {
   background-color: #bec0c3;
-  -webkit-box-shadow: 0;
-          box-shadow: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-/* line 45, src/sass/partials/_helpful.scss */
+/* line 47, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:first-child {
   margin-right: 0.25em;
 }
 
-/* line 49, src/sass/partials/_helpful.scss */
+/* line 51, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:last-child {
   margin-left: 0.25em;
 }
 
-/* line 54, src/sass/partials/_helpful.scss */
+/* line 56, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled {
   pointer-events: none;
   position: relative;
 }
 
-/* line 58, src/sass/partials/_helpful.scss */
+/* line 60, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled * {
   opacity: 0;
 }
 
-/* line 62, src/sass/partials/_helpful.scss */
+/* line 64, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled:after {
   content: attr(data-thank-text);
   display: block;

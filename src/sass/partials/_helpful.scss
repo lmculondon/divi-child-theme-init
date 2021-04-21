@@ -28,18 +28,20 @@
   cursor: pointer;
   transition: all 0.2s;
   font-weight: 600;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1rem;
 		@include font-size(16px);
   box-shadow: none;
   border-color: mix($charcoal, $white, 20%);
   color: mix($charcoal, $white, 70%);
+  border-width: 2px;
+  border-style: solid;
   &:hover {
       border-color: mix($charcoal, $white, 80%);
       color: mix($charcoal, $white, 90%);
   }
   &:active {
     background-color:mix($charcoal, $white, 30%);
-    box-shadow: 0;
+    box-shadow: none;
   }
 
   &:first-child {

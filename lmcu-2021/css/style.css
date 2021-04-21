@@ -29219,7 +29219,7 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
 }
 
 /* line 320, src/sass/partials/_header.scss */
-.et-boc .et-l--header {
+body:not(.show-menu) .et-boc .et-l--header {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   width: 100%;
@@ -29229,12 +29229,12 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
 }
 
 /* line 326, src/sass/partials/_header.scss */
-.et-boc .et-l--header.nav-up {
+body:not(.show-menu) .et-boc .et-l--header.nav-up {
   top: -50%;
 }
 
 /* line 329, src/sass/partials/_header.scss */
-.et-boc .et-l--header.nav-down {
+body:not(.show-menu) .et-boc .et-l--header.nav-down {
   top: 0;
 }
 

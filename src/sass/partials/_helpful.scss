@@ -23,14 +23,15 @@
 }
 
 #wthf-yes-no span {
-  border-radius: $border-radius;
+  border-radius: 3px;
   background-color:$white;
   cursor: pointer;
   transition: all 0.2s;
-  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
 		@include font-size(16px);
-  box-shadow: 0;
-  border-color: mix($charcoal, $white, 60%);
+  box-shadow: none;
+  border-color: mix($charcoal, $white, 20%);
   color: mix($charcoal, $white, 70%);
   &:hover {
       border-color: mix($charcoal, $white, 80%);
@@ -42,11 +43,11 @@
   }
 
   &:first-child {
-    margin-right: 0.4em;
+    margin-right: 0.25em;
   }
 
   &:last-child {
-    margin-left: 0.4em;
+    margin-left: 0.25em;
   }
 }
 

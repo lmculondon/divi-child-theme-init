@@ -28428,6 +28428,7 @@ ul.et_pb_checklist {
   margin-top: calc(1.275rem + 0.3vmin);
   margin-bottom: calc(1.275rem + 0.3vmin);
   padding-left: 2rem;
+  padding-bottom: 0;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
@@ -28444,18 +28445,19 @@ ul.et_pb_checklist {
   }
 }
 
-/* line 222, src/sass/partials/_typography.scss */
+/* line 223, src/sass/partials/_typography.scss */
 ul.et_pb_checklist li {
   list-style-type: none;
   margin-bottom: 0.75rem;
   color: #272d37;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
 }
 
-/* line 228, src/sass/partials/_typography.scss */
+/* line 229, src/sass/partials/_typography.scss */
 ul.et_pb_checklist li:before {
   position: absolute;
+  color: rgba(39, 45, 55, 0.75);
   margin-left: -2rem;
   width: 2rem;
   font-family: ETmodules !important;

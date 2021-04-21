@@ -219,14 +219,16 @@ ul.et_pb_checklist {
 @include margin-top(1.5rem);
 @include margin-bottom(1.5rem);
 padding-left: 2rem;
+padding-bottom: 0;
 	li {
 		list-style-type: none;
 		@include margin-bottom(0.75rem);
 		color: $charcoal;
-		font-weight: 600;
+		font-weight: 500;
 		position: relative;
 		&:before {
 			position: absolute;
+			color: rgba($charcoal, 0.75);
 			margin-left: -2rem;
 			width: 2rem;
 			font-family: $font_family_4 !important;

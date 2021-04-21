@@ -6809,9 +6809,9 @@ a.et_pb_more_button:after {
 
 /* line 6706, src/sass/vendor/_divi.scss */
 .et_pb_bg_layout_light .et-pb-controllers a:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
 }
 
 /* line 6714, src/sass/vendor/_divi.scss */
@@ -31481,4 +31481,96 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   .et_pb_team_member .et_pb_member_position {
     margin-bottom: 1.5rem;
   }
+}
+
+/* Footer */
+/* line 1, src/sass/partials/_helpful.scss */
+#was-this-helpful {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-top: 1em;
+  padding: 1.2em;
+  border-radius: 0.2em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 20, src/sass/partials/_helpful.scss */
+#was-this-helpful * {
+  -webkit-transition: background-color 200ms, box-shadow 200ms;
+  -webkit-transition: background-color 200ms, -webkit-box-shadow 200ms;
+  transition: background-color 200ms, -webkit-box-shadow 200ms;
+  transition: background-color 200ms, box-shadow 200ms;
+  transition: background-color 200ms, box-shadow 200ms, -webkit-box-shadow 200ms;
+}
+
+/* line 26, src/sass/partials/_helpful.scss */
+#wthf-title, #wthf-yes-no {
+  display: inline-block;
+}
+
+/* line 30, src/sass/partials/_helpful.scss */
+#wthf-title {
+  padding-right: 2em;
+}
+
+/* line 34, src/sass/partials/_helpful.scss */
+#wthf-yes-no span {
+  padding: 0.4em 0.8em;
+  border-radius: 0.2em;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1a73e8;
+  cursor: pointer;
+  font-size: 0.9em;
+  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* line 45, src/sass/partials/_helpful.scss */
+#wthf-yes-no span:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* line 52, src/sass/partials/_helpful.scss */
+#wthf-yes-no span:active {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* line 59, src/sass/partials/_helpful.scss */
+#wthf-yes-no span:first-child {
+  margin-right: 0.4em;
+}
+
+/* line 63, src/sass/partials/_helpful.scss */
+#wthf-yes-no span:last-child {
+  margin-left: 0.4em;
+}
+
+/* line 68, src/sass/partials/_helpful.scss */
+#was-this-helpful.wthf-disabled {
+  pointer-events: none;
+  position: relative;
+}
+
+/* line 72, src/sass/partials/_helpful.scss */
+#was-this-helpful.wthf-disabled * {
+  opacity: 0;
+}
+
+/* line 76, src/sass/partials/_helpful.scss */
+#was-this-helpful.wthf-disabled:after {
+  content: attr(data-thank-text);
+  display: block;
+  position: absolute;
 }

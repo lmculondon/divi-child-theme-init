@@ -78,6 +78,22 @@ body {
 			}
 		}
 	}
+	.et_pb_column_mobile_space {
+		@include padding-bottom(0);
+		@include padding-top(2rem);
+		.et_pb_text {
+			@include padding-bottom(1.5rem);
+			border-bottom:1px solid rgba($charcoal, 0.15);
+			@include margin-bottom(1.5rem);
+			@include breakpoint-up(md) {
+				@include padding-bottom(0);
+				border-bottom: 0;
+			}
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+	}
 	.et_pb_section_hero {
 		@include padding-bottom(12rem);
 		@include padding-top(12rem);

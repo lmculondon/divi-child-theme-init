@@ -28669,49 +28669,96 @@ body .et_pb_row_mobile_space .et_pb_column {
 }
 
 /* line 81, src/sass/partials/_layout.scss */
+body .et_pb_column_mobile_space {
+  padding-bottom: 0;
+  padding-top: calc(1.325rem + 0.9vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 81, src/sass/partials/_layout.scss */
+  body .et_pb_column_mobile_space {
+    padding-top: 2rem;
+  }
+}
+
+/* line 84, src/sass/partials/_layout.scss */
+body .et_pb_column_mobile_space .et_pb_text {
+  padding-bottom: calc(1.275rem + 0.3vmin);
+  border-bottom: 1px solid rgba(39, 45, 55, 0.15);
+  margin-bottom: calc(1.275rem + 0.3vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 84, src/sass/partials/_layout.scss */
+  body .et_pb_column_mobile_space .et_pb_text {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 84, src/sass/partials/_layout.scss */
+  body .et_pb_column_mobile_space .et_pb_text {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 980px) {
+  /* line 84, src/sass/partials/_layout.scss */
+  body .et_pb_column_mobile_space .et_pb_text {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+/* line 92, src/sass/partials/_layout.scss */
+body .et_pb_column_mobile_space .et_pb_text:last-of-type {
+  border-bottom: none;
+}
+
+/* line 97, src/sass/partials/_layout.scss */
 body .et_pb_section_hero {
   padding-bottom: calc(2.325rem + 12.9vmin);
   padding-top: calc(2.325rem + 12.9vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 81, src/sass/partials/_layout.scss */
+  /* line 97, src/sass/partials/_layout.scss */
   body .et_pb_section_hero {
     padding-bottom: 12rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 81, src/sass/partials/_layout.scss */
+  /* line 97, src/sass/partials/_layout.scss */
   body .et_pb_section_hero {
     padding-top: 12rem;
   }
 }
 
-/* line 85, src/sass/partials/_layout.scss */
+/* line 101, src/sass/partials/_layout.scss */
 body .et_pb_section_hero p {
   font-size: 1.25rem;
   max-width: 480px;
 }
 
-/* line 90, src/sass/partials/_layout.scss */
+/* line 106, src/sass/partials/_layout.scss */
 body .et_pb_section_hero .et_pb_module {
   margin-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 90, src/sass/partials/_layout.scss */
+  /* line 106, src/sass/partials/_layout.scss */
   body .et_pb_section_hero .et_pb_module {
     margin-bottom: 3rem;
   }
 }
 
-/* line 93, src/sass/partials/_layout.scss */
+/* line 109, src/sass/partials/_layout.scss */
 body .et_pb_section_hero .et_pb_module:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 100, src/sass/partials/_layout.scss */
+/* line 116, src/sass/partials/_layout.scss */
 .et_pb_column .et_pb_code:only-child {
   margin-bottom: 0;
 }
@@ -30889,7 +30936,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
   display: block;
   color: #5d6269;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   padding-bottom: calc(1.325rem + 0.9vmin);
   padding-top: calc(1.325rem + 0.9vmin);
   -webkit-transition: all 250ms ease-in;

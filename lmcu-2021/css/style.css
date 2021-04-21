@@ -30182,6 +30182,36 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   margin-bottom: 0;
 }
 
+/* Footer */
+/* line 1, src/sass/partials/_newsletter.scss */
+.et_pb_newsletter {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 3, src/sass/partials/_newsletter.scss */
+.et_pb_newsletter .et_pb_newsletter_description {
+  width: 100%;
+}
+
+/* line 6, src/sass/partials/_newsletter.scss */
+.et_pb_newsletter .et_pb_newsletter_form {
+  width: 100%;
+}
+
+@media (min-width: 980px) {
+  /* line 10, src/sass/partials/_newsletter.scss */
+  .et_pb_newsletter .et_pb_newsletter_description {
+    width: 50%;
+  }
+  /* line 13, src/sass/partials/_newsletter.scss */
+  .et_pb_newsletter .et_pb_newsletter_form {
+    width: 50%;
+  }
+}
+
 /* line 2, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_salvattore_content {
   display: -webkit-box;

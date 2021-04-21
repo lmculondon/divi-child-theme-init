@@ -29370,55 +29370,55 @@ body.show-menu .hamburger {
 }
 
 @media (min-width: 1100px) {
-  /* line 1, src/sass/partials/_sections.scss */
-  .et_pb_section_header_complex {
+  /* line 2, src/sass/partials/_sections.scss */
+  body .et_pb_section_header_complex {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 }
 
-/* line 7, src/sass/partials/_sections.scss */
-.et_pb_section_header_complex .et_pb_specialty_column {
+/* line 8, src/sass/partials/_sections.scss */
+body .et_pb_section_header_complex .et_pb_specialty_column {
   padding-right: 0;
   padding-left: 0;
 }
 
 @media (min-width: 1350px) {
-  /* line 7, src/sass/partials/_sections.scss */
-  .et_pb_section_header_complex .et_pb_specialty_column {
+  /* line 8, src/sass/partials/_sections.scss */
+  body .et_pb_section_header_complex .et_pb_specialty_column {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-/* line 15, src/sass/partials/_sections.scss */
-.et_pb_section_header_complex .et_pb_logo_row {
+/* line 16, src/sass/partials/_sections.scss */
+body .et_pb_section_header_complex .et_pb_logo_row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 23, src/sass/partials/_sections.scss */
-.et_pb_section_header_complex .et_pb_column_inner {
+/* line 24, src/sass/partials/_sections.scss */
+body .et_pb_section_header_complex .et_pb_column_inner {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 27, src/sass/partials/_sections.scss */
-.et_pb_section_header_complex .et_pb_text {
+/* line 28, src/sass/partials/_sections.scss */
+body .et_pb_section_header_complex .et_pb_text {
   margin-bottom: calc(1.325rem + 0.9vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 27, src/sass/partials/_sections.scss */
-  .et_pb_section_header_complex .et_pb_text {
+  /* line 28, src/sass/partials/_sections.scss */
+  body .et_pb_section_header_complex .et_pb_text {
     margin-bottom: 2rem;
   }
 }
 
-/* line 30, src/sass/partials/_sections.scss */
-.et_pb_section_header_complex:last-of-type(.et_pb_module) {
+/* line 31, src/sass/partials/_sections.scss */
+body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   margin-bottom: 0;
 }
 
@@ -29509,10 +29509,11 @@ body.show-menu .hamburger {
 
 /* line 70, src/sass/partials/_blurb.scss */
 .et_pb_button_logo_block .et_pb_column .et_pb_blurb .et_pb_blurb_description p {
-  font-size: 1rem;
+  color: #93969b;
+  font-size: 1.125rem;
 }
 
-/* line 74, src/sass/partials/_blurb.scss */
+/* line 75, src/sass/partials/_blurb.scss */
 .et_pb_button_logo_block .et_pb_column .et_pb_button_module_wrapper {
   margin-bottom: 0;
   margin-top: auto;

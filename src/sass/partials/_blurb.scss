@@ -68,7 +68,8 @@ flex-wrap: wrap;
 			.et_pb_blurb_description { 
 				@include margin-bottom(0.5rem);
 				p {
-				@include font-size(16px);
+					color: mix($charcoal, $white, 50%);
+					@include font-size (18px);
 			}
 		}}
 		.et_pb_button_module_wrapper {

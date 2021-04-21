@@ -1,3 +1,4 @@
+body { 
     .et_pb_section_header_complex {
         @include breakpoint-up(lg) {
             margin-top: 1.5rem;
@@ -31,3 +32,4 @@
             margin-bottom: 0;
         }
     }
+}

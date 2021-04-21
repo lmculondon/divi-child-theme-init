@@ -31486,23 +31486,23 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 /* Footer */
 /* line 1, src/sass/partials/_helpful.scss */
 #was-this-helpful {
-  background-color: rgba(0, 0, 0, 0.05);
-  margin-top: 1em;
-  padding: 1.2em;
-  border-radius: 0.2em;
+  background-color: #d4d5d7;
+  margin-top: 0;
+  padding: 1rem;
+  border-radius: 0;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-/* line 20, src/sass/partials/_helpful.scss */
+/* line 11, src/sass/partials/_helpful.scss */
 #was-this-helpful * {
   -webkit-transition: background-color 200ms, box-shadow 200ms;
   -webkit-transition: background-color 200ms, -webkit-box-shadow 200ms;
@@ -31511,64 +31511,64 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   transition: background-color 200ms, box-shadow 200ms, -webkit-box-shadow 200ms;
 }
 
-/* line 26, src/sass/partials/_helpful.scss */
+/* line 17, src/sass/partials/_helpful.scss */
 #wthf-title, #wthf-yes-no {
   display: inline-block;
 }
 
-/* line 30, src/sass/partials/_helpful.scss */
+/* line 21, src/sass/partials/_helpful.scss */
 #wthf-title {
   padding-right: 2em;
 }
 
-/* line 34, src/sass/partials/_helpful.scss */
+/* line 25, src/sass/partials/_helpful.scss */
 #wthf-yes-no span {
-  padding: 0.4em 0.8em;
-  border-radius: 0.2em;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #1a73e8;
+  border-radius: 5px;
+  background-color: #ffffff;
   cursor: pointer;
-  font-size: 0.9em;
-  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  border-color: #bec0c3;
+  color: #7d8187;
 }
 
-/* line 45, src/sass/partials/_helpful.scss */
+/* line 34, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:hover {
-  background-color: #FFFFFF;
-  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
+  border-color: #93969b;
+  color: #52575f;
 }
 
-/* line 52, src/sass/partials/_helpful.scss */
+/* line 38, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:active {
-  background-color: #FFFFFF;
-  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
+  background-color: #bec0c3;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
 }
 
-/* line 59, src/sass/partials/_helpful.scss */
+/* line 43, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:first-child {
   margin-right: 0.4em;
 }
 
-/* line 63, src/sass/partials/_helpful.scss */
+/* line 47, src/sass/partials/_helpful.scss */
 #wthf-yes-no span:last-child {
   margin-left: 0.4em;
 }
 
-/* line 68, src/sass/partials/_helpful.scss */
+/* line 52, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled {
   pointer-events: none;
   position: relative;
 }
 
-/* line 72, src/sass/partials/_helpful.scss */
+/* line 56, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled * {
   opacity: 0;
 }
 
-/* line 76, src/sass/partials/_helpful.scss */
+/* line 60, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled:after {
   content: attr(data-thank-text);
   display: block;

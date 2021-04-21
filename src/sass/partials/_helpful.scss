@@ -1,20 +1,11 @@
 #was-this-helpful {
-  background-color: rgba(0, 0, 0, 0.05);
-  margin-top: 1em;
-  padding: 1.2em;
-  border-radius: 0.2em;
+  background-color: mix($charcoal,$white,20%);
+  margin-top: 0;
+ @include padding(1rem);
+  border-radius: 0;
   text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
 
   * {
@@ -32,28 +23,21 @@
 }
 
 #wthf-yes-no span {
-  padding: 0.4em 0.8em;
-  border-radius: 0.2em;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #1a73e8;
+  border-radius: $border-radius;
+  background-color:$white;
   cursor: pointer;
-  font-size: 0.9em;
-  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.1);
-
+  padding: 0.25rem 0.5rem;
+		@include font-size(16px);
+  box-shadow: 0;
+  border-color: mix($charcoal, $white, 30%);
+  color: mix($charcoal, $white, 60%);
   &:hover {
-    background-color: #FFFFFF;
-    -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.3);
+      border-color: mix($charcoal, $white, 50%);
+      color: mix($charcoal, $white, 80%);
   }
-
   &:active {
-    background-color: #FFFFFF;
-    -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.5);
+    background-color:mix($charcoal, $white, 30%);
+    box-shadow: 0;
   }
 
   &:first-child {

@@ -38,6 +38,7 @@
   &:hover {
       border-color: mix($charcoal, $white, 80%);
       color: mix($charcoal, $white, 90%);
+      box-shadow: none;
   }
   &:active {
     background-color:mix($charcoal, $white, 30%);

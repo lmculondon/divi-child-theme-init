@@ -1,85 +1,110 @@
 .et_pb_custom_blog_row {
-.et_pb_salvattore_content {
-    display: flex;
-    flex-wrap: wrap;
-flex:1;
-@include breakpoint-up(lg) {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-}
-}
+    .et_pb_salvattore_content {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        @include breakpoint-up(lg) {
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+        }
+    }
     .entry-title {
         margin-top: 0;
         @include margin-bottom(1.5rem);
-        @include font-size (24px);
+        @include font-size(24px);
         a {
             text-decoration: none;
             &:focus {
                 outline: none;
-                box-shadow: none;;
+                box-shadow: none;
             }
         }
     }
     .column {
         @include margin-bottom(3rem);
-        border-bottom:1px solid mix($charcoal, $white, 5%);
-
+        border-bottom: 1px solid mix($charcoal, $white, 5%);
     }
-.et_pb_post {
-    @include breakpoint-up(lg) {
-        margin-bottom: 0;
-        transition: all 1s ease;
-        border-bottom:none;
-        border-radius: 10px;
-        padding-top:1.5rem;
-        padding-bottom: 1.5rem;
-        padding-left:1.5rem;
-        padding-right: 1.5rem;
-        flex:1;
-        &:hover {
-            background-color: mix($blue, $white, 5%);
-        }
-    }
-    position: relative;
-    @include margin-bottom(3rem);
-    @include breakpoint-up(lg) {
-    margin-bottom: 0;
-    }
-    .entry-title {
-        a {
-            color: inherit;
-            text-decoration: none;
+    .et_pb_post {
+        @include breakpoint-up(lg) {
+            margin-bottom: 0;
+            transition: all 1s ease;
+            border-bottom: none;
+            border-radius: 10px;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            flex: 1;
             &:hover {
-                color: $charcoal;
+                background-color: mix($blue, $white, 5%);
             }
-            &:focus {
-                box-shadow: none;
-                background-color: inherit;
+        }
+        position: relative;
+        @include margin-bottom(3rem);
+        @include breakpoint-up(lg) {
+            margin-bottom: 0;
+        }
+        .entry-title {
+            a {
+                color: inherit;
+                text-decoration: none;
+                &:hover {
+                    color: $charcoal;
+                }
+                &:focus {
+                    box-shadow: none;
+                    background-color: inherit;
+                }
             }
+        }
+        .published {
+            background: #fff;
+            position: absolute;
+            @include padding(0.5rem);
+            border-radius: 5px;
+            box-shadow: 0px 5px 20px #0000001a;
+            top: 210px;
+            right: 1.5rem;
+            @include breakpoint-up(md) {
+                right: -0.75rem;
+            }
+            font-weight: 700;
+            @include font-size(14px);
+            font-family: "Montserrat";
+            color: $charcoal;
+        }
+        p {
+            color: mix($charcoal, $white, 50%);
+            @include font-size(18px);
         }
     }
-    .published {
-        background: #fff;
-        position: absolute;
-        @include padding(0.5rem);
-        border-radius: 5px;
-        box-shadow: 0px 5px 20px #0000001a;
-        top: 210px;
-        right: 1.5rem;
-        @include breakpoint-up(md) {
-        right: -0.75rem;
-        }
-        font-weight: 700;
-        @include font-size (14px);
-        font-family: 'Montserrat';
+    .et_pb_image_container {
+        @include margin-bottom(3rem);
+    }
+}
+.pagination {
+    a {
+        text-decoration: none;
+        border-color: rgba($charcoal, 0.9);
+        padding: 0.75rem 1rem;
         color: $charcoal;
+        font-weight: 600;
+        @include font-size(18px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 0.25rem rgba($charcoal, 0.5);
+        }
+
+        border-color: mix($charcoal, $white, 30%);
+        color: mix($charcoal, $white, 60%);
+
+        &:hover {
+            border-color: mix($charcoal, $white, 50%);
+            color: mix($charcoal, $white, 80%);
+        }
     }
-    p {
-        color: mix($charcoal, $white, 50%);
-        @include font-size (18px);
-    }
-}
-.et_pb_image_container {
-    @include margin-bottom(3rem);
-}
 }

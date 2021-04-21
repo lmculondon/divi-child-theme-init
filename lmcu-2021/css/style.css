@@ -30295,14 +30295,14 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   }
 }
 
-/* line 28, src/sass/partials/_blog.scss */
+/* line 27, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_post {
   position: relative;
   margin-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1100px) {
-  /* line 28, src/sass/partials/_blog.scss */
+  /* line 27, src/sass/partials/_blog.scss */
   .et_pb_custom_blog_row .et_pb_post {
     margin-bottom: 0;
     -webkit-transition: all 1s ease;
@@ -30317,45 +30317,45 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
         -ms-flex: 1;
             flex: 1;
   }
-  /* line 39, src/sass/partials/_blog.scss */
+  /* line 38, src/sass/partials/_blog.scss */
   .et_pb_custom_blog_row .et_pb_post:hover {
     background-color: #f2f7fa;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 28, src/sass/partials/_blog.scss */
+  /* line 27, src/sass/partials/_blog.scss */
   .et_pb_custom_blog_row .et_pb_post {
     margin-bottom: 3rem;
   }
 }
 
 @media (min-width: 1100px) {
-  /* line 28, src/sass/partials/_blog.scss */
+  /* line 27, src/sass/partials/_blog.scss */
   .et_pb_custom_blog_row .et_pb_post {
     margin-bottom: 0;
   }
 }
 
-/* line 49, src/sass/partials/_blog.scss */
+/* line 48, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_post .entry-title a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 52, src/sass/partials/_blog.scss */
+/* line 51, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_post .entry-title a:hover {
   color: #272d37;
 }
 
-/* line 55, src/sass/partials/_blog.scss */
+/* line 54, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_post .entry-title a:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: inherit;
 }
 
-/* line 61, src/sass/partials/_blog.scss */
+/* line 60, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_post .published {
   background: #fff;
   position: absolute;
@@ -30367,33 +30367,61 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   right: 1.5rem;
   font-weight: 700;
   font-size: 0.875rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: #272d37;
 }
 
 @media (min-width: 980px) {
-  /* line 61, src/sass/partials/_blog.scss */
+  /* line 60, src/sass/partials/_blog.scss */
   .et_pb_custom_blog_row .et_pb_post .published {
     right: -0.75rem;
   }
 }
 
-/* line 77, src/sass/partials/_blog.scss */
+/* line 76, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_post p {
   color: #93969b;
   font-size: 1.125rem;
 }
 
-/* line 82, src/sass/partials/_blog.scss */
+/* line 81, src/sass/partials/_blog.scss */
 .et_pb_custom_blog_row .et_pb_image_container {
   margin-bottom: calc(1.425rem + 2.1vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 82, src/sass/partials/_blog.scss */
+  /* line 81, src/sass/partials/_blog.scss */
   .et_pb_custom_blog_row .et_pb_image_container {
     margin-bottom: 3rem;
   }
+}
+
+/* line 86, src/sass/partials/_blog.scss */
+.pagination a {
+  text-decoration: none;
+  border-color: rgba(39, 45, 55, 0.9);
+  padding: 0.75rem 1rem;
+  color: #272d37;
+  font-weight: 600;
+  font-size: 1.125rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-color: #bec0c3;
+  color: #7d8187;
+}
+
+/* line 97, src/sass/partials/_blog.scss */
+.pagination a:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(39, 45, 55, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(39, 45, 55, 0.5);
+}
+
+/* line 105, src/sass/partials/_blog.scss */
+.pagination a:hover {
+  border-color: #93969b;
+  color: #52575f;
 }
 
 /* line 2, src/sass/partials/_dynamic.scss */

@@ -30616,6 +30616,41 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   color: #52575f;
 }
 
+/* line 237, src/sass/partials/_blog.scss */
+.et_pb_custom_blog_single .et_pb_tandcs_footer {
+  padding-bottom: calc(1.425rem + 2.1vmin);
+  border-bottom: 1px solid #dfe0e1;
+  padding-top: calc(1.425rem + 2.1vmin);
+  border-top: 1px solid #dfe0e1;
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 237, src/sass/partials/_blog.scss */
+  .et_pb_custom_blog_single .et_pb_tandcs_footer {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 237, src/sass/partials/_blog.scss */
+  .et_pb_custom_blog_single .et_pb_tandcs_footer {
+    padding-top: 3rem;
+  }
+}
+
+/* line 242, src/sass/partials/_blog.scss */
+.et_pb_custom_blog_single .et_pb_tandcs_footer p {
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 980px) {
+  /* line 237, src/sass/partials/_blog.scss */
+  .et_pb_custom_blog_single .et_pb_tandcs_footer {
+    font-size: 0.875rem;
+  }
+}
+
 /* line 2, src/sass/partials/_dynamic.scss */
 #page-container .et_pb_toggle_items {
   background-color: #f4f5f5;

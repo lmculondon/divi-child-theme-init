@@ -234,4 +234,17 @@
             }
         }
     }
+    .et_pb_tandcs_footer {
+        @include padding-bottom(3rem);
+        border-bottom: 1px solid mix($charcoal, $white, 15%);
+        @include padding-top(3rem);
+        border-top: 1px solid mix($charcoal, $white, 15%);
+        p {
+            font-weight: 300;
+            @include font-size(12px);
+        }
+        @include breakpoint-up(md) {
+            @include font-size(14px);
+        }
+    }
 }

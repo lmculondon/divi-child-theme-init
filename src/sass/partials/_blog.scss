@@ -1,10 +1,10 @@
 .et_pb_custom_blog_row {
     &.et_pb_blog_0_tb_body {
-.et_pb_post:hover {
-    .entry-title a {
-        color: $charcoal!important;
-    }
-}
+        .et_pb_post:hover {
+            .entry-title a {
+                color: $charcoal !important;
+            }
+        }
     }
     .et_pb_salvattore_content {
         display: flex;
@@ -164,6 +164,24 @@
             }
         }
     }
+    .et_pb_custom_post_category {
+        margin-bottom: 0;
+        .et_pb_title_meta_container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 0.125rem 1rem;
+            border-radius: 20px;
+            background-color: $light-blue;
+            color: $white;
+            @include font-size(16px);
+            line-height: 1.7;
+        }
+    }
     .et_pb_post_content,
     & p {
         color: mix($charcoal, $white, 80%);
@@ -215,6 +233,7 @@
     }
     #was-this-helpful {
         @include margin-top(6rem);
+        background-color: #fef5c4;
     }
     .et_pb_posts_nav {
         a {
@@ -253,11 +272,11 @@
         }
         h4 {
             color: mix($charcoal, $white, 60%);
-            @include font-size(15px);
+            @include font-size(16px);
         }
         p {
             font-weight: 300;
-            @include font-size(14px);
+            @include font-size(15px);
             &:last-child {
                 padding-bottom: 0;
             }

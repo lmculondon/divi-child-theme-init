@@ -29,6 +29,11 @@
 		&::after {
 			content: none;;
 		}
+		&.et_pb_btn_small {
+			&:hover {
+				padding-right: 0.7rem !important;
+			}
+		}
 	}
 	&.et_pb_btn_right {
 		&:hover {

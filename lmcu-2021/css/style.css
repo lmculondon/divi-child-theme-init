@@ -29700,62 +29700,67 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   content: none;
 }
 
-/* line 34, src/sass/partials/_button.scss */
+/* line 33, src/sass/partials/_button.scss */
+.et_pb_button.et_pb_btn_nohover.et_pb_btn_small:hover {
+  padding-right: 0.7rem !important;
+}
+
+/* line 39, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_right:hover {
   padding-right: 1rem;
   padding-left: 2.5rem !important;
 }
 
-/* line 39, src/sass/partials/_button.scss */
+/* line 44, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_small {
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
 }
 
-/* line 43, src/sass/partials/_button.scss */
+/* line 48, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_small:hover {
   padding: 0.25rem 2rem 0.25rem 0.5rem;
 }
 
-/* line 48, src/sass/partials/_button.scss */
+/* line 53, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_green {
   background-color: #038750;
   border-color: #03864f;
   color: #ffffff;
 }
 
-/* line 53, src/sass/partials/_button.scss */
+/* line 58, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_green:hover {
   background-color: #026e41;
 }
 
-/* line 58, src/sass/partials/_button.scss */
+/* line 63, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_muted {
   border-color: #bec0c3;
   color: #7d8187;
 }
 
-/* line 62, src/sass/partials/_button.scss */
+/* line 67, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_btn_muted:hover {
   border-color: #93969b;
   color: #52575f;
 }
 
-/* line 68, src/sass/partials/_button.scss */
+/* line 73, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_bg_layout_dark {
   background-color: white;
   color: #272d37 !important;
   border-color: rgba(39, 45, 55, 0.9);
 }
 
-/* line 73, src/sass/partials/_button.scss */
+/* line 78, src/sass/partials/_button.scss */
 .et_pb_button.et_pb_bg_layout_dark:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
           box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
 
-/* line 80, src/sass/partials/_button.scss */
+/* line 85, src/sass/partials/_button.scss */
 .et_pb_btn_row_center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29815,7 +29820,7 @@ body .et_pb_section_header_complex:last-of-type(.et_pb_module) {
   }
 }
 
-/* line 83, src/sass/partials/_button.scss */
+/* line 88, src/sass/partials/_button.scss */
 .et_pb_btn_row {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -170,6 +170,7 @@
             display: flex;
             justify-content: center;
             margin-bottom: 0;
+            color: transparent;
         }
         a {
             display: block;
@@ -177,7 +178,7 @@
             padding: 0.125rem 1rem;
             border-radius: 20px;
             background-color: $light-blue;
-            color: $white;
+            color: $charcoal!important;
             @include font-size(16px);
             line-height: 1.7;
         }

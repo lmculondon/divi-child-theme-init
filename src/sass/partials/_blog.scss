@@ -239,12 +239,13 @@
         border-bottom: 1px solid mix($charcoal, $white, 15%);
         @include padding-top(3rem);
         border-top: 1px solid mix($charcoal, $white, 15%);
+        h4 {
+            color: mix($charcoal, $white, 60%);
+            @include font-size(14px);
+        }
         p {
             font-weight: 300;
-            @include font-size(12px);
-        }
-        @include breakpoint-up(md) {
-            @include font-size(14px);
+            @include font-size(13px);
         }
     }
 }

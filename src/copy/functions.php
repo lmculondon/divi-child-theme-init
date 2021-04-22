@@ -46,8 +46,8 @@ WP CLEANUP
 function dequeue_redundant_styles() {
     wp_dequeue_style( 'dlm-frontend' );
     wp_dequeue_style( 'calculator-css');
-    wp_dequeue_style('divi-upload-icons-awb-public-css');
-    wp_dequeue_style('divi-upload-icons-awb-icon-filter-css');
+    wp_dequeue_style('divi-upload-icons-awb-public');
+    wp_dequeue_style('divi-upload-icons-awb-icon-filter');
 }
 add_action( 'wp_enqueue_scripts', 'dequeue_redundant_styles', 999 );	
 

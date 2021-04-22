@@ -74,7 +74,7 @@
             color: $charcoal;
         }
         p {
-            color: mix($charcoal, $white, 50%);
+            color: mix($charcoal, $white,80%);
             @include font-size(18px);
         }
     }

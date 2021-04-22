@@ -596,7 +596,7 @@ p {
 	padding-bottom: 1em;
 
 	&:not(.has-background) {
-		&:last-of-type {
+		&:last-child {
 			padding-bottom: 0;
 		}
 	}

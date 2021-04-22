@@ -74,7 +74,7 @@ h2 {
 h3 {
 	@include rfs(1.333rem, margin-top);
 	@include font-size(1.333rem);
-	@include rfs(0.25rem, margin-bottom);
+	@include rfs(0.75rem, margin-bottom);
 }
 
 h4 {
@@ -217,7 +217,7 @@ table.et_pb_apr_table {
 	}
 }
 ul.et_pb_checklist {
-@include margin-top(1.5rem);
+@include margin-top(0);
 @include margin-bottom(1.5rem);
 padding-left: 2rem;
 padding-bottom: 0;

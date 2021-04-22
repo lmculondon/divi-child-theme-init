@@ -867,7 +867,7 @@ p {
 }
 
 /* line 599, src/sass/vendor/_divi.scss */
-p:not(.has-background):last-of-type {
+p:not(.has-background):last-child {
   padding-bottom: 0;
 }
 
@@ -28193,7 +28193,7 @@ h2.display-text {
 h3 {
   margin-top: calc(1.2583rem + 0.0996vmin);
   font-size: calc(1.2583rem + 0.0996vmin);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
@@ -28426,17 +28426,10 @@ table.et_pb_apr_table tr:last-of-type td {
 
 /* line 219, src/sass/partials/_typography.scss */
 ul.et_pb_checklist {
-  margin-top: calc(1.275rem + 0.3vmin);
+  margin-top: 0;
   margin-bottom: calc(1.275rem + 0.3vmin);
   padding-left: 2rem;
   padding-bottom: 0;
-}
-
-@media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 219, src/sass/partials/_typography.scss */
-  ul.et_pb_checklist {
-    margin-top: 1.5rem;
-  }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {

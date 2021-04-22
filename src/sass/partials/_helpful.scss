@@ -31,7 +31,7 @@
   padding: 0.5rem 1rem;
 		@include font-size(16px);
   box-shadow: none;
-  border-color: mix($charcoal, $white, 50%);
+  border-color:$charcoal;
   color: mix($charcoal, $white, 70%);
   border-width: 2px;
   border-style: solid;

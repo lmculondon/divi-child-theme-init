@@ -49,7 +49,14 @@ function dequeue_redundant_styles() {
     wp_dequeue_style('divi-upload-icons-awb-public');
     wp_dequeue_style('divi-upload-icons-awb-icon-filter');
 }
-add_action( 'wp_enqueue_scripts', 'dequeue_redundant_styles', 9999 );	
+add_action( 'wp_print_styles', 'dequeue_redundant_styles', 9999 );	
+
+function my_deregister_styles()    { 
+   //wp_deregister_style( 'amethyst-dashicons-style' ); 
+   wp_deregister_style( 'dashicons' ); 
+
+
+}
 
 //Remove JQuery migrate 
 /*function remove_jquery_migrate($scripts)

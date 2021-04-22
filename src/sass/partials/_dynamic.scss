@@ -257,7 +257,7 @@ body {
 		.et_pb_toggle_title {
 			display: block;
 			color: mix($charcoal, $white, 75%);
-			@include font-size(20px);
+			@include font-size(18px);
 			@include padding-bottom(2rem);
 			@include padding-top(2rem);
 			transition: all 250ms ease-in;

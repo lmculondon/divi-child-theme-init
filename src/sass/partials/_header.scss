@@ -317,6 +317,10 @@
 }
 
 //Scroll-up functionality
+body .et-boc .et-l--header {
+	position: absolute;
+	top:0;
+}
 body:not(.show-menu) .et-boc .et-l--header {
 	transition: all 0.4s ease-in-out;
 	width: 100%;

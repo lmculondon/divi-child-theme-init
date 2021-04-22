@@ -28058,7 +28058,7 @@ p {
 /* line 21, src/sass/partials/_typography.scss */
 p.et_pb_lead {
   font-size: 1.125rem;
-  margin-bottom: 0;
+  padding-bottom: 0;
   margin-bottom: calc(1.325rem + 0.9vmin);
 }
 
@@ -29319,6 +29319,12 @@ body .et_pb_section_hero .et_pb_module:last-of-type {
 }
 
 /* line 320, src/sass/partials/_header.scss */
+body .et-boc .et-l--header {
+  position: absolute;
+  top: 0;
+}
+
+/* line 324, src/sass/partials/_header.scss */
 body:not(.show-menu) .et-boc .et-l--header {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -29328,12 +29334,12 @@ body:not(.show-menu) .et-boc .et-l--header {
   z-index: 10;
 }
 
-/* line 326, src/sass/partials/_header.scss */
+/* line 330, src/sass/partials/_header.scss */
 body:not(.show-menu) .et-boc .et-l--header.nav-up {
   top: -50%;
 }
 
-/* line 329, src/sass/partials/_header.scss */
+/* line 333, src/sass/partials/_header.scss */
 body:not(.show-menu) .et-boc .et-l--header.nav-down {
   top: 0;
 }
@@ -31005,7 +31011,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 .et_pb_accordion .et_pb_toggle .et_pb_toggle_title {
   display: block;
   color: #5d6269;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   padding-bottom: calc(1.325rem + 0.9vmin);
   padding-top: calc(1.325rem + 0.9vmin);
   -webkit-transition: all 250ms ease-in;

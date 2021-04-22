@@ -23,7 +23,7 @@ p.et_pb_lead {
 	@include breakpoint-up(md) {
 		@include font-size(22px);
 	}
-	margin-bottom: 0;
+	padding-bottom: 0;
 	@include margin-bottom(2rem);
 }
 

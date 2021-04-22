@@ -44,19 +44,13 @@ add_action('wp_enqueue_scripts', 'trustpilot_enqueue_scripts');
 WP CLEANUP
 */
 function dequeue_redundant_styles() {
-    wp_dequeue_style( 'dlm-frontend' );
-    wp_dequeue_style( 'calculator-css');
-    wp_dequeue_style('divi-upload-icons-awb-public');
-    wp_dequeue_style('divi-upload-icons-awb-icon-filter');
+    wp_deregister_style( 'dlm-frontend' );
+    wp_deregister_style( 'lmcu-calculator');
+    wp_deregister_style('divi-upload-icons-awb-public');
+    wp_deregister('divi-upload-icons-awb-icon-filter');
 }
 add_action( 'wp_print_styles', 'dequeue_redundant_styles', 9999 );	
 
-function my_deregister_styles()    { 
-   //wp_deregister_style( 'amethyst-dashicons-style' ); 
-   wp_deregister_style( 'dashicons' ); 
-
-
-}
 
 //Remove JQuery migrate 
 /*function remove_jquery_migrate($scripts)

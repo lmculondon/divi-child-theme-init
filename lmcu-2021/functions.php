@@ -26,8 +26,10 @@ add_action( 'wp', 'remove_divi_customizer_styles', 999 );
 //Preconnect Gfonts
 function gfont_preload() {
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com">';
+    $upload_dir = wp_upload_dir();
+
     echo '<link rel="preload" as="font" href="' . get_template_directory_uri() . '/core/admin/fonts/modules.ttf" type="font/ttf" crossorigin="anonymous">';
-    echo '<link rel="preload" as="font" href="' . plugins_url() . '/divi-uploaded-icons-diui-awb/lmcu-icons/lmcu-icons.ttf" type="font/ttf" crossorigin="anonymous">';								
+    echo '<link rel="preload" as="font" href="' . $upload_dir['baseurl'] . '/divi-uploaded-icons-diui-awb/lmcu-icons/lmcu-icons.ttf" type="font/ttf" crossorigin="anonymous">';								
 }
 add_action('wp_head', 'gfont_preload');
 
@@ -122,3 +124,18 @@ $year = date_i18n ('Y');
 return $year;
 }
 add_shortcode ('year', 'year_shortcode');
+
+//Divi adjustments
+
+//hide - not removing - the internal prohect post type.
+//By hidign it we prevent any problems as this CPT is deep integrated in divi
+add_filter('et_project_posttype_args', 'mytheme_et_project_posttype_args', 10, 1);
+function mytheme_et_project_posttype_args($args) {
+  return array_merge($args, array(
+    'public'              => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => false,
+        'show_in_nav_menus'   => false,
+        'show_ui'             => false
+  ));
+}

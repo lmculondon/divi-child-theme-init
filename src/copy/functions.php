@@ -48,7 +48,7 @@ function dequeue_redundant_styles() {
     wp_deregister_style( 'lmcu-calculator');
     wp_deregister_style('divi-upload-icons-awb-public');
     wp_deregister('divi-upload-icons-awb-icon-filter');
-}
+};
 add_action( 'wp_print_styles', 'dequeue_redundant_styles', 9999 );	
 
 

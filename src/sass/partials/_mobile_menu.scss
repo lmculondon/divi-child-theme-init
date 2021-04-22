@@ -21,7 +21,7 @@
 	}
 
 	#dm-menu {
-		width: $content-width;
+		width: 80%;
 		margin: auto;
 
 		.close-submenu {
@@ -47,6 +47,7 @@
 				padding-right: 0 !important;
 				padding-bottom: 1rem !important;
 				margin-bottom: 1rem;
+				@include link-effect($white);
 				&:focus {
 					background-color: rgba(0,0,0,0.2);
 				}

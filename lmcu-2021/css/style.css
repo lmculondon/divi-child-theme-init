@@ -29379,7 +29379,7 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 
 /* line 23, src/sass/partials/_mobile_menu.scss */
 #global-header-section #dm-menu {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
@@ -29408,19 +29408,41 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   padding-right: 0 !important;
   padding-bottom: 1rem !important;
   margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
 }
 
-/* line 50, src/sass/partials/_mobile_menu.scss */
+/* line 55, src/sass/base/_mixins.scss */
+#global-header-section #dm-menu li a:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  visibility: hidden;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+/* line 68, src/sass/base/_mixins.scss */
+#global-header-section #dm-menu li a:hover:after {
+  visibility: visible;
+  width: 50%;
+}
+
+/* line 51, src/sass/partials/_mobile_menu.scss */
 #global-header-section #dm-menu li a:focus {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 55, src/sass/partials/_mobile_menu.scss */
+/* line 56, src/sass/partials/_mobile_menu.scss */
 #global-header-section #dm-menu li ul.sub-menu {
   background-color: #272d37 !important;
 }
 
-/* line 58, src/sass/partials/_mobile_menu.scss */
+/* line 59, src/sass/partials/_mobile_menu.scss */
 #global-header-section #dm-menu li ul.sub-menu a {
   font-weight: 400;
   color: #ffffff !important;
@@ -29430,43 +29452,43 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   margin-bottom: 1rem;
 }
 
-/* line 70, src/sass/partials/_mobile_menu.scss */
+/* line 71, src/sass/partials/_mobile_menu.scss */
 #global-header-section .clickthrough {
   width: 100%;
   right: 0;
 }
 
-/* line 80, src/sass/partials/_mobile_menu.scss */
+/* line 81, src/sass/partials/_mobile_menu.scss */
 body.show-menu .hamburger {
   position: fixed !important;
 }
 
-/* line 87, src/sass/partials/_mobile_menu.scss */
+/* line 88, src/sass/partials/_mobile_menu.scss */
 #global-header-section .et_pb_header_top_row .menu-wrap .et_pb_section {
   padding-top: 0 !important;
   margin-top: auto !important;
   padding-bottom: 0 !important;
 }
 
-/* line 93, src/sass/partials/_mobile_menu.scss */
+/* line 94, src/sass/partials/_mobile_menu.scss */
 #global-header-section .et_pb_header_top_row .menu-wrap .et_pb_row {
   width: 90%;
   margin-bottom: 1rem;
 }
 
-/* line 98, src/sass/partials/_mobile_menu.scss */
+/* line 99, src/sass/partials/_mobile_menu.scss */
 #global-header-section .et_pb_header_top_row .menu-wrap .et_pb_column {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-/* line 102, src/sass/partials/_mobile_menu.scss */
+/* line 103, src/sass/partials/_mobile_menu.scss */
 #global-header-section .et_pb_header_top_row .menu-wrap .et_pb_button_module_wrapper {
   width: 100%;
 }
 
-/* line 106, src/sass/partials/_mobile_menu.scss */
+/* line 107, src/sass/partials/_mobile_menu.scss */
 #global-header-section .et_pb_header_top_row .menu-wrap .et_pb_button {
   width: 100%;
   border-color: rgba(255, 255, 255, 0.5);
@@ -29474,7 +29496,7 @@ body.show-menu .hamburger {
   font-size: inherit !important;
 }
 
-/* line 113, src/sass/partials/_mobile_menu.scss */
+/* line 114, src/sass/partials/_mobile_menu.scss */
 #global-header-section .et_pb_header_top_row .menu-wrap .et_pb_btn_obanking {
   width: 100%;
   display: block;

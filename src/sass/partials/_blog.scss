@@ -1,4 +1,11 @@
 .et_pb_custom_blog_row {
+    &.et_pb_blog_0_tb_body {
+.et_pb_post:hover {
+    .entry-title a {
+        color: $charcoal!important;
+    }
+}
+    }
     .et_pb_salvattore_content {
         display: flex;
         flex-wrap: wrap;
@@ -90,6 +97,7 @@
             padding: 0.75rem 1rem;
             color: $charcoal;
             font-weight: 600;
+            border-radius: 3px;
             @include font-size(18px);
             white-space: nowrap;
             overflow: hidden;
@@ -218,6 +226,7 @@
             @include font-size(18px);
             white-space: nowrap;
             overflow: hidden;
+            border-radius: 3px;
             text-overflow: ellipsis;
 
             &:focus {
@@ -239,13 +248,19 @@
         border-bottom: 1px solid mix($charcoal, $white, 15%);
         @include padding-top(3rem);
         border-top: 1px solid mix($charcoal, $white, 15%);
+        .et_pb_module {
+            margin-bottom: 0;
+        }
         h4 {
             color: mix($charcoal, $white, 60%);
-            @include font-size(14px);
+            @include font-size(15px);
         }
         p {
             font-weight: 300;
-            @include font-size(13px);
+            @include font-size(14px);
+            &:last-child {
+                padding-bottom: 0;
+            }
         }
     }
 }

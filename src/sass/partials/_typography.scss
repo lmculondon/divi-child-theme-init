@@ -23,6 +23,7 @@ p.et_pb_lead {
 	@include breakpoint-up(md) {
 		@include font-size(22px);
 	}
+	margin-bottom: 0;
 	@include margin-bottom(2rem);
 }
 
@@ -226,6 +227,11 @@ padding-bottom: 0;
 		color: $charcoal;
 		font-weight: 500;
 		position: relative;
+		@include font-size(16px);
+		line-height: 1.7;
+		@include breakpoint-up(md) {
+			@include font-size(18px);
+		}
 		&:before {
 			position: absolute;
 			color: rgba($charcoal, 0.75);

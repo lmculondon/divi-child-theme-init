@@ -13,6 +13,9 @@ body {
                 padding-right: 1.5rem;
             }
         }
+        .et_pb_btn_back {
+            @include margin-bottom(1rem);
+        }
         .et_pb_logo_row {
             display: flex;
            // flex-wrap: wrap;

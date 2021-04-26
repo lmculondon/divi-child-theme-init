@@ -9589,28 +9589,6 @@ p.et_pb_gallery_caption {
 	}
 }
 
-.et_pb_pricing_table {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	float: left;
-	position: relative;
-	width: 33.33%;
-	max-width: 34%;
-	margin: 30px -1px 0 0;
-	padding-bottom: 30px;
-	border: 1px solid #bebebe;
-	background-color: $background_color_19;
-	text-align: center;
-	-webkit-flex: 1 1 auto;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
-
-	.et_pb_button_wrapper {
-		padding-right: 30px;
-		padding-left: 30px;
-	}
-}
 
 .et_pb_row_inner {
 	background-repeat: no-repeat;
@@ -10322,14 +10300,14 @@ p.et_pb_gallery_caption {
 
 .et_pb_column_4_4 {
 	.et_pb_pricing_table {
-		width: 25%;
-		max-width: 25.5%;
+		//width: 25%;
+		//max-width: 25.5%;
 	}
 
 	.et_pb_pricing_3 {
 		.et_pb_pricing_table {
-			width: 33.33%;
-			max-width: 34%;
+			//width: 33.33%;
+			//max-width: 34%;
 		}
 	}
 
@@ -10341,7 +10319,7 @@ p.et_pb_gallery_caption {
 				}
 
 				&:nth-child(n + 5) {
-					margin-top: 50px;
+					//margin-top: 50px;
 				}
 			}
 		}

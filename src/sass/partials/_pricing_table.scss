@@ -1,0 +1,72 @@
+.et_pb_pricing_table_wrap {
+    display: flex;
+    align-items: stretch;
+    //flex-direction: column;
+    @include breakpoint-up(xs) {
+    margin-left: -$gutter-1;
+    margin-right: -$gutter-1;
+    
+    }
+.et_pb_pricing_table {
+    padding-left: $gutter-1;
+    padding-right: $gutter-1;
+    width:100%;
+    border-radius:$border-radius-lg;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: background-color 500ms ease-in-out;
+
+    @include margin-bottom(3rem);
+    @include breakpoint-up(xs) {
+        margin-left: $gutter-1;
+        margin-right: $gutter-1;
+        width: 100%;
+    }
+    @include breakpoint-up(sm) {
+        width: calc(50% - 1rem);
+    }
+    @include breakpoint-up(xl) {
+        width: calc( 25% - 1rem);
+        margin-bottom: 0;
+    }
+li {
+    @include padding-bottom(0.75rem);
+}    
+.et_pb_pricing_content {
+    @include font-size(15px);
+}
+.et_pb_sum {
+    @include font-size(72px);
+    font-weight: 700;
+}
+.et_pb_pricing_heading {
+    padding-left: $gutter-2;
+    padding-right: $gutter-2;
+    margin-top: $gutter-1;
+    border-radius: $border-radius;
+    min-height: 130px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.et_pb_pricing_content_top {
+    padding-left: $gutter-2;
+    padding-right: $gutter-2;
+}
+.et_pb_pricing_content {
+    padding-left: $gutter-2;
+    padding-right: $gutter-2;
+}
+.et_pb_button_wrapper {
+    margin-top: auto;
+    padding-left: $gutter-2;
+    padding-right: $gutter-2; 
+    padding-bottom: $gutter-2; 
+    .et_pb_pricing_table_button {
+        width:100%;
+        text-align: center;
+    }
+}
+}
+}

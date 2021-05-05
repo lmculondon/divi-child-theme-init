@@ -31759,10 +31759,10 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
       -ms-flex-pack: center;
           justify-content: center;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -31776,7 +31776,37 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   transition: background-color 200ms, box-shadow 200ms, -webkit-box-shadow 200ms;
 }
 
-/* line 30, src/sass/partials/_helpful.scss */
+/* line 18, src/sass/partials/_helpful.scss */
+.helpful-header {
+  margin-right: 2rem;
+}
+
+/* line 21, src/sass/partials/_helpful.scss */
+.helpful-headline {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 1.125rem;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 27, src/sass/partials/_helpful.scss */
+.helpful-content {
+  width: 90%;
+  max-width: 1140px;
+}
+
+/* line 31, src/sass/partials/_helpful.scss */
+.helpful-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* line 35, src/sass/partials/_helpful.scss */
 .helpful-button {
   border-radius: 3px;
   background-color: #ffffff;
@@ -31794,7 +31824,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   border-style: solid;
 }
 
-/* line 43, src/sass/partials/_helpful.scss */
+/* line 48, src/sass/partials/_helpful.scss */
 .helpful-button:hover {
   border-color: #52575f;
   color: #3d424b;
@@ -31802,45 +31832,89 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           box-shadow: none;
 }
 
-/* line 48, src/sass/partials/_helpful.scss */
+/* line 53, src/sass/partials/_helpful.scss */
 .helpful-button:active {
   background-color: #bec0c3;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 53, src/sass/partials/_helpful.scss */
+/* line 58, src/sass/partials/_helpful.scss */
 .helpful-button:first-child {
   margin-right: 0.25em;
 }
 
-/* line 57, src/sass/partials/_helpful.scss */
+/* line 62, src/sass/partials/_helpful.scss */
 .helpful-button:last-child {
   margin-left: 0.25em;
 }
 
-/* line 63, src/sass/partials/_helpful.scss */
-#wthf-title, #wthf-yes-no {
+/* line 66, src/sass/partials/_helpful.scss */
+.helpful-submit {
+  background-color: #038750;
+  border-color: #03864f;
+  color: #ffffff;
+}
+
+/* line 71, src/sass/partials/_helpful.scss */
+.helpful-submit:hover {
+  background-color: #026e41;
+}
+
+/* line 75, src/sass/partials/_helpful.scss */
+.helpful .control {
+  margin-top: calc(1.275rem + 0.3vmin);
+  margin-bottom: calc(1.275rem + 0.3vmin);
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 75, src/sass/partials/_helpful.scss */
+  .helpful .control {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+  /* line 75, src/sass/partials/_helpful.scss */
+  .helpful .control {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* line 78, src/sass/partials/_helpful.scss */
+.helpful .control textarea {
+  max-width: 640px;
+  width: 100%;
+  min-height: 4rem;
+  border: 2px solid #272d37;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 0.75rem 0.75rem;
+}
+
+/* line 90, src/sass/partials/_helpful.scss */
+#wthf-title,
+#wthf-yes-no {
   display: inline-block;
 }
 
-/* line 67, src/sass/partials/_helpful.scss */
+/* line 95, src/sass/partials/_helpful.scss */
 #wthf-title {
   padding-right: 2em;
 }
 
-/* line 72, src/sass/partials/_helpful.scss */
+/* line 99, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled {
   pointer-events: none;
   position: relative;
 }
 
-/* line 76, src/sass/partials/_helpful.scss */
+/* line 103, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled * {
   opacity: 0;
 }
 
-/* line 80, src/sass/partials/_helpful.scss */
+/* line 107, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled:after {
   content: attr(data-thank-text);
   display: block;

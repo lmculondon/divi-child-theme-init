@@ -31789,13 +31789,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   font-family: "Lato", sans-serif;
 }
 
-/* line 28, src/sass/partials/_helpful.scss */
-.helpful-content {
-  width: 90%;
-  max-width: 1140px;
-}
-
-/* line 32, src/sass/partials/_helpful.scss */
+/* line 31, src/sass/partials/_helpful.scss */
 .helpful-controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31806,13 +31800,13 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           flex-direction: row;
 }
 
-/* line 36, src/sass/partials/_helpful.scss */
+/* line 35, src/sass/partials/_helpful.scss */
 .helpful-feedback-form {
   min-width: 90vw;
   max-width: 1140px;
 }
 
-/* line 40, src/sass/partials/_helpful.scss */
+/* line 39, src/sass/partials/_helpful.scss */
 .helpful-button {
   border-radius: 3px;
   background-color: #ffffff;
@@ -31830,7 +31824,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   border-style: solid;
 }
 
-/* line 53, src/sass/partials/_helpful.scss */
+/* line 52, src/sass/partials/_helpful.scss */
 .helpful-button:hover {
   border-color: #52575f;
   color: #3d424b;
@@ -31838,42 +31832,42 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           box-shadow: none;
 }
 
-/* line 58, src/sass/partials/_helpful.scss */
+/* line 57, src/sass/partials/_helpful.scss */
 .helpful-button:active {
   background-color: #bec0c3;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 63, src/sass/partials/_helpful.scss */
+/* line 62, src/sass/partials/_helpful.scss */
 .helpful-button:first-child {
   margin-right: 0.25em;
 }
 
-/* line 67, src/sass/partials/_helpful.scss */
+/* line 66, src/sass/partials/_helpful.scss */
 .helpful-button:last-child {
   margin-left: 0.25em;
 }
 
-/* line 71, src/sass/partials/_helpful.scss */
+/* line 70, src/sass/partials/_helpful.scss */
 .helpful-submit {
   background-color: #038750;
   border-color: #03864f;
   color: #ffffff;
 }
 
-/* line 76, src/sass/partials/_helpful.scss */
+/* line 75, src/sass/partials/_helpful.scss */
 .helpful-submit:hover {
   background-color: #026e41;
 }
 
-/* line 80, src/sass/partials/_helpful.scss */
+/* line 79, src/sass/partials/_helpful.scss */
 .helpful .control {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-/* line 83, src/sass/partials/_helpful.scss */
+/* line 82, src/sass/partials/_helpful.scss */
 .helpful .control textarea {
   max-width: 640px;
   width: 100%;

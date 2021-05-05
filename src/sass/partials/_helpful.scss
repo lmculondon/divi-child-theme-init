@@ -33,6 +33,10 @@
     display: flex;
     flex-direction: row;
   }
+  &-feedback-form {
+    min-width: 90vw;
+    max-width: $container-max-width;
+  }
   &-button {
     border-radius: 3px;
     background-color: $white;
@@ -74,8 +78,8 @@
 		}
   }
   .control {
-    @include margin-top(1.5rem);
-    @include margin-bottom(1.5rem);    
+    @include margin-top(1rem);
+    @include margin-bottom(1rem);    
     textarea {
       max-width: 640px;
     width: 100%;
@@ -88,26 +92,3 @@
   }
 }
 
-#wthf-title,
-#wthf-yes-no {
-  display: inline-block;
-}
-
-#wthf-title {
-  padding-right: 2em;
-}
-
-#was-this-helpful.wthf-disabled {
-  pointer-events: none;
-  position: relative;
-
-  * {
-    opacity: 0;
-  }
-
-  &:after {
-    content: attr(data-thank-text);
-    display: block;
-    position: absolute;
-  }
-}

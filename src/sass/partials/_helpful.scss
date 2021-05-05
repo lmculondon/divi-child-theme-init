@@ -1,4 +1,4 @@
-#was-this-helpful {
+.helpful  {
   background-color: mix($charcoal,$white,10%);
   margin-top: 0;
  @include padding(1rem);
@@ -12,17 +12,22 @@
     -webkit-transition: background-color 200ms, box-shadow 200ms;
     transition: background-color 200ms, box-shadow 200ms;
   }
-}
+display: flex;
+flex-direction: column;
+align-content: center;
+&-header {
 
-#wthf-title, #wthf-yes-no {
-  display: inline-block;
 }
+&-headline {
 
-#wthf-title {
-  padding-right: 2em;
 }
+&-content {
 
-#wthf-yes-no span {
+}
+&-controls {
+
+}
+&-button {
   border-radius: 3px;
   background-color:$white;
   cursor: pointer;
@@ -53,6 +58,16 @@
     margin-left: 0.25em;
   }
 }
+}
+
+#wthf-title, #wthf-yes-no {
+  display: inline-block;
+}
+
+#wthf-title {
+  padding-right: 2em;
+}
+
 
 #was-this-helpful.wthf-disabled {
   pointer-events: none;

@@ -76,6 +76,9 @@
 			background-color: darken($green, 5%);
 		}
   }
+  .group label {
+    display: none;
+  }
   .control {
     @include margin-top(1rem);
     @include margin-bottom(1rem);    

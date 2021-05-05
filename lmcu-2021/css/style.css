@@ -31862,12 +31862,17 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
 }
 
 /* line 79, src/sass/partials/_helpful.scss */
+.helpful .group label {
+  display: none;
+}
+
+/* line 82, src/sass/partials/_helpful.scss */
 .helpful .control {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-/* line 82, src/sass/partials/_helpful.scss */
+/* line 85, src/sass/partials/_helpful.scss */
 .helpful .control textarea {
   max-width: 640px;
   width: 100%;

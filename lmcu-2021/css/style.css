@@ -31758,8 +31758,6 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90%;
-  max-width: 1140px;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -31769,7 +31767,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
       align-content: center;
 }
 
-/* line 13, src/sass/partials/_helpful.scss */
+/* line 12, src/sass/partials/_helpful.scss */
 .helpful * {
   -webkit-transition: background-color 200ms, box-shadow 200ms;
   -webkit-transition: background-color 200ms, -webkit-box-shadow 200ms;
@@ -31778,17 +31776,23 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   transition: background-color 200ms, box-shadow 200ms, -webkit-box-shadow 200ms;
 }
 
-/* line 20, src/sass/partials/_helpful.scss */
+/* line 19, src/sass/partials/_helpful.scss */
 .helpful-header {
   margin-right: 2rem;
 }
 
-/* line 23, src/sass/partials/_helpful.scss */
+/* line 22, src/sass/partials/_helpful.scss */
 .helpful-headline {
   margin-bottom: 0;
   font-weight: normal;
   font-size: 1.125rem;
   font-family: "Lato", sans-serif;
+}
+
+/* line 28, src/sass/partials/_helpful.scss */
+.helpful-content {
+  width: 90%;
+  max-width: 1140px;
 }
 
 /* line 32, src/sass/partials/_helpful.scss */

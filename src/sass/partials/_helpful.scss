@@ -7,8 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: $content-width;
-  max-width: $container-max-width;
+ 
 
   * {
     -webkit-transition: background-color 200ms, box-shadow 200ms;
@@ -27,7 +26,8 @@
     font-family: "Lato", sans-serif;
   }
   &-content {
-
+    width: $content-width;
+    max-width: $container-max-width;
   }
   &-controls {
     display: flex;

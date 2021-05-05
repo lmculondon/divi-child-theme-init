@@ -20,7 +20,8 @@
     margin-right: 2rem;
   }
   &-headline {
-    margin-bottom: 0;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
     font-weight: normal;
     @include font-size(18px);
     font-family: "Lato", sans-serif;

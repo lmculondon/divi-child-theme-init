@@ -31758,6 +31758,8 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 90%;
+  max-width: 1140px;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -31767,7 +31769,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
       align-content: center;
 }
 
-/* line 11, src/sass/partials/_helpful.scss */
+/* line 13, src/sass/partials/_helpful.scss */
 .helpful * {
   -webkit-transition: background-color 200ms, box-shadow 200ms;
   -webkit-transition: background-color 200ms, -webkit-box-shadow 200ms;
@@ -31776,12 +31778,12 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   transition: background-color 200ms, box-shadow 200ms, -webkit-box-shadow 200ms;
 }
 
-/* line 18, src/sass/partials/_helpful.scss */
+/* line 20, src/sass/partials/_helpful.scss */
 .helpful-header {
   margin-right: 2rem;
 }
 
-/* line 21, src/sass/partials/_helpful.scss */
+/* line 23, src/sass/partials/_helpful.scss */
 .helpful-headline {
   margin-bottom: 0;
   font-weight: normal;
@@ -31789,13 +31791,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   font-family: "Lato", sans-serif;
 }
 
-/* line 27, src/sass/partials/_helpful.scss */
-.helpful-content {
-  width: 90%;
-  max-width: 1140px;
-}
-
-/* line 31, src/sass/partials/_helpful.scss */
+/* line 32, src/sass/partials/_helpful.scss */
 .helpful-controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31806,7 +31802,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           flex-direction: row;
 }
 
-/* line 35, src/sass/partials/_helpful.scss */
+/* line 36, src/sass/partials/_helpful.scss */
 .helpful-button {
   border-radius: 3px;
   background-color: #ffffff;
@@ -31824,7 +31820,7 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   border-style: solid;
 }
 
-/* line 48, src/sass/partials/_helpful.scss */
+/* line 49, src/sass/partials/_helpful.scss */
 .helpful-button:hover {
   border-color: #52575f;
   color: #3d424b;
@@ -31832,56 +31828,56 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
           box-shadow: none;
 }
 
-/* line 53, src/sass/partials/_helpful.scss */
+/* line 54, src/sass/partials/_helpful.scss */
 .helpful-button:active {
   background-color: #bec0c3;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 58, src/sass/partials/_helpful.scss */
+/* line 59, src/sass/partials/_helpful.scss */
 .helpful-button:first-child {
   margin-right: 0.25em;
 }
 
-/* line 62, src/sass/partials/_helpful.scss */
+/* line 63, src/sass/partials/_helpful.scss */
 .helpful-button:last-child {
   margin-left: 0.25em;
 }
 
-/* line 66, src/sass/partials/_helpful.scss */
+/* line 67, src/sass/partials/_helpful.scss */
 .helpful-submit {
   background-color: #038750;
   border-color: #03864f;
   color: #ffffff;
 }
 
-/* line 71, src/sass/partials/_helpful.scss */
+/* line 72, src/sass/partials/_helpful.scss */
 .helpful-submit:hover {
   background-color: #026e41;
 }
 
-/* line 75, src/sass/partials/_helpful.scss */
+/* line 76, src/sass/partials/_helpful.scss */
 .helpful .control {
   margin-top: calc(1.275rem + 0.3vmin);
   margin-bottom: calc(1.275rem + 0.3vmin);
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 75, src/sass/partials/_helpful.scss */
+  /* line 76, src/sass/partials/_helpful.scss */
   .helpful .control {
     margin-top: 1.5rem;
   }
 }
 
 @media (min-width: 1200px) and (min-height: 1200px) {
-  /* line 75, src/sass/partials/_helpful.scss */
+  /* line 76, src/sass/partials/_helpful.scss */
   .helpful .control {
     margin-bottom: 1.5rem;
   }
 }
 
-/* line 78, src/sass/partials/_helpful.scss */
+/* line 79, src/sass/partials/_helpful.scss */
 .helpful .control textarea {
   max-width: 640px;
   width: 100%;
@@ -31892,29 +31888,29 @@ body .et_pb_application_steps_buttons .et_pb_column:last-child .et_pb_module::af
   padding: 0.75rem 0.75rem;
 }
 
-/* line 90, src/sass/partials/_helpful.scss */
+/* line 91, src/sass/partials/_helpful.scss */
 #wthf-title,
 #wthf-yes-no {
   display: inline-block;
 }
 
-/* line 95, src/sass/partials/_helpful.scss */
+/* line 96, src/sass/partials/_helpful.scss */
 #wthf-title {
   padding-right: 2em;
 }
 
-/* line 99, src/sass/partials/_helpful.scss */
+/* line 100, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled {
   pointer-events: none;
   position: relative;
 }
 
-/* line 103, src/sass/partials/_helpful.scss */
+/* line 104, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled * {
   opacity: 0;
 }
 
-/* line 107, src/sass/partials/_helpful.scss */
+/* line 108, src/sass/partials/_helpful.scss */
 #was-this-helpful.wthf-disabled:after {
   content: attr(data-thank-text);
   display: block;

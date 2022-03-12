@@ -8,11 +8,6 @@ jQuery(document).ready((function ($) {
 	var delta = 5;
 	var headerElement = $('.et-l--header');
 	var navbarHeight = headerElement.outerHeight();
-	$(window).on("load resize", (function (event) {
-
-		$(document.body).css("padding-top", navbarHeight);
-
-	}));
 	$(window).scroll((function (event) {
 		didScroll = true;
 	}));

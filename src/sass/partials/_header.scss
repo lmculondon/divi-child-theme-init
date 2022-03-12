@@ -92,7 +92,7 @@
 			flex: 1;
 			align-items: center;
 			justify-content: flex-end;
-
+			margin-bottom: 0;
 			.et-menu {
 				margin-left: -0.25rem;
 				margin-right: -0.25rem;
@@ -116,6 +116,10 @@
 
 			.et_pb_button_module_wrapper {
 				margin-bottom: 0;
+				a {
+					display: flex;
+					margin-bottom: 0;
+				}
 			}
 
 			.et_pb_btn_obanking {

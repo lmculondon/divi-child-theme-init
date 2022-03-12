@@ -50,11 +50,11 @@
 				font-family: "Montserrat";
 				text-decoration: none;
 				white-space: nowrap;
+				@include font-size(18px);
 				padding-top: 1.5rem;
 				padding-bottom: 1.5rem;
 				@include padding-left(1rem);
 				@include padding-right(1rem);
-
 				@include breakpoint-up(xl) {
 					@include padding-left(2rem);
 					@include padding-right(2rem);
@@ -104,6 +104,9 @@
 					a {
 						font-family: "Lato";
 						@include font-size(16px);
+						&:hover {
+							background-color: transparent;
+						}
 					}
 				}
 			}
@@ -206,6 +209,7 @@
 						@include padding-left(1.5rem);
 						@include padding-right(1.5rem);
 						font-weight: 600;
+						width:auto;
 						@include font-size(16px);
 						color: $white;
 						white-space: normal;
@@ -243,6 +247,7 @@
 		.et_pb_menu_ancillary li a {
 			color: lighten($charcoal, 15);
 			font-weight: 400;
+			@include font-size(18px);
 			padding: 1.5rem 1.25rem;
 		}
 .et_pb_core_product_menu {

@@ -1,0 +1,98 @@
+.call_to_action_5 {
+    padding: 3rem 5%;
+    margin-bottom: 4.5rem;
+    margin-top: 4.5rem;
+    background-color: rgba(196, 217, 229, 0.25);
+    box-shadow: none;
+    width: 100%
+}
+
+.call_to_action_5>.cta_content>p {
+    padding-right: 10%;
+    font-family: 'Montserrat';
+    text-align: left;
+
+}
+
+.et_pb_custom_blog_single .et_pb_post_content .call_to_action_5 h2,
+.call_to_action_5 h2 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+.call_to_action_5>.cta_content>.ctagb-btn {
+    background-color: #038750;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    white-space: nowrap;
+    overflow: hidden;
+    top: unset !important;
+    text-overflow: ellipsis;
+    border: 2px solid #03864f;
+    border-radius: 3px;
+    transform: unset;
+    position: initial;
+}
+
+.call_to_action_5>.cta_content>.ctagb-btn:focus {
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.call_to_action_5>.cta_content>.ctagb-btn:after {
+    font-family: ETmodules !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    color: #fff !important;
+    top: 50%;
+    right: unset !important;
+
+    text-shadow: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: none;
+    line-height: 1em;
+    text-transform: none;
+    content: "\35";
+    transition: all 300ms ease 0ms;
+}
+
+.call_to_action_5>.cta_content>.ctagb-btn:hover {
+    background-color: #026e41;
+    color: #ffffff;
+    padding-right: 2.5rem !important;
+    margin-left: 0;
+    opacity: 1;
+}
+
+.call_to_action_5>.cta_content>.ctagb-btn:hover:after {
+    margin-left: 0;
+    opacity: 1;
+}
+
+@media (min-width: 980px) {
+    .call_to_action_5 {
+        width: 110%;
+        margin-left: -5%;
+    }
+
+    .call_to_action_5>.cta_content>.ctagb-btn {
+        top: 50% !Important;
+        position: absolute;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+
+    .call_to_action_5>.cta_content {
+        grid-template-columns: 8fr 4fr;
+        padding-bottom: 0
+    }
+}

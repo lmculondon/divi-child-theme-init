@@ -35,12 +35,15 @@
 		"gulp-optimize-js": "1.1.0",
 		"gulp-postcss": "8.0.0",
 		"gulp-rename": "1.4.0",
-		"gulp-sass": "^4.0.2",
+		"gulp-sass": "^5.1.0",
 		"gulp-svgmin": "2.1.0",
 		"gulp-terser": "1.1.7",
 		"jshint": "^2.13.4",
 		"jshint-stylish": "2.2.1",
 		"lazypipe": "1.0.1",
 		"rfs": "^9.0.3"
+	},
+	"dependencies": {
+		"sass": "^1.50.0"
 	}
 }

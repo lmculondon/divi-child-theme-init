@@ -1,3 +1,4 @@
+@use 'sass:math';
 #page-container {
 	.et_pb_toggle_items {
 		background-color: mix($charcoal, $white, 5%);
@@ -217,7 +218,7 @@ body {
 			@include rfs(0.75rem, margin-bottom);
 			&::before {
 				display: block;
-				@include padding($number-bubble-size / 8);
+				@include padding(math.div($number-bubble-size,8));
 				line-height: $number-bubble-size;
 				height: $number-bubble-size;
 				width: $number-bubble-size;

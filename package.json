@@ -24,7 +24,7 @@
 	],
 	"devDependencies": {
 		"autoprefixer": "9.6.1",
-		"browser-sync": "2.26.7",
+		"browser-sync": "^2.27.7",
 		"cssnano": "4.1.10",
 		"del": "3.0.0",
 		"gulp": "4.0.2",
@@ -38,10 +38,9 @@
 		"gulp-sass": "^4.0.2",
 		"gulp-svgmin": "2.1.0",
 		"gulp-terser": "1.1.7",
-		"jshint": "2.9.6",
+		"jshint": "^2.13.4",
 		"jshint-stylish": "2.2.1",
 		"lazypipe": "1.0.1",
-		"node-sass": "4.13.0",
 		"rfs": "^9.0.3"
 	}
 }

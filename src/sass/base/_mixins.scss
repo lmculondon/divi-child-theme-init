@@ -85,9 +85,9 @@
 		.et_pb_button_module_wrapper {
 			display: flex;
 			flex-grow: 1;
-			margin-bottom: 0;
-			@include margin-bottom(1rem);
-
+			@include breakpoint-up(xs) {
+			margin-bottom: 0!important;
+			}
 			a {
 				text-align: center;
 				flex: 1;

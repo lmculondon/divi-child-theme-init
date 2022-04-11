@@ -1,4 +1,14 @@
 body {
+	padding-top: 100px;
+	@include breakpoint-up(md) {
+		padding-top: 120px;
+	}
+	@include breakpoint-up(lg) {
+		padding-top: 135px;
+	}
+	@include breakpoint-up(xl) {
+		padding-top: 150px;
+	}
 	.et_pb_section {
 		@include padding-bottom(6rem);
 		@include padding-top(6rem);

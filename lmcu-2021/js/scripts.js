@@ -1,4 +1,4 @@
-/*! lmcu-divi-child-theme v0.0.1 | (c) 2021 Ben West | GPL License | https://github.com/lmculondon/lmcu-divi-child-theme */
+/*! lmcu-divi-child-theme v0.0.1 | (c) 2022 Ben West | GPL License | https://github.com/lmculondon/lmcu-divi-child-theme */
 jQuery(document).ready((function ($) {
 
 	/* SCROLLUP HEADINGS*/
@@ -8,11 +8,6 @@ jQuery(document).ready((function ($) {
 	var delta = 5;
 	var headerElement = $('.et-l--header');
 	var navbarHeight = headerElement.outerHeight();
-	$(window).on("load resize", (function (event) {
-
-		$(document.body).css("padding-top", navbarHeight);
-
-	}));
 	$(window).scroll((function (event) {
 		didScroll = true;
 	}));

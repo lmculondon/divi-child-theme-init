@@ -9,13 +9,9 @@ body {
 	}
 	font-weight: 400;
 }
-
 p {
 	@include font-size(16px);
 	line-height: 1.7;
-	@include breakpoint-up(md) {
-		@include font-size(18px);
-	}
 }
 
 p.et_pb_lead {
@@ -26,7 +22,6 @@ p.et_pb_lead {
 	padding-bottom: 0;
 	@include margin-bottom(2rem);
 }
-
 h1,
 h2,
 h3,
@@ -248,9 +243,6 @@ padding-bottom: 0;
 			line-height: 1.7;
 			speak: none;
 			content:"\4e";
-		}
-		a {
-
 		}
 	}
 }

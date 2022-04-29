@@ -7,9 +7,8 @@ SCRIPTS AND STYLES
 
 //Divi Parent Styles
 function theme_enqueue_styles() {
-//	wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'divi', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'lmcu-style', get_stylesheet_directory_uri() . '/css/style.css', array());
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,400i,500i,700|Montserrat:400,600,700&display=swap', false );
     wp_enqueue_script( 'lmcu-custom', get_stylesheet_directory_uri() . '/js/scripts.min.js', array( 'jquery', 'divi-custom-script' ), true );
 	}
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
@@ -18,21 +17,6 @@ function remove_divi_customizer_styles() {
     remove_action( 'wp', 'et_divi_add_customizer_css' );
 }
 add_action( 'wp', 'remove_divi_customizer_styles', 999 ); 
-
-//Preconnect Gfonts
-function font_preload() {
-	echo '<link rel="preconnect" href="https://fonts.gstatic.com">';
-    $upload_dir = wp_upload_dir();
-    echo '<link rel="preload" as="font" href="' . get_template_directory_uri() . '/core/admin/fonts/modules.ttf" type="font/ttf" crossorigin="anonymous">';
-    echo '<link rel="preload" as="font" href="' . $upload_dir['baseurl'] . '/divi-uploaded-icons-diui-awb/lmcu-icons/lmcu-icons.ttf" type="font/ttf" crossorigin="anonymous">';								
-}
-add_action('wp_head', 'font_preload');
-
-// Prevent default font load
-function prevent_loading_fonts() {
-	remove_action('wp_enqueue_scripts', 'et_divi_load_fonts');
-}
-add_action( 'init', 'prevent_loading_fonts', 20 );
 
 //TrustPilot
 function trustpilot_enqueue_scripts() {
@@ -45,28 +29,9 @@ WP CLEANUP
 */
 function dequeue_redundant_styles() {
     wp_deregister_style( 'dlm-frontend' );
-   // wp_deregister_style( 'lmcu-calculator');
-   // wp_deregister_style('divi-upload-icons-awb-public');
-   // wp_deregister_style('divi-upload-icons-awb-icon-filter');
 };
 add_action( 'wp_print_styles', 'dequeue_redundant_styles', 9999 );	
 
-
-//Remove JQuery migrate 
-/*function remove_jquery_migrate($scripts)
-{
-    if (!is_admin() && isset($scripts->registered['jquery'])) {
-        $script = $scripts->registered['jquery'];
-        
-        if ($script->deps) { // Check whether the script has any dependencies
-            $script->deps = array_diff($script->deps, array(
-                'jquery-migrate'
-            ));
-        }
-    }
-}*/
-
-//add_action('wp_default_scripts', 'remove_jquery_migrate');
 /**
  * Disable the emoji's
  */

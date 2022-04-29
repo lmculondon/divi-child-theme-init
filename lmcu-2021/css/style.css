@@ -297,8 +297,7 @@ nav.download-monitor-pagination ul li span.current {
   text-align: left;
 }
 
-.et_pb_custom_blog_single .et_pb_post_content .call_to_action_5 h2,
-.call_to_action_5 h2 {
+.et_pb_custom_blog_single .et_pb_post_content .call_to_action_5 h2, .call_to_action_5 h2 {
   margin-top: 0;
   font-family: "Montserrat", sans-serif;
 }
@@ -398,11 +397,6 @@ body {
 p {
   font-size: 1rem;
   line-height: 1.7;
-}
-@media (min-width: 980px) {
-  p {
-    font-size: 1.125rem;
-  }
 }
 
 p.et_pb_lead {
@@ -733,6 +727,7 @@ ul.et_pb_checklist li:before {
   speak: none;
   content: "N";
 }
+
 /* Footer */
 body {
   padding-top: 100px;

@@ -29,11 +29,16 @@
     }
     .column {
         @include margin-bottom(3rem);
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         border-bottom: 1px solid mix($charcoal, $white, 5%);
     }
     .et_pb_post {
         @include breakpoint-up(lg) {
             margin-bottom: 0;
+            border:0;
             transition: all 1s ease;
             border-bottom: none;
             border-radius: 3px;
@@ -42,6 +47,7 @@
             padding-left: 1.5rem;
             padding-right: 1.5rem;
             flex: 1;
+            height: 100%;
             &:hover {
                 background-color: mix($blue, $white, 5%);
             }

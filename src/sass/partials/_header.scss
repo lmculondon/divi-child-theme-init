@@ -79,6 +79,7 @@
 
 	.et_pb_header_top_row {
 		display: flex;
+		width:90%;
 		@include padding-bottom(0.5rem);
 		@include padding-top(0.5rem);
 
@@ -122,7 +123,7 @@
 				}
 			}
 
-			.et_pb_btn_obanking {
+			a.et_pb_btn_obanking {
 				display: none;
 				margin-left: 1rem;
 
@@ -149,7 +150,7 @@
 					background-color: transparent;
 					position: relative;
 					top: auto;
-					right: auto;
+					right: 5%;;
 					height: 2.65rem;
 					width: 3rem;
 					display: flex;

@@ -86,7 +86,7 @@
 			display: flex;
 			flex-grow: 1;
 			@include breakpoint-up(xs) {
-			margin-bottom: 0!important;
+			margin-bottom: 0;
 			}
 			a {
 				text-align: center;

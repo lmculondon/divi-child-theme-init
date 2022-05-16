@@ -36,9 +36,9 @@
         border-bottom: 1px solid mix($charcoal, $white, 5%);
     }
     .et_pb_post {
+        border:0;
         @include breakpoint-up(lg) {
             margin-bottom: 0;
-            border:0;
             transition: all 1s ease;
             border-bottom: none;
             border-radius: 3px;

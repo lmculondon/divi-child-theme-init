@@ -136,7 +136,7 @@
 				}
 
 				@include breakpoint-up(lg) {
-					display: inline-block;
+					display: flex;
 				}
 			}
 
@@ -179,6 +179,7 @@
 	.et_pb_header_main_row {
 		display: none;
 		padding: 0;
+		width: 90%;
 
 		@include breakpoint-up(lg) {
 			display: flex;

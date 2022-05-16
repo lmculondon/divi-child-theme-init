@@ -85,6 +85,7 @@
 		.et_pb_button_module_wrapper {
 			display: flex;
 			flex-grow: 1;
+			margin-bottom: auto;
 			@include breakpoint-up(xs) {
 			margin-bottom: 0;
 			}
@@ -94,11 +95,13 @@
 			}
 			& + .et_pb_button_module_wrapper {
 				margin-left: 0;
+			
 			}
 			@include breakpoint-up(xs) {
 				flex-grow: unset;
 				& + .et_pb_button_module_wrapper {
 					margin-left: 1rem;
+					margin-bottom: auto!important;
 				}
 			}
 		}

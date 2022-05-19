@@ -5,10 +5,12 @@ body {
             margin-left: 1.5rem;
             margin-right: 1.5rem;
         }
+        @include breakpoint-up(xl) {
         .et_pb_specialty_column {
             padding-right: 0;
             padding-left: 0;
         }
+    }
         .et_pb_btn_back {
             @include margin-bottom(1rem);
         }

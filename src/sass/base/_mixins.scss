@@ -13,10 +13,7 @@
 			font-size: $min-font-size;
 
 			@media screen and (min-width: $min-vw) {
-				font-size: calc(
-					#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
-						((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
-				);
+				font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
 			}
 
 			@media screen and (min-width: $max-vw) {
@@ -32,21 +29,27 @@
 		@media (min-width: map-get($breakpoints, $breakpoint)) {
 			@content;
 		}
-	} @else {
+	}
+
+	@else {
 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-			+ "Available breakpoints are: #{map-keys($breakpoints)}.";
+		+"Available breakpoints are: #{map-keys($breakpoints)}.";
 	}
 }
+
 @mixin breakpoint-down($breakpoint) {
 	@if map-has-key($breakpoints, $breakpoint) {
 		@media (max-width: map-get($breakpoints, $breakpoint)) {
 			@content;
 		}
-	} @else {
+	}
+
+	@else {
 		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-			+ "Available breakpoints are: #{map-keys($breakpoints)}.";
+		+"Available breakpoints are: #{map-keys($breakpoints)}.";
 	}
 }
+
 // Link Effect Mixin
 @mixin link-effect($color: inherit, $bottom: -2px, $height: 2px) {
 	position: relative;
@@ -85,23 +88,24 @@
 		.et_pb_button_module_wrapper {
 			display: flex;
 			flex-grow: 1;
-			margin-bottom: auto;
-			@include breakpoint-up(xs) {
-			margin-bottom: 0;
+
+			&:not(:last-of-type) {
+				margin-bottom: 0.5rem;
 			}
-			a {
+
+			.et_pb_button {
 				text-align: center;
 				flex: 1;
 			}
-			& + .et_pb_button_module_wrapper {
-				margin-left: 0;
-			
-			}
+
 			@include breakpoint-up(xs) {
+				margin-bottom: 0;
 				flex-grow: unset;
+				margin-left: 1rem;
+				margin-bottom: auto !important;
 				& + .et_pb_button_module_wrapper {
-					margin-left: 1rem;
-					margin-bottom: auto!important;
+					margin-left: 0;
+
 				}
 			}
 		}

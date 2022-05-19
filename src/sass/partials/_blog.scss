@@ -34,6 +34,10 @@
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         border-bottom: 1px solid mix($charcoal, $white, 5%);
+        @include breakpoint-up(lg) {
+            margin-right: 0;
+            width:33.333%;
+        }
     }
     .et_pb_post {
         border:0;

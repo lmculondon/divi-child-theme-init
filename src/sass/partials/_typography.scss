@@ -186,6 +186,7 @@ small {
 	}
 }
 // APR| Table
+.entry-content {
 table.et_pb_apr_table {
 	border: none;
 	margin: 0 0 1.5rem 0;
@@ -210,7 +211,7 @@ table.et_pb_apr_table {
 			}
 		}
 	}
-}
+}}
 ul.et_pb_checklist {
 @include margin-top(0);
 @include margin-bottom(1.5rem);

@@ -8,10 +8,6 @@ body {
         .et_pb_specialty_column {
             padding-right: 0;
             padding-left: 0;
-            @include breakpoint-up(xl) {
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
-            }
         }
         .et_pb_btn_back {
             @include margin-bottom(1rem);

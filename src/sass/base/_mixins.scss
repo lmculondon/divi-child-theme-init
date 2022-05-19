@@ -88,9 +88,9 @@
 		.et_pb_button_module_wrapper {
 			display: flex;
 			flex-grow: 1;
-
-			&:not(:last-of-type) {
-				margin-bottom: 0.5rem;
+			margin-bottom: 0.5rem;
+			&:last-child{
+				margin-bottom: 0;
 			}
 
 			.et_pb_button {

@@ -92,21 +92,19 @@
 			&:last-child{
 				margin-bottom: 0;
 			}
+			@include breakpoint-up(sm) {
+				margin-bottom: 0;
+				flex-grow: unset;
+				margin-left: 0;
+				margin-bottom: auto !important;
+				& + .et_pb_button_module_wrapper {
+					margin-left: 1rem;
 
+				}
+			}
 			.et_pb_button {
 				text-align: center;
 				flex: 1;
-			}
-
-			@include breakpoint-up(xs) {
-				margin-bottom: 0;
-				flex-grow: unset;
-				margin-left: 1rem;
-				margin-bottom: auto !important;
-				& + .et_pb_button_module_wrapper {
-					margin-left: 0;
-
-				}
 			}
 		}
 	}

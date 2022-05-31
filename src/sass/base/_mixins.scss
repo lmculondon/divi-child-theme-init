@@ -95,8 +95,9 @@
 			@include breakpoint-up(sm) {
 				margin-bottom: 0;
 				flex-grow: unset;
+				display: unset;
 				margin-left: 0;
-				margin-bottom: auto !important;
+				margin-bottom: 0 !important;
 				& + .et_pb_button_module_wrapper {
 					margin-left: 1rem;
 

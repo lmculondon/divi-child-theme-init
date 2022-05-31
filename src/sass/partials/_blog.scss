@@ -38,6 +38,10 @@
             margin-right: 0;
             width:33.333%;
         }
+        @include breakpoint-up(md) {
+            margin-right: 0;
+            width:50%;
+        }
     }
     .et_pb_post {
         border:0;
@@ -51,7 +55,6 @@
             padding-left: 1.5rem;
             padding-right: 1.5rem;
             flex: 1;
-            height: 100%;
             &:hover {
                 background-color: mix($blue, $white, 5%);
             }
@@ -80,10 +83,14 @@
             @include padding(0.5rem);
             border-radius: 5px;
             box-shadow: 0px 5px 20px #0000001a;
-            top: 210px;
             right: 1.5rem;
             @include breakpoint-up(md) {
                 right: -0.75rem;
+                top: 12.5vw;
+            }
+            @include breakpoint-up(xl) {
+                right: -0.75rem;
+                top: 200px;
             }
             font-weight: 700;
             @include font-size(14px);

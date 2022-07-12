@@ -1411,6 +1411,186 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   top: 0;
 }
 
+.lmcu_wizard_wrapper {
+  background-color: #e4eef3;
+  padding: calc(1.425rem + 2.1vmin);
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+@media (min-width: 1200px) and (min-height: 1200px) {
+  .lmcu_wizard_wrapper {
+    padding: 3rem;
+  }
+}
+.lmcu_wizard_wrapper .title_display {
+  margin-top: 0 !important;
+}
+.lmcu_wizard_wrapper .gform_page {
+  min-height: 40vh;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.lmcu_wizard_wrapper .gform_page_fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 40vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.lmcu_wizard_wrapper .gform_page_footer {
+  position: relative;
+  border-top: 1px solid white;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+.lmcu_wizard_wrapper .gfield_error {
+  background: transparent;
+  border-left: none;
+  padding: 0;
+}
+.lmcu_wizard_wrapper .gfield_label {
+  font-weight: 700;
+  font-size: calc(1.325rem + 0.9vmin);
+  font-family: "Montserrat";
+  color: #272d37;
+  margin-bottom: calc(1.325rem + 0.9vmin);
+}
+@media (min-width: 1200px) and (min-height: 1200px) {
+  .lmcu_wizard_wrapper .gfield_label {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) and (min-height: 1200px) {
+  .lmcu_wizard_wrapper .gfield_label {
+    margin-bottom: 2rem;
+  }
+}
+.lmcu_wizard_wrapper .gfield_required {
+  display: none;
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider .instruction {
+  display: none;
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider input + output {
+  white-space: nowrap;
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider output {
+  min-width: 120px;
+  font-weight: 700;
+  color: #1565ab;
+  font-size: 1.25rem;
+  font-family: "Montserrat";
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider input[type=range] {
+  background: none;
+  border: none !important;
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider input[type=range]:focus {
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1rem;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #fff;
+  border-radius: 1rem;
+}
+.lmcu_wizard_wrapper .gfield .gwp_slider input[type=range]::-webkit-slider-thumb {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background: #1565ab;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -0.25rem;
+}
+.lmcu_wizard_wrapper .gfield_radio, .lmcu_wizard_wrapper .gfield_checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.lmcu_wizard_wrapper .gfield_radio .gchoice, .lmcu_wizard_wrapper .gfield_checkbox .gchoice {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.lmcu_wizard_wrapper .gfield_radio .gchoice input, .lmcu_wizard_wrapper .gfield_checkbox .gchoice input {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.lmcu_wizard_wrapper .gfield_radio .gchoice input:checked + label:after, .lmcu_wizard_wrapper .gfield_checkbox .gchoice input:checked + label:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background-color: #1c191a;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+.lmcu_wizard_wrapper .gfield_radio .gchoice input:checked + label:before, .lmcu_wizard_wrapper .gfield_checkbox .gchoice input:checked + label:before {
+  width: 32px;
+  height: 32px;
+  border: 4px solid #f5d505;
+  border-radius: 50%;
+  outline-offset: 0;
+  -webkit-box-shadow: inset 0 0 0 3px;
+          box-shadow: inset 0 0 0 3px;
+}
+.lmcu_wizard_wrapper .gfield_radio .gchoice label, .lmcu_wizard_wrapper .gfield_checkbox .gchoice label {
+  position: relative;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.lmcu_wizard_wrapper .gfield_radio .gchoice label:before, .lmcu_wizard_wrapper .gfield_checkbox .gchoice label:before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: 0px 16px 0 0 !important;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #1c191a;
+}
+
 #global-header-section .menu-wrap__inner {
   background-color: #e31837;
   display: -webkit-box;

@@ -1,0 +1,159 @@
+.lmcu_wizard_wrapper {
+    background-color: #e4eef3;
+    @include padding(3rem);
+    border-radius: 1rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+
+    .title_display {
+        margin-top: 0 !important;
+    }
+
+    .gform_page {
+        min-height: 40vh;
+        display: flex !important;
+        flex-direction: column;
+
+        &_fields {
+            display: flex;
+            min-height: 40vh;
+            flex: 1;
+            align-items: center;
+        }
+
+        &_footer {
+            position: relative;
+            border-top: 1px solid rgba($white, 80);
+            width: 100%;
+            margin-bottom: 0;
+            margin-top: auto;
+        }
+    }
+
+    .gfield_error {
+        background: transparent;
+        border-left: none;
+        padding: 0;
+    }
+
+    .gfield {
+        &_label {
+            font-weight: 700;
+            @include font-size(32px);
+            font-family: "Montserrat";
+            color: $charcoal;
+            @include margin-bottom(32px);
+        }
+
+        &_required {
+            display: none;
+        }
+
+        .gwp_slider {
+            .instruction {
+                display: none;
+            }
+            input+output {
+                white-space: nowrap;
+            }
+            output {
+                min-width: 120px;
+                font-weight: 700;
+                color: $dark-blue;
+                @include font-size(20px);
+                font-family: "Montserrat";
+            }
+            input[type=range] {
+                background: none;
+                border:none!important;
+                &:focus {
+                    outline: 0!important;
+                    box-shadow: none!important;
+                }
+                &::-webkit-slider-runnable-track {
+                    width: 100%;
+                    height: 1rem;
+                    cursor: pointer;
+                    animate: 0.2s;
+                    background: #fff;
+                    border-radius: 1rem;
+                  }
+                  &::-webkit-slider-thumb {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    border-radius: 50%;
+                    background: $dark-blue;
+                    cursor: pointer;
+                    -webkit-appearance: none;
+                    margin-top: -0.25rem;
+                  }
+            }
+        }
+
+        &_radio,
+        &_checkbox {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .gchoice {
+                flex-grow: 1;
+                display: flex;
+                align-items: center;
+
+                input {
+                    display: none !important;
+                    margin: 0 !important;
+                    padding: 0 !important;
+
+                    &:checked+label {
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            top: 14px;
+                            left: 14px;
+                            background-color: #1c191a;
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            display: inline-block;
+                            cursor: pointer;
+                        }
+
+                        &:before {
+                            width: 32px;
+                            height: 32px;
+                            border: 4px solid #f5d505;
+                            border-radius: 50%;
+                            outline-offset: 0;
+                            box-shadow: inset 0 0 0 3px;
+                        }
+                    }
+                }
+
+                label {
+                    position: relative;
+                    font-weight: 700;
+                    @include font-size(18px);
+
+                    &:before {
+                        content: '';
+                        display: inline-block;
+                        width: 36px;
+                        height: 36px;
+                        margin: 0px 16px 0 0 !important;
+                        vertical-align: middle;
+                        cursor: pointer;
+                        border-radius: 50%;
+                        background-color: transparent;
+                        border: 2px solid #1c191a;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

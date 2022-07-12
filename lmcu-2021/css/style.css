@@ -1454,6 +1454,9 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
       -ms-flex-align: center;
           align-items: center;
 }
+.lmcu_wizard_wrapper .gform_page_fields .gform_fields {
+  width: 100%;
+}
 .lmcu_wizard_wrapper .gform_page_footer {
   position: relative;
   border-top: 1px solid white;

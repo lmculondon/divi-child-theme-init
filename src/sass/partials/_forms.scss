@@ -38,26 +38,34 @@
         padding: 0;
     }
 
-    .gfield {
-        &_label {
-            font-weight: 700;
-            @include font-size(32px);
-            font-family: "Montserrat";
-            color: $charcoal;
-            @include margin-bottom(32px);
-        }
+    .wizard_big_field {
+        .gfield {
+            &_label {
+                font-weight: 700;
+                @include font-size(32px);
+                font-family: "Montserrat";
+                color: $charcoal;
+                @include margin-bottom(32px);
+            }
 
-        &_required {
-            display: none;
+            &_required {
+                display: none;
+            }
         }
+    }
+
+    .gfield {
+        &_label {}
 
         .gwp_slider {
             .instruction {
                 display: none;
             }
+
             input+output {
                 white-space: nowrap;
             }
+
             output {
                 min-width: 120px;
                 font-weight: 700;
@@ -65,13 +73,16 @@
                 @include font-size(20px);
                 font-family: "Montserrat";
             }
+
             input[type=range] {
                 background: none;
-                border:none!important;
+                border: none !important;
+
                 &:focus {
-                    outline: 0!important;
-                    box-shadow: none!important;
+                    outline: 0 !important;
+                    box-shadow: none !important;
                 }
+
                 &::-webkit-slider-runnable-track {
                     width: 100%;
                     height: 1rem;
@@ -79,8 +90,9 @@
                     animate: 0.2s;
                     background: #fff;
                     border-radius: 1rem;
-                  }
-                  &::-webkit-slider-thumb {
+                }
+
+                &::-webkit-slider-thumb {
                     height: 1.5rem;
                     width: 1.5rem;
                     border-radius: 50%;
@@ -88,7 +100,7 @@
                     cursor: pointer;
                     -webkit-appearance: none;
                     margin-top: -0.25rem;
-                  }
+                }
             }
         }
 

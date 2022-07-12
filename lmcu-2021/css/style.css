@@ -1466,7 +1466,7 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   border-left: none;
   padding: 0;
 }
-.lmcu_wizard_wrapper .gfield_label {
+.lmcu_wizard_wrapper .wizard_big_field .gfield_label {
   font-weight: 700;
   font-size: calc(1.325rem + 0.9vmin);
   font-family: "Montserrat";
@@ -1474,16 +1474,16 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   margin-bottom: calc(1.325rem + 0.9vmin);
 }
 @media (min-width: 1200px) and (min-height: 1200px) {
-  .lmcu_wizard_wrapper .gfield_label {
+  .lmcu_wizard_wrapper .wizard_big_field .gfield_label {
     font-size: 2rem;
   }
 }
 @media (min-width: 1200px) and (min-height: 1200px) {
-  .lmcu_wizard_wrapper .gfield_label {
+  .lmcu_wizard_wrapper .wizard_big_field .gfield_label {
     margin-bottom: 2rem;
   }
 }
-.lmcu_wizard_wrapper .gfield_required {
+.lmcu_wizard_wrapper .wizard_big_field .gfield_required {
   display: none;
 }
 .lmcu_wizard_wrapper .gfield .gwp_slider .instruction {

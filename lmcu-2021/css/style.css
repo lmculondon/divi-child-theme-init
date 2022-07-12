@@ -1486,6 +1486,9 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
     margin-bottom: 2rem;
   }
 }
+.lmcu_wizard_wrapper .wizard_big_field .gfield .instruction {
+  display: none;
+}
 .lmcu_wizard_wrapper .wizard_big_field .gfield_required {
   display: none;
 }

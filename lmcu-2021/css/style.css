@@ -1429,7 +1429,7 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
     padding: 3rem;
   }
 }
-.lmcu_wizard_wrapper .title_display {
+.lmcu_wizard_wrapper .title-display {
   margin-top: 0 !important;
 }
 .lmcu_wizard_wrapper .gform_page {

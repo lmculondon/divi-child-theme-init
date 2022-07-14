@@ -85,7 +85,7 @@
             input[type=range] {
                 background: none;
                 border: none !important;
-
+                flex-grow:1;
                 &:focus {
                     outline: 0 !important;
                     box-shadow: none !important;

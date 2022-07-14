@@ -1508,6 +1508,9 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 .lmcu_wizard_wrapper .gfield .gwp_slider input[type=range] {
   background: none;
   border: none !important;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 .lmcu_wizard_wrapper .gfield .gwp_slider input[type=range]:focus {
   outline: 0 !important;

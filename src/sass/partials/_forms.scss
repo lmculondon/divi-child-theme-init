@@ -6,6 +6,7 @@
     margin: auto;
     justify-content: center;
     overflow: hidden;
+    flex-direction: column;
 
     .title-display {
         margin-top: 0 !important;
@@ -24,7 +25,7 @@
 
         &_fields {
             display: flex;
-            min-height: 40vh;
+            min-height: 30vh;
             flex: 1;
             align-items: center;
 
@@ -66,7 +67,11 @@
         border-left: none;
         padding: 0;
     }
-
+    .gform_page:not(.wizard_big_field){
+        .gfield_label {
+            font-weight: 600;
+        }
+    }
     .wizard_big_field {
         .gfield {
             &_label {
@@ -96,7 +101,7 @@
     }
 
     .gfield {
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.5rem;
 
         &_label {}
 &_consent_description {
@@ -226,5 +231,7 @@
         }
 
     }
-
+.gform_required_legend {
+    display: none;
+}
 }

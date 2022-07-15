@@ -1432,8 +1432,13 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 .lmcu_wizard_wrapper .title-display {
   margin-top: 0 !important;
 }
+.lmcu_wizard_wrapper .gform_ajax_spinner {
+  margin-left: 0.5rem;
+}
 .lmcu_wizard_wrapper .gform_page {
   min-height: 40vh;
+  width: 90%;
+  max-width: 640px;
 }
 .lmcu_wizard_wrapper .gform_page_fields {
   display: -webkit-box;
@@ -1455,7 +1460,15 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   border-top: 1px solid white;
   width: 100%;
   margin-bottom: 0;
-  margin-top: auto;
+  margin-top: 1rem;
+}
+.lmcu_wizard_wrapper .gfield_criteria_error {
+  padding: 0.25rem 1rem 0.25rem 1.25rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-left: 0.25rem solid #1565ab;
+  color: #0f4a7e;
+  background-color: transparent;
 }
 .lmcu_wizard_wrapper .gfield_error {
   background: transparent;
@@ -1485,6 +1498,15 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 .lmcu_wizard_wrapper .wizard_big_field .gfield_required {
   display: none;
 }
+.lmcu_wizard_wrapper .ginput_complex .ginput_container {
+  margin-right: 0.25rem;
+}
+.lmcu_wizard_wrapper .gfield {
+  margin-bottom: 0.25rem;
+}
+.lmcu_wizard_wrapper .gfield_consent_description {
+  background-color: #ffffff;
+}
 .lmcu_wizard_wrapper .gfield .gwp_slider .instruction {
   display: none;
 }
@@ -1506,6 +1528,7 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  padding: 0 !important;
 }
 .lmcu_wizard_wrapper .gfield .gwp_slider input[type=range]:focus {
   outline: 0 !important;

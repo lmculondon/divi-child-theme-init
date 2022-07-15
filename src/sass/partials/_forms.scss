@@ -11,8 +11,14 @@
         margin-top: 0 !important;
     }
 
+    .gform_ajax_spinner {
+        margin-left: 0.5rem;
+    }
+
     .gform_page {
         min-height: 40vh;
+        width: 90%;
+        max-width: 640px;
         //display: flex !important;
         //flex-direction: column;
 
@@ -32,8 +38,17 @@
             border-top: 1px solid rgba($white, 80);
             width: 100%;
             margin-bottom: 0;
-            margin-top: auto;
+            margin-top: 1rem;
         }
+    }
+
+    .gfield_criteria_error {
+        padding: 0.25rem 1rem 0.25rem 1.25rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-left: 0.25rem solid $dark-blue;
+        color: darken($dark-blue, 10);
+        background-color: transparent;
     }
 
     .gfield_error {
@@ -61,10 +76,22 @@
             }
         }
     }
+
+    .ginput {
+        &_complex {
+            .ginput_container {
+                margin-right: 0.25rem;
+            }
+        }
+    }
+
     .gfield {
+        margin-bottom: 0.25rem;
 
         &_label {}
-
+&_consent_description {
+    background-color: $white;
+}
         .gwp_slider {
             .instruction {
                 display: none;
@@ -87,7 +114,9 @@
             input[type=range] {
                 background: none;
                 border: none !important;
-                flex-grow:1;
+                flex-grow: 1;
+                padding: 0 !important;
+
                 &:focus {
                     outline: 0 !important;
                     box-shadow: none !important;
@@ -141,7 +170,7 @@
                             content: "";
                             position: absolute;
                             top: 14px;
-                            left: -($radio-width * 1.5 ) + 14px;
+                            left: -($radio-width * 1.5) + 14px;
                             background-color: #1c191a;
                             width: 12px;
                             height: 12px;

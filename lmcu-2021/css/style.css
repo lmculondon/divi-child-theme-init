@@ -1516,8 +1516,16 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 .lmcu_wizard_wrapper .wizard_big_field .gfield_required {
   display: none;
 }
+.lmcu_wizard_wrapper .ginput_complex {
+  margin-left: 0;
+  margin-right: 0;
+}
+.lmcu_wizard_wrapper .ginput_complex span {
+  padding-left: 0;
+  padding-right: 0;
+}
 .lmcu_wizard_wrapper .ginput_complex .ginput_container {
-  margin-right: 0.25rem;
+  margin-right: 0.5rem;
 }
 .lmcu_wizard_wrapper .gfield {
   margin-bottom: 0.5rem;

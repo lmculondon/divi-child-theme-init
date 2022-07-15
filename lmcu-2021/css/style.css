@@ -1497,6 +1497,8 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 }
 .lmcu_wizard_wrapper .gfield .gwp_slider input + output {
   white-space: nowrap;
+  display: block;
+  min-width: 150px;
 }
 .lmcu_wizard_wrapper .gfield .gwp_slider output {
   min-width: 120px;

@@ -1434,13 +1434,6 @@ body:not(.show-menu) .et-boc .et-l--header.nav-down {
 }
 .lmcu_wizard_wrapper .gform_page {
   min-height: 40vh;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 .lmcu_wizard_wrapper .gform_page_fields {
   display: -webkit-box;
